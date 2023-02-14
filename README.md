@@ -1,4 +1,4 @@
 # BookingJini Icons
 Find hospitality related icons, curated by creators from Bookingjini
 
-![website screenshot](https://user-images.githubusercontent.com/46455250/218734668-40489240-d721-4823-9828-c2e0ac4ac864.png)
+![Website Screenshot](https://user-images.githubusercontent.com/46455250/218735996-85d23e64-51a8-4070-8ad9-831f2f2dc300.jpeg)

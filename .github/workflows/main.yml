@@ -18,7 +18,7 @@ jobs:
     steps:
     # Runs a single command using the runners shell
     - name: Webhook
-      uses: distributhor/workflow-webhook
+      uses: distributhor/workflow-webhook@v2
       with:
         url: "https://genesis.bookingjini.tech/webhook-test/pr-send"
         json: '{ "repository": "${{github.event.repository.full_name}}", "number": "${{github.event.number}}", "created_at": "${{github.event.pull_request.created_at}}", "updated_at": "${{github.event.pull_request.updated_at}}" }'

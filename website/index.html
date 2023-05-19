@@ -72,6 +72,8 @@
       </div>
     </section>
 
+    <h3 id="target" class="nothing-here not-display">No Result Found</h3>
+
     <section class="pt-0 text-center container icon-box">
       <div class="row py-lg-5 " id="myUL">
         <div id="icon-wrapper" class="icon__parent__box"></div>
@@ -107,6 +109,7 @@
           li[i].style.display = "";
         } else {
           li[i].style.display = "none";
+          document.getElementById("target").classList.remove("not-display");
         }
       }
     }

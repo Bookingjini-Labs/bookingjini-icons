@@ -97,6 +97,15 @@ header a {
     transition: all .3s ease-in-out;
 }
 
+.nothing-here {
+    color: #000 ;
+    text-align: center;
+    margin-top: 10px;
+}
+.not-display {
+    display: none;
+}
+
 .shadow-soft {
     /* box-shadow: 6px 6px 12px #b8b9be, -6px -6px 12px #fff !important; */
     /* transition: transform .2s; */

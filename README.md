@@ -22,6 +22,10 @@
 
 Find hospitality related icons, curated by creators from Bookingjini
 
+<p align="center">
+    <img alt="bookingjini-icons-banner" src="https://github.com/Bookingjini-Labs/bookingjini-icons/assets/46455250/f66ebd33-5f6c-4788-b65b-45a53143d37e"/>
+</p>
+
 ## How to use BookingJini Icons
 
 ### 1. With `HTML` file:

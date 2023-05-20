@@ -5,7 +5,21 @@
 </p>
 
 <h3 align="center">Bookingjini Icons</h3>
-
+<div align="center">
+<img src="https://forthebadge.com/images/badges/built-with-love.svg" />
+<img src="https://forthebadge.com/images/badges/uses-brains.svg" />
+<img src="https://forthebadge.com/images/badges/powered-by-responsibility.svg" />
+  <br>
+  <img src="https://img.shields.io/github/repo-size/Bookingjini-Labs/Bookingjini-icons?style=for-the-badge" />
+  <img src="https://img.shields.io/github/issues/Bookingjini-Labs/Bookingjini-icons?style=for-the-badge" />
+  <img src="https://img.shields.io/github/issues-closed-raw/Bookingjini-Labs/Bookingjini-icons?style=for-the-badge" />
+    <img src="https://img.shields.io/github/stars/Bookingjini-Labs/Bookingjini-icons?style=for-the-badge" />
+ <img src="https://img.shields.io/github/issues-pr/Bookingjini-Labs/Bookingjini-icons?style=for-the-badge" />
+   <img  src="https://img.shields.io/github/issues-pr-closed-raw/Bookingjini-Labs/Bookingjini-icons?style=for-the-badge" />
+  <img src="https://img.shields.io/github/forks/Bookingjini-Labs/Bookingjini-icons?style=for-the-badge" />
+  <img src="https://img.shields.io/github/last-commit/Bookingjini-Labs/Bookingjini-icons?style=for-the-badge" />
+  <img src="https://img.shields.io/github/contributors/Bookingjini-Labs/Bookingjini-icons?style=for-the-badge" />
+  <div>
 <p align="center">
   Official open source SVG icon library with over 50+ icons.
   <br>

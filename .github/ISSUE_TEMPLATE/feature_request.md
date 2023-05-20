@@ -1,6 +1,6 @@
 ---
-name: Feature request
-about: Suggest a new feature
+name: New Issue
+about: Please mention title of what you want to improve.
 title: ''
 labels: ''
 assignees: ''

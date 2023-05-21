@@ -212,3 +212,8 @@ header a {
     display: none;
 }
 
+
+.no-results-msg{
+    color: white;
+    font-size: 20px;
+}

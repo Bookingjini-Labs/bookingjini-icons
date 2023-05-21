@@ -205,4 +205,7 @@ header a {
     display: none;
 }
 
-
+.no-results-msg{
+    color: black;
+    font-size: 20px;
+}

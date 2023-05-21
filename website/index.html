@@ -71,11 +71,10 @@
         </div>
       </div>
     </section>
-
     <section class="pt-0 text-center container icon-box">
-      <div class="row py-lg-5 " id="myUL">
+      <div class="row py-lg-5" id="myUL">
         <div id="icon-wrapper" class="icon__parent__box"></div>
-      </div>
+        <p id="no-results-msg" class="no-results-msg" style="display: none;">No results found.</p> 
       </div>
     </section>
   </main>
@@ -94,22 +93,35 @@
   </script>
 
   <script>
+
     function searchIcon() {
-      var input, filter, p, ul, li, a, i, txtValue;
-      input = document.getElementById("searchInput");
-      filter = input.value.toUpperCase();
-      ul = document.getElementById("myUL");
-      li = ul.getElementsByClassName("shadow-soft");
-      for (i = 0; i < li.length; i++) {
-        a = li[i].getElementsByTagName("p")[0];
-        txtValue = a.textContent || a.innerText;
-        if (txtValue.toUpperCase().indexOf(filter) > -1) {
-          li[i].style.display = "";
-        } else {
-          li[i].style.display = "none";
-        }
-      }
+  var input, filter, p, ul, li, a, i, txtValue;
+  input = document.getElementById("searchInput");
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myUL");
+  li = ul.getElementsByClassName("shadow-soft");
+  var resultsFound = false; 
+
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("p")[0];
+    txtValue = a.textContent || a.innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+      resultsFound = true;
+    } else {
+      li[i].style.display = "none";
     }
+  }
+
+  var noResultsMsg = document.getElementById("no-results-msg");
+  if (resultsFound) {
+    noResultsMsg.style.display = "none";
+  } else {
+    noResultsMsg.style.display = "block";
+  }
+}
+
+
   </script>
     <script>
       const btn = document.querySelector(".btn-toggle");

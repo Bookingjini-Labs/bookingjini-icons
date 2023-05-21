@@ -18,7 +18,9 @@
     <img alt="bookingjini-icons-banner" src="https://user-images.githubusercontent.com/46455250/218734668-40489240-d721-4823-9828-c2e0ac4ac864.png"/>
 </p>
 
-# BookingJini Icons
+BookingJini Icons is an official open source SVG icon library that caters to the hospitality industry. With over 50+ icons carefully curated by the talented creators from BookingJini, this collection provides a comprehensive range of visually appealing and relevant imagery for your websites and applications.
+
+# BookingJini Icons ✅
 
 Find hospitality related icons, curated by creators from Bookingjini
 
@@ -40,10 +42,14 @@ b. To use the icons, click on your preferred icons, and paste inside your body t
         <i class="jini-people1"></i>
     </body>
 
-## Contributors
+## Contributors✨
 
-It's not possible to reach where we are now without our amazing contributors.
+We would like to express our heartfelt gratitude to the amazing contributors who have made this project possible. Their dedication and support have been invaluable in shaping and improving BookingJini Icons. We couldn't have come this far without them.
 
 <a href="https://github.com/Bookingjini-Labs/bookingjini-icons/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Bookingjini-Labs/bookingjini-icons" />
 </a>
+
+# Licence 🪪
+
+BookingJini Icons is released under the MIT License. You are free to use, modify, and distribute the icons in your projects, both personal and commercial.

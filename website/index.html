@@ -76,12 +76,12 @@
       <div class="row py-lg-5 " id="myUL">
         <div id="icon-wrapper" class="icon__parent__box"></div>
       </div>
-      </div>
     </section>
 
-    <!--====================== START OF SCROLL-TO-TOP BUTTON =====================-->     
+
+    <!--====================== START OF SCROLL-TO-TOP BUTTON =====================--> 
     <div id="progress">
-      <span id="progress-value">&#x1F825;</span>
+      <span id="progress-value">&#x27A0;</span>
     </div>
   <!--====================== END OF SCROLL-TO-TOP BUTTON =====================-->
     
@@ -131,39 +131,15 @@
       });
     </script>
 
-    <script>
-      let calcScrollValue = () => {
-      let scrollProgress = document.getElementById("progress");
-      let progressValue = document.getElementById("progress-value");
-      let pos = document.documentElement.scrollTop;
-
-      let calcHeight =
-        document.documentElement.scrollHeight -
-        document.documentElement.clientHeight;
-
-      let scrollValue = Math.round((pos * 100) / calcHeight);
-      if (pos > 100) {
-        scrollProgress.style.display = "grid";
-      } else {
-        scrollProgress.style.display = "none";
-      }
-
-      scrollProgress.addEventListener("click", () => {
-        document.documentElement.scrollTop = 0;
-      });
-
-      scrollProgress.style.background = `conic-gradient(  #69757c ${scrollValue}%, #d7d7d7 ${scrollValue}%)`;
-    };
-
-    window.onscroll = calcScrollValue;
-    window.onload = calcScrollValue;
-
-    </script>
 
   <!-- <script src="/index.js"></script> -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
     crossorigin="anonymous"></script>
+
+    <script src="scrollToTop.js"></script>
+
+    
 </body>
 
 </html>

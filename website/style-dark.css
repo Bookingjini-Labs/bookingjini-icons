@@ -223,6 +223,7 @@ header a {
     width: 70px;
     display: grid;
     place-items: center;
+    transform: rotate(-90deg);
     border-radius: 50%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     cursor: pointer;
@@ -237,7 +238,7 @@ header a {
     display: grid;
     place-items: center;
     font-size: 35px;
-    color: #001a2e;
+    color: #69757c;
   }
   
   /* ====================== END OF SCROLL-TO-TOP BUTTON ===================== */

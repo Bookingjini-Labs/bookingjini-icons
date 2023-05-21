@@ -42,7 +42,16 @@ b. To use the icons, click on your preferred icons, and paste inside your body t
 
 ## How to Start Contributing <a name = "how_contribute"></a>
 1. Fork this repository by clicking on the fork button on the top of this page. This will create a copy of this repository in your account.
+    <p align="center">
+    <img width="949" alt="step-1" src="https://github.com/pranjay-poddar/Dev-Geeks/assets/112299754/51e4dc68-177e-4499-be1b-69918183a6a5">
+    </p>
+
 2. Now clone the forked repository to your machine. Go to your GitHub account, open the forked repository, click on the code button and then click the copy to clipboard icon.
+
+    <p align="center">
+    <img width="305" alt="step-2" src="https://github.com/pranjay-poddar/Dev-Geeks/assets/112299754/1844c83a-ba64-40ee-ad34-5e54ae136e6d">
+    </p>
+
 3. Open a terminal and run the following git command:
       ```
       git clone "url you just copied"
@@ -71,6 +80,12 @@ b. To use the icons, click on your preferred icons, and paste inside your body t
       replacing your-branch-name with the name of the branch you created earlier.
       
 7. Submit your changes for review 
+    
+    <p align="center">
+    <img width="960" alt="step-3" src="https://github.com/pranjay-poddar/Dev-Geeks/assets/112299754/f126abbd-d594-42eb-8d30-55e9193e5c9d">
+    </p>
+
+    
     If you go to your repository on GitHub, you'll see a Compare & pull request button. Click on that button. Now add appropriate title and comment on it and submit
     the pull request.
 

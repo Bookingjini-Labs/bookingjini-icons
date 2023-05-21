@@ -74,10 +74,3 @@ b. To use the icons, click on your preferred icons, and paste inside your body t
     If you go to your repository on GitHub, you'll see a Compare & pull request button. Click on that button. Now add appropriate title and comment on it and submit
     the pull request.
 
-## Contributors
-
-It's not possible to reach where we are now without our amazing contributors.
-
-<a href="https://github.com/Bookingjini-Labs/bookingjini-icons/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Bookingjini-Labs/bookingjini-icons" />
-</a>

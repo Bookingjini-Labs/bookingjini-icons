@@ -28,6 +28,17 @@ Find hospitality related icons, curated by creators from Bookingjini
     <img alt="bookingjini-icons-banner" src="https://github.com/Bookingjini-Labs/bookingjini-icons/assets/46455250/f66ebd33-5f6c-4788-b65b-45a53143d37e"/>
 </p>
 
+## GSSoC'23 - Join Us!
+
+
+
+BookingJini Icons is thrilled to announce that we are open for participation in GirlScript Summer of Code 2023 (GSSoC'23)! We invite aspiring developers, designers, and open-source enthusiasts to join our project and make a meaningful impact in the hospitality industry. GSSoC'23 offers a unique opportunity to gain practical experience, collaborate with mentors, and contribute to real-world projects like BookingJini Icons. Whether you're interested in coding, UI/UX design, documentation, or project management, there's a place for you in our vibrant community. Come join us and be a part of the BookingJini Icons revolution!
+
+Feel free to customize the paragraph to suit the specific requirements or tone of your project.
+
+
+
+
 ## How to use BookingJini Icons
 
 ### 1. With `HTML` file:

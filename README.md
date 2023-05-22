@@ -28,7 +28,7 @@ Find hospitality related icons, curated by creators from Bookingjini
     <img alt="bookingjini-icons-banner" src="https://github.com/Bookingjini-Labs/bookingjini-icons/assets/46455250/f66ebd33-5f6c-4788-b65b-45a53143d37e"/>
 </p>
 
-## GSSoC'23 - Join Us!
+## GirlScript Summer of Code 2023   - Join Us!
 
 ![213306239-9e8fc317-ce2f-4127-8bfe-17f5df06ee99](https://github.com/harshsingh32/bookingjini-icons/assets/63696299/558a2840-ded2-4305-b3a5-83d5ad76b3fd)
 

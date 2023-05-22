@@ -212,3 +212,38 @@ header a {
     display: none;
 }
 
+.top_buttons{
+    border: 2px solid white;
+    border-radius: 20px;
+    color: white;
+}
+
+.top_buttons:hover{
+    border: 2px solid white;
+    transform: scale(1.035);
+    transition: 100ms;
+    color: white;
+    box-shadow: 0px 3px 3px #6c757d;
+}
+
+.gradient_color{
+
+    /* ff 3.6+ */
+    background:-moz-linear-gradient(90deg, rgba(19, 26, 90, 1) 0%, rgba(46, 0, 255, 1) 100%); 
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(90deg, rgba(19, 26, 90, 1) 0%, rgba(46, 0, 255, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-linear-gradient(90deg, rgba(19, 26, 90, 1) 0%, rgba(46, 0, 255, 1) 100%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2E00FF', endColorstr='#131A5A', GradientType=0 );
+
+    /* ie 10+ */
+    background:-ms-linear-gradient(90deg, rgba(19, 26, 90, 1) 0%, rgba(46, 0, 255, 1) 100%);
+
+    /* global 94%+ browsers support */
+    background:linear-gradient(90deg, rgba(19, 26, 90, 1) 0%, rgba(46, 0, 255, 1) 100%);
+
+}        

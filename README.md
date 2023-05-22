@@ -61,6 +61,4 @@ We would like to express our heartfelt gratitude to the amazing contributors who
   <img src="https://contrib.rocks/image?repo=Bookingjini-Labs/bookingjini-icons" />
 </a>
 
-# Licence 🪪
 
-BookingJini Icons is released under the MIT License. You are free to use, modify, and distribute the icons in your projects, both personal and commercial.

@@ -3,6 +3,8 @@
 
 body {
     background-color: #2b2b2b;
+    font-family: 'DM Sans';
+
 }
 
 header {}
@@ -13,7 +15,6 @@ header a {
 }
 
 .btn-outline-primary {
-    font-family: 'DM Sans', sans-serif !important;
     color: #fff;
     border-color: #fff;
 }
@@ -49,6 +50,7 @@ header a {
     letter-spacing: -4px;
     -webkit-text-stroke: 2px rgb(255, 255, 255);
     color: #fff;
+    font-family: 'Arvo', 'DM Sans';
 }
 
 .head-text h3 {
@@ -58,6 +60,7 @@ header a {
     letter-spacing: auto;
     color: #b8b9be;
     padding-top: 1%;
+    font-family: 'Alegreya', 'Arvo';
 }
 
 .search-box {
@@ -211,4 +214,3 @@ header a {
 .icon-div {
     display: none;
 }
-

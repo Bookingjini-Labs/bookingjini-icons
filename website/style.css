@@ -182,7 +182,7 @@ header a {
 
 .icon-box .shadow-soft {
     width: 5.5rem;
-    border-radius: 4%;
+    border-radius: 15%;
     height: fit-content;
 }
 
@@ -207,6 +207,10 @@ header a {
     margin-right: 0.7rem;
 } */
 
+.shadow-soft {
+    box-shadow: 6px 6px 12px #abacac, -6px -6px 12px #bcb8b8 !important;
+    transition: transform .2s;
+}
 
 .shadow-soft span {
     display: none;

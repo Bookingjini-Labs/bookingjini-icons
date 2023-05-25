@@ -152,8 +152,7 @@ header a {
 }
 
 .shadow-soft:hover {
-    background-color: #515151;
-    border-radius: 16px;
+    background-color: #085bff;
     transform: scale(1.2);
     transition-duration: 250ms;
     cursor: pointer;
@@ -192,7 +191,7 @@ header a {
 
 .icon-box .shadow-soft {
     width: 5.5rem;
-    border-radius: 4%;
+    border-radius: 30%;
     height: fit-content;
 }
 

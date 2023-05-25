@@ -125,15 +125,17 @@
   </script>
     <script>
       const btn = document.querySelector(".btn-toggle");
-      const theme = document.querySelector("#theme-link");
-      btn.addEventListener("click", function() {
-        // Swap out the URL for the different stylesheets
-        if (theme.getAttribute("href") == "style.css") {
-          theme.href = "style-dark.css";
-        } else {
-          theme.href = "style.css";
-        }
-      });
+const theme = document.querySelector("#theme-link");
+btn.addEventListener("click", function () {
+  // Swap out the URL for the different stylesheets
+  if (theme.getAttribute("href") == "style.css") {
+    theme.href = "style-dark.css";
+    btn.textContent = "Light Mode";
+  } else {
+    theme.href = "style.css";
+    btn.textContent = "Dark Mode";
+  }
+});
     </script>
 
 

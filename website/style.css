@@ -4,6 +4,44 @@
 body {
     background-color: #ffffff;
 }
+
+
+.bot{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    z-index: 1;
+}
+  #chatbot-container {
+    position: fixed;
+    bottom: 0px;
+    right: 20px;
+    /* border: 1px solid #ccc; */
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    z-index: 1;
+    transition: height 0.3s ease;
+  }
+  #chatbot-frame {
+    display: none;
+    transition: display 0.3s ease;
+  }
+
+  #chatbot-header {
+    background-color: #4056e2;;
+    padding: 5px;
+    cursor: pointer;
+  }
+
+  #chatbot-icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 10%;
+    color: black;
+  }
+
 header {}
 
 header a {
@@ -241,42 +279,3 @@ header a {
 }
 
 
-
-
-
-
-.bot{
-    position: absolute;
-    right: 0px;
-    bottom: 0px;
-    z-index: 1;
-}
-  #chatbot-container {
-    position: fixed;
-    bottom: 0px;
-    right: 20px;
-    /* border: 1px solid #ccc; */
-    border-radius: 4px;
-    overflow: hidden;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 350px;
-    z-index: 1;
-    transition: height 0.3s ease;
-  }
-  #chatbot-frame {
-    display: none;
-    transition: display 0.3s ease;
-  }
-
-  #chatbot-header {
-    background-color: #4056e2;;
-    padding: 5px;
-    cursor: pointer;
-  }
-
-  #chatbot-icon {
-    width: 20px;
-    height: 20px;
-    border-radius: 10%;
-    color: black;
-  }

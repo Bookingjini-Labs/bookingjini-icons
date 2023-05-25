@@ -141,13 +141,13 @@ header a {
     transition: all .3s ease-in-out;
 }
 
-.shadow-soft {
+/* .shadow-soft { */
     /* box-shadow: 6px 6px 12px #b8b9be, -6px -6px 12px #fff !important; */
     /* transition: transform .2s; */
     /* border-radius: 2%;
     margin-left: 2rem;
     margin-bottom: 2rem; */
-}
+/* } */
 
 .shadow-soft button {
     display: none;
@@ -241,13 +241,6 @@ header a {
 .icon-box .row {
     column-gap: 2rem;
 }
-
-/* .icon__parent__box {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    column-gap: 5%;
-} */
 
 .icon__parent__box {
     display: flex;

@@ -48,6 +48,14 @@ header a {
     position: relative;
     } */
 }
+@media only screen and (max-width: 767px) {
+    .head-text .title {
+      font-size: 80px;
+    }
+    .icon__parent__box{
+        justify-content: center;
+    }
+  }
 .btbtn-outline-primaryn {
     font-family: 'DM Sans', sans-serif !important;
 }

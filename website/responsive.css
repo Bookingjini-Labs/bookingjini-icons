@@ -1,0 +1,38 @@
+@media only screen and (max-width: 514px){
+ 
+    .bigContainer{
+        width: 129vw;
+        padding: 39px;
+    }
+
+    .search{
+        margin-left: 20px;
+    }
+  
+  }
+
+  @media only screen and (max-width: 360px){
+ 
+    .bigContainer{
+      width: 148vw !important;
+    }
+  
+  }
+
+  @media only screen and (max-width: 312px){
+ 
+    .bigContainer{
+      width: 168vw ;
+      padding: 20px;
+    }
+  
+  }
+
+  @media only screen and (max-width: 309px){
+ 
+    .bigContainer{
+      width: 174vw;
+      padding: 20px;
+    }
+  
+  }

@@ -16,8 +16,9 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,500&family=Arvo:ital,wght@0,700;1,400&display=swap"
-  rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,500&family=Arvo:ital,wght@0,700;1,400&display=swap"
+    rel="stylesheet">
 
   <script>
     // fetch method used to read the people.json data
@@ -39,11 +40,30 @@
         }
         document.getElementById("icon-wrapper").innerHTML = div;
 
-      })
+      });
+
+  </script>
+  <script>
+    setTimeout(() => {
+      document.getElementById("intro").style.top = '-100vh';
+    }, 4500);
+
   </script>
 </head>
 
 <body>
+  <!-- creating the splash screen -->
+  <div class="splash" id="intro">
+    <div class="splash__inner">
+      <div class="splash__img">
+        <img src="people leaf logo,healthy logo (3).png" alt="">
+      </div>
+      <div class="splash__text">
+        <h1 id="text1">Bookingjini Icons</h1>
+        <p>Unlock your creativity with our free icons.</p>
+      </div>
+    </div>
+  </div>
   <main>
 
     <div class="container">
@@ -84,12 +104,12 @@
     </section>
 
 
-    <!--====================== START OF SCROLL-TO-TOP BUTTON =====================--> 
+    <!--====================== START OF SCROLL-TO-TOP BUTTON =====================-->
     <div id="progress">
       <span id="progress-value">&#x27A0;</span>
     </div>
-  <!--====================== END OF SCROLL-TO-TOP BUTTON =====================-->
-    
+    <!--====================== END OF SCROLL-TO-TOP BUTTON =====================-->
+
   </main>
 
   <script>
@@ -142,9 +162,9 @@
     integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
     crossorigin="anonymous"></script>
 
-    <script src="scrollToTop.js"></script>
+  <script src="scrollToTop.js"></script>
 
-    
+
 </body>
 
 </html>

@@ -4,7 +4,17 @@
 body {
     background-color: #ffffff;
 }
-
+/* splash screen styling */
+.splash{
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+    transition: 1s;
+}
 header {}
 
 header a {

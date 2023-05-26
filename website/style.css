@@ -22,8 +22,9 @@ header a {
     position: relative;
     left: -180px;
 }
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 760px) {
     .logotxt{
+        font-size: em;
         left: -100px;
     }
 }
@@ -85,20 +86,19 @@ header a {
 }
 
 .head-text h1 {
-    font-size: 90px;
+    font-size: 50px;
     font-weight: 700;
     line-height: 100%;
-    letter-spacing: -4px;
+    margin: 20px;
     -webkit-text-stroke: 2px #000;
 }
 
-.head-text h3 {
-    font-size: 30px;
+.head-text p {
     font-weight: 400;
-    line-height: 100%;
     letter-spacing: auto;
     color: #b8b9be;
-    padding-top: 1%;
+    padding-top: 2%;
+    margin: 15px;
 }
 
 .search-box {
@@ -106,15 +106,16 @@ header a {
 }
 
 .search-box .search-box-2 {
-    background: #f5f6f7;
+    background: #e7ecf0;
     font-family: 'DM Sans', sans-serif;
     border-radius: 14px;
-    width: 98%;
+    width: 85%;
     color: #000;
     border: 0 solid #e2e2e2;
-    padding-left: 2%;
-    height: 64px;
+    padding-left: 3%;
+    height: 50px;
     font-size: 17px;
+    margin: 10px;
 }
 
 .search-box .search-box-2:hover {
@@ -240,9 +241,9 @@ header a {
 
 .icon__parent__box {
     display: flex;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
-    column-gap: 5%;
 }
 
 .icon-div {

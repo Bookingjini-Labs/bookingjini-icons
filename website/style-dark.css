@@ -99,23 +99,33 @@ header a {
     font-family: 'DM Sans', sans-serif;
 }
 
+
+/* changed the font-size & added margin */
 .head-text h1 {
+
+    font-size: 50px;
+
     -webkit-text-stroke: 2px rgb(255, 255, 255);
     font-size: 90px;
+
     font-weight: 700;
     line-height: 100%;
-    letter-spacing: -4px;
     -webkit-text-stroke: 2px rgb(255, 255, 255);
     color: #fff;
+    margin: 20px;
+    font-family: 'Arvo', 'DM Sans';
+
     font-family: 'DM Sans',sans-serif;
+
 }
 
-.head-text h3 {
-    font-size: 30px;
+/* changed the h3 to p tag & added margin */
+.head-text p {
     font-weight: 400;
-    line-height: 100%;
     letter-spacing: auto;
     color: #b8b9be;
+    padding-top: 2%;
+    margin: 15px;
     padding-top: 1%;
     font-family: 'DM sans', 'Arvo',sans-serif;
 }
@@ -124,16 +134,24 @@ header a {
     padding-top: 2%;
 }
 
+
+/* changed the width also added margin, padding */
 .search-box .search-box-2 {
     background: #f5f6f7;
     font-family: 'DM Sans', sans-serif;
     border-radius: 14px;
+
+    width: 85%;
+    color: #000;
+
     width: 98%;
     color: #fff;
+
     border: 0 solid #e2e2e2;
-    padding-left: 2%;
-    height: 64px;
+    padding-left: 3%;
+    height: 50px;
     font-size: 17px;
+    margin: 10px;
 }
 
 .search-box .search-box-2:hover {
@@ -160,13 +178,13 @@ header a {
     transition: all .3s ease-in-out;
 }
 
-.shadow-soft {
+/* .shadow-soft { */
     /* box-shadow: 6px 6px 12px #b8b9be, -6px -6px 12px #fff !important; */
     /* transition: transform .2s; */
     /* border-radius: 2%;
     margin-left: 2rem;
     margin-bottom: 2rem; */
-}
+/* } */
 
 .shadow-soft button {
     display: none;
@@ -263,9 +281,9 @@ header a {
 
 .icon__parent__box {
     display: flex;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
-    column-gap: 5%;
 }
 
 .icon-div {

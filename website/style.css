@@ -22,8 +22,9 @@ header a {
     position: relative;
     left: -180px;
 }
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 760px) {
     .logotxt{
+        font-size: em;
         left: -100px;
     }
 }
@@ -92,7 +93,7 @@ header a {
 }
 
 .head-text h1 {
-    font-size: 90px;
+    font-size: 50px;
     font-weight: 700;
     line-height: 100%;
     letter-spacing: -4px;
@@ -102,9 +103,7 @@ header a {
 }
 
 .head-text h3 {
-    font-size: 30px;
     font-weight: 400;
-    line-height: 100%;
     letter-spacing: auto;
     color: #4d4d4e;
     padding-top: 1%;
@@ -118,11 +117,11 @@ header a {
     background: #e2e2e2;
     font-family: 'DM Sans', sans-serif;
     border-radius: 14px;
-    width: 98%;
+    width: 85%;
     color: #000;
     border: 0 solid #e2e2e2;
-    padding-left: 2%;
-    height: 64px;
+    padding-left: 3%;
+    height: 50px;
     font-size: 17px;
     outline: none;
 }
@@ -251,9 +250,9 @@ header a {
 
 .icon__parent__box {
     display: flex;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
-    column-gap: 5%;
 }
 
 .icon-div {

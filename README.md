@@ -3,7 +3,7 @@
     <img src="https://user-images.githubusercontent.com/77221742/219046349-134d94ee-6931-43b8-8792-c0b894bac19e.png" alt="Bookingjini Logo" width="150" height="150">
   </a>
 </p>
-
+[![Video Title](./assets/demo_video.mp4)](./assets/demo_video.mp4)
 <h3 align="center">Bookingjini Icons</h3>
 <div align="center">
 <img src="https://forthebadge.com/images/badges/built-with-love.svg" />

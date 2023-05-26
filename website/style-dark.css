@@ -271,3 +271,17 @@ header a {
 .icon-div {
     display: none;
 }
+
+
+/* Footer */
+#custom-footer{
+    text-align: center;
+    margin-top: 115px;
+    margin-bottom: 11px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+#custom-footer span{
+    color: aqua;
+}

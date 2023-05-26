@@ -3,6 +3,7 @@
 
 body {
     background-color: #ffffff;
+    
 }
 
 header {}
@@ -279,3 +280,18 @@ header a {
   }
   
   /* ====================== END OF SCROLL-TO-TOP BUTTON ===================== */
+
+
+ 
+/************************* Footer *****************/
+#custom-footer{
+    text-align: center;
+    margin-top: 115px;
+    margin-bottom: 11px;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+#custom-footer span{
+    color: rgb(3, 186, 186);
+}

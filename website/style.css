@@ -48,12 +48,19 @@ header a {
     position: relative;
     } */
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 516px) {
     .head-text .title {
-      font-size: 80px;
+      font-size: 19vw;
+      justify-content: center;
+      display: flex;
     }
     .icon__parent__box{
+        max-width: fit-content;
         justify-content: center;
+        column-gap: 0.5%;
+    }
+    .search-box{
+        padding: 4vw;
     }
   }
 .btbtn-outline-primaryn {
@@ -89,7 +96,9 @@ header a {
     font-weight: 700;
     line-height: 100%;
     letter-spacing: -4px;
-    -webkit-text-stroke: 2px #000;
+    display: inline-block;
+    letter-spacing: -4px;
+    -webkit-text-stroke: 2px #1f1c1c;
 }
 
 .head-text h3 {
@@ -97,7 +106,7 @@ header a {
     font-weight: 400;
     line-height: 100%;
     letter-spacing: auto;
-    color: #b8b9be;
+    color: #4d4d4e;
     padding-top: 1%;
 }
 
@@ -106,7 +115,7 @@ header a {
 }
 
 .search-box .search-box-2 {
-    background: #f5f6f7;
+    background: #e2e2e2;
     font-family: 'DM Sans', sans-serif;
     border-radius: 14px;
     width: 98%;
@@ -115,6 +124,7 @@ header a {
     padding-left: 2%;
     height: 64px;
     font-size: 17px;
+    outline: none;
 }
 
 .search-box .search-box-2:hover {
@@ -127,7 +137,7 @@ header a {
     margin-top: 1.5rem;
     display: block;
     width: 100%;
-    height: calc(2.5em + 1.4rem + 0.0625rem);
+    height: calc(2.5rem + 1.4rem + 0.0625rem);
     padding: 0.6rem 0.75rem;
     font-size: 1rem;
     font-weight: 300;
@@ -185,6 +195,7 @@ header a {
 
 .icon-box ul {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 

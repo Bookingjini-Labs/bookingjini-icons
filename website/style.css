@@ -33,8 +33,9 @@ header a {
     position: relative;
     left: -180px;
 }
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 760px) {
     .logotxt{
+        font-size: em;
         left: -100px;
     }
 }
@@ -59,6 +60,21 @@ header a {
     position: relative;
     } */
 }
+@media only screen and (max-width: 516px) {
+    .head-text .title {
+      font-size: 19vw;
+      justify-content: center;
+      display: flex;
+    }
+    .icon__parent__box{
+        max-width: fit-content;
+        justify-content: center;
+        column-gap: 0.5%;
+    }
+    .search-box{
+        padding: 4vw;
+    }
+  }
 .btbtn-outline-primaryn {
     font-family: 'DM Sans', sans-serif !important;
 }
@@ -88,19 +104,20 @@ header a {
 }
 
 .head-text h1 {
-    font-size: 90px;
+    font-size: 50px;
     font-weight: 700;
     line-height: 100%;
     letter-spacing: -4px;
-    -webkit-text-stroke: 2px #000;
+    display: inline-block;
+    letter-spacing: -4px;
+    -webkit-text-stroke: 2px #1f1c1c;
 }
 
 .head-text h3 {
     font-size: 30px;
     font-weight: 400;
-    line-height: 100%;
     letter-spacing: auto;
-    color: #b8b9be;
+    color: #4d4d4e;
     padding-top: 1%;
 }
 
@@ -109,15 +126,16 @@ header a {
 }
 
 .search-box .search-box-2 {
-    background: #f5f6f7;
+    background: #e2e2e2;
     font-family: 'DM Sans', sans-serif;
     border-radius: 14px;
-    width: 98%;
+    width: 85%;
     color: #000;
     border: 0 solid #e2e2e2;
-    padding-left: 2%;
-    height: 64px;
+    padding-left: 3%;
+    height: 50px;
     font-size: 17px;
+    outline: none;
 }
 
 .search-box .search-box-2:hover {
@@ -130,7 +148,7 @@ header a {
     margin-top: 1.5rem;
     display: block;
     width: 100%;
-    height: calc(2.5em + 1.4rem + 0.0625rem);
+    height: calc(2.5rem + 1.4rem + 0.0625rem);
     padding: 0.6rem 0.75rem;
     font-size: 1rem;
     font-weight: 300;
@@ -188,6 +206,7 @@ header a {
 
 .icon-box ul {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -243,9 +262,9 @@ header a {
 
 .icon__parent__box {
     display: flex;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
-    column-gap: 5%;
 }
 
 .icon-div {

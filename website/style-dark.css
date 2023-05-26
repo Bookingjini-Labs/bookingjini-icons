@@ -2,13 +2,15 @@
 
 
 body {
-    background-color: #2b2b2b;
+    background-color: #272929;
+    font-family: 'DM Sans',sans-serif;
+
 }
 
-header {}
+/* header {} */
 
 header a {
-    font-family: 'DM Sans', sans-serif;
+    /* font-family: 'DM Sans', sans-serif; */
     color: #fff;
 }
 .imglogo{
@@ -26,8 +28,11 @@ header a {
     .logotxt{
         left: -100px;
     }
+    .me-1{
+        margin-bottom: 0.5rem;
+    }
 }
-@media only screen and (min-width: 150px) and (max-width: 1024px) {
+@media only screen and (min-width: 150px) and (max-width: 768px) {
     .logotxt{
         left: 0px;
     }
@@ -36,6 +41,13 @@ header a {
     }
     .btn-outline-primary{
     margin: 5px;
+    }
+    .Lhead {
+        flex-direction: column;
+        align-items: center; /* Add this line to center align the buttons */
+    }
+    .me-1{
+        margin-bottom: 0;
     }
 }
 
@@ -48,8 +60,22 @@ header a {
     position: relative;
     } */
 }
+@media only screen and (max-width: 516px) {
+    .head-text .title {
+        font-size: 19vw;
+        justify-content: center;
+        display: flex;
+    }
+    .icon__parent__box{
+        justify-content: center;
+    }
+    .search-box{
+        padding: 4vw;
+    }
+  }
+  
+  
 .btn-outline-primary {
-    font-family: 'DM Sans', sans-serif !important;
     color: #fff;
     border-color: #fff;
 }
@@ -78,44 +104,62 @@ header a {
     font-family: 'DM Sans', sans-serif;
 }
 
+
+/* changed the font-size & added margin */
 .head-text h1 {
+
+    font-size: 50px;
+
+    -webkit-text-stroke: 2px rgb(255, 255, 255);
     font-size: 90px;
+
     font-weight: 700;
     line-height: 100%;
-    letter-spacing: -4px;
     -webkit-text-stroke: 2px rgb(255, 255, 255);
-    color: #fff;
+    color: #f3f0f0;
+    font-family: 'DM Sans',sans-serif;
+
 }
 
 .head-text h3 {
-    font-size: 30px;
+    font-size: calc(20px + 0.390625vw);
     font-weight: 400;
-    line-height: 100%;
     letter-spacing: auto;
     color: #b8b9be;
+    padding-top: 2%;
+    margin: 15px;
     padding-top: 1%;
+    font-family: 'DM sans', 'Arvo',sans-serif;
 }
 
 .search-box {
     padding-top: 2%;
 }
 
+
+/* changed the width also added margin, padding */
 .search-box .search-box-2 {
     background: #f5f6f7;
     font-family: 'DM Sans', sans-serif;
     border-radius: 14px;
-    width: 98%;
+
+    width: 85%;
     color: #000;
+
+    width: 98%;
+    color: #000000;
     border: 0 solid #e2e2e2;
-    padding-left: 2%;
-    height: 64px;
+    padding-left: 3%;
+    height: 50px;
     font-size: 17px;
+    outline: none;
 }
 
 .search-box .search-box-2:hover {
-    background: #e7eaed;
+    background: #353535;
     -webkit-transition: .3s;
     transition: .3s;
+    color: #ffffff;
 }
 
 .search-box .form-control {
@@ -136,13 +180,13 @@ header a {
     transition: all .3s ease-in-out;
 }
 
-.shadow-soft {
+/* .shadow-soft { */
     /* box-shadow: 6px 6px 12px #b8b9be, -6px -6px 12px #fff !important; */
     /* transition: transform .2s; */
     /* border-radius: 2%;
     margin-left: 2rem;
     margin-bottom: 2rem; */
-}
+/* } */
 
 .shadow-soft button {
     display: none;
@@ -239,9 +283,9 @@ header a {
 
 .icon__parent__box {
     display: flex;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
-    column-gap: 5%;
 }
 
 .icon-div {

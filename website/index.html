@@ -107,18 +107,29 @@
       });
     }
   </script>
-
+  <!-- Importing search helper function to implement it here! -->
+  <script src="searchIcons.js"></script>
   <script>
     function searchIcon() {
+
+      // THRESHOLD while checking for values, 1 means exact match, 0 means all
+      // Try experimenting with it before use THRESHOLD between range of 0.7 to 0.9 is recommended
+      const THRESHOLD = 0.8;
+
       var input, filter, p, ul, li, a, i, txtValue;
+
       input = document.getElementById("searchInput");
       filter = input.value.toUpperCase();
+
       ul = document.getElementById("myUL");
       li = ul.getElementsByClassName("shadow-soft");
+
       for (i = 0; i < li.length; i++) {
         a = li[i].getElementsByTagName("p")[0];
         txtValue = a.textContent || a.innerText;
-        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        
+        // Matching based on fuzzy search
+        if (jaroWinklerSimilarity(filter.toLowerCase(), txtValue.toLowerCase()) >= THRESHOLD || filter == "") {
           li[i].style.display = "";
         } else {
           li[i].style.display = "none";

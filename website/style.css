@@ -208,8 +208,9 @@ header a {
 } */
 
 .shadow-soft {
-    box-shadow: 6px 6px 12px #abacac, -6px -6px 12px #bcb8b8 !important;
-    transition: transform .2s;
+    
+        box-shadow: 1px 2px 1px #6c6b6b, -2px -1px #bbb9b9 !important;
+        transition: transform .2s;
 }
 
 .shadow-soft span {
@@ -248,7 +249,7 @@ header a {
 /* ====================== START OF SCROLL-TO-TOP BUTTON===================== */    
 
 #progress {
-    background-color: #69757c;
+    background-color: #58646b;
     position: fixed;
     bottom: 20px;
     right: 10px;

@@ -93,23 +93,36 @@ header a {
     padding-top: 1%;
 }
 
-.search-box {
+.search-box{
     padding-top: 2%;
-}
-
-.search-box .search-box-2 {
-    background: #f5f6f7;
-    font-family: 'DM Sans', sans-serif;
+    position: relative;
+    display: inline-block;
+    border:  solid #000;
     border-radius: 14px;
+    padding: 5px;
     width: 98%;
-    color: #000;
-    border: 0 solid #e2e2e2;
-    padding-left: 2%;
     height: 64px;
-    font-size: 17px;
 }
 
-.search-box .search-box-2:hover {
+ .search-box .search-box-2{
+   border: none;
+   border-radius: 10px;
+   outline: none;
+   height: 100%;
+   width: 100%;
+   padding: 0 0 0 40px;
+}
+
+.search-icon{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    font-weight: bold;
+    left: 15px;
+}
+
+.search-box-2:hover {
     background: #e7eaed;
     -webkit-transition: .3s;
     transition: .3s;

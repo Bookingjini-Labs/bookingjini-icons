@@ -13,7 +13,7 @@
 i {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'bookingjini-icon' !important;
-  speak: never;
+  speak-as: never;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -895,4 +895,5 @@ i {
 .jini-x:before {
   content: "\ea21";
 }
+
 

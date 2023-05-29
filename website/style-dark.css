@@ -352,10 +352,10 @@ input:checked + label svg.moon{
     .Lhead{
         flex-direction: column;
     }
-    /* .btn-outline-primary{
+    .btn-outline-primary{
     left: -33px;
     position: relative;
-    } */
+    } 
 }
 @media only screen and (max-width: 516px) {
     .head-text .title {

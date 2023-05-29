@@ -23,6 +23,7 @@
     href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,500&family=Arvo:ital,wght@0,700;1,400&display=swap"
     rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
   <script>
     // fetch method used to read the people.json data
@@ -46,6 +47,35 @@
 
       })
   </script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const iconContainer = document.querySelector('.img-icon');
+      const tooltipText = document.querySelector('.tooltip-text');
+      const code = document.querySelector('code');
+  
+      iconContainer.addEventListener('click', () => {
+        const text = code.textContent;
+        document.execCommand('copy');
+        navigator.clipboard.writeText(text);
+  
+        const range = document.createRange();
+        range.selectNodeContents(code);
+  
+        const selection = window.getSelection();
+        selection.removeAllRanges();
+        selection.addRange(range);
+  
+        tooltipText.textContent = 'Copied!';
+        tooltipText.style.visibility = 'visible';
+  
+        setTimeout(() => {
+          tooltipText.textContent = 'Click to Copy';
+          tooltipText.style.visibility = 'hidden';
+          selection.removeRange(range);
+        }, 500);
+      });
+    });
+  </script>
 </head>
 
 <body>
@@ -58,9 +88,6 @@
         <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-decoration-none logotxt">
           Bookingjini Icons (v2.0)
         </a>
-
-
-
         <div class="col-md-4 text-end">
           <button class="btn-toggle btn btn-primary me-1" style="margin-right: 0.5rem;">Light Mode</button>
           <a href="https://drive.bookingjini.tech/icons/v2/fonts.zip" class="btn btn-outline-primary me-2">Download</a>
@@ -76,6 +103,21 @@
         <div class="col-lg-12 col-md-8 mx-auto">
           <h1 class="title">Bookingjini Icons</h1>
           <h3 class="">Find hospitality related icons, curated by creators from Bookingjini</h3>
+          <p class="text1"> In the html file, paste the following line inside the head tag:</p>
+          <div class="copy-code-container">
+            <div class="copy-code-input">
+              <p>
+                <code>&lt;link href="https://cdn.jsdelivr.net/gh/bookingjini-labs/bookingjini-icons@1.0.0/font-css.css" rel="stylesheet"&gt;</code>
+              </p>
+            </div>
+            <div class="icon">
+                <div class="hover-text">
+                    <img src="https://i.ibb.co/Jzrg63c/image-removebg-preview-1.png" alt="" class="img-icon">
+                    <span class="tooltip-text" id="bottom">Click to Copy</span>
+                </div>
+            </div>
+          </div>
+          <p class="text1 text2"> To use the icons, click on your preferred icons, and paste inside your body tag.</p>
           <div class="search input-group mb-3 mt-3 input-group-lg search-box">
             <input type="text" id="searchInput" onkeyup="searchIcon()" class="search-box-2" placeholder="Search Icon"
               aria-label="Recipient's username" aria-describedby="button-addon2">

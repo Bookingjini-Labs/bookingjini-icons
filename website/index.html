@@ -132,6 +132,8 @@
       </div>
     </section>
 
+    <h4 class="notFound display">No Result found</h4>
+
     <section class="bigContainer pt-0 text-center container icon-box">
       <div class="row py-lg-5 " id="myUL">
         <div id="icon-wrapper" class="icon__parent__box"></div>
@@ -182,8 +184,10 @@
         txtValue = a.textContent || a.innerText;
         if (txtValue.toUpperCase().indexOf(filter) > -1) {
           li[i].style.display = "";
+          document.querySelector(".notFound").classList.add("display") ;
         } else {
           li[i].style.display = "none";
+          document.querySelector(".notFound").classList.remove("display") ;
         }
       }
     }

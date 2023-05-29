@@ -371,6 +371,16 @@ input:checked + label svg.moon{
 .icon-div {
     display: none;
 }
+
+.notFound {
+    color: #f3f0f0 ;
+    text-align: center;
+    margin-top: 20px ;
+}
+.display {
+    display: none;
+}
+
 /* ====================== Code for CDN ===================== */    
 
 

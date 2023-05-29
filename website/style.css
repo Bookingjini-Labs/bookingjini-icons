@@ -342,6 +342,15 @@ input:checked + label svg.moon{
     display: none;
 }
 
+.notFound {
+    color: #4d4d4e ;
+    text-align: center;
+    margin-top: 20px ;
+}
+.display {
+    display: none;
+}
+
 /* ====================== START OF SCROLL-TO-TOP BUTTON===================== */    
 
 #progress {

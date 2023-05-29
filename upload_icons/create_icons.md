@@ -27,4 +27,7 @@ To create a visually pleasing grid system, consider using the golden ratio (appr
 ### 3. Maintain Consistent Icon Thickness:
 It is crucial to ensure consistent thickness for your icons. This helps create a cohesive visual style throughout the icon set. If you are using a 24x24 grid system, it is recommended to keep the icon thickness at 2 pixels.
 
+![grid system example img](https://github.com/Bookingjini-Labs/bookingjini-icons/assets/46455250/c534dd09-d127-4da9-b492-5a6e04f04258)
+
+
 By following these guidelines, you can create icons that align with GitHub's design principles, providing a unified and visually appealing experience.

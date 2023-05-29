@@ -14,12 +14,17 @@
   <link rel="stylesheet" href="iziToast.min.css">
   <script src="iziToast.min.js" type="text/javascript"></script>
   <link rel="stylesheet" href="responsive.css">
+
+  <link rel="stylesheet" href="Footer.css">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,500&family=Arvo:ital,wght@0,700;1,400&display=swap"
     rel="stylesheet">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
   <script>
     // fetch method used to read the people.json data
     fetch("https://opensheet.elk.sh/1-9h_xn3ZID097dJbwLwqmDY8JDMSW9NHEPvbYRTJ3Ak/1")
@@ -134,7 +139,17 @@
     </div>
     <!--====================== END OF SCROLL-TO-TOP BUTTON =====================-->
 
+
   </main>
+  <!-- ********************* Footer Section ****************** -->
+  <div id="custom-footer" class="light-color" >
+  
+     Created By <span>Bookingjini </span> | &copy;  2023 All right reserved
+
+    
+  </div>
+
+ 
 
   <script>
     function iconCopy(icon) {
@@ -168,19 +183,27 @@
     }
   </script>
 
-  <!-- Function for enabling dark mode -->
   <script>
     const btn = document.querySelector(".btn-toggle");
     const theme = document.querySelector("#theme-link");
+    const footer=document.getElementById("custom-footer")
+
     btn.addEventListener("click", function () {
       // Swap out the URL for the different stylesheets
       if (theme.getAttribute("href") == "style.css") {
         theme.href = "style-dark.css";
         btn.textContent = "Light Mode";
+
+        
       } else {
         theme.href = "style.css";
-        btn.textContent = 'Dark Mode';
+        btn.textContent = "Dark Mode";
       }
+
+      footer.classList.toggle("dark-color")
+      footer.classList.toggle("light-color")
+
+
     });
   </script>
 

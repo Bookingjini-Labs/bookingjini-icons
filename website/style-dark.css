@@ -294,6 +294,7 @@ header a {
 /* ====================== Code for CDN ===================== */    
 
 
+
 .copy-code-container {
     display: flex;
     align-items: center;
@@ -386,6 +387,7 @@ header a {
     font-family: Arial;
     text-align: center;
   }
+
 /* ====================== START OF SCROLL-TO-TOP BUTTON===================== */    
 
 #progress {
@@ -416,3 +418,4 @@ header a {
   }
   
   /* ====================== END OF SCROLL-TO-TOP BUTTON ===================== */
+

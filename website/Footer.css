@@ -1,0 +1,28 @@
+/************************* Footer *****************/
+#custom-footer{
+    text-align: center;
+    margin-top: 115px;
+    margin-bottom: 11px;
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+.dark-color{
+   color: black;
+}
+
+.light-color{
+    color:white
+}
+
+
+#custom-footer span{
+    color: rgb(3, 186, 186);
+}
+
+@media only screen and (max-width:510px){
+    #custom-footer{
+        margin-left: 90px;
+        margin-top: 75px;
+    }
+}

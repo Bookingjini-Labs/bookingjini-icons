@@ -146,13 +146,14 @@ header a {
     width: 85%;
     color: #000;
 
-    width: 98%;
+    width: 95%;
     color: #000000;
     border: 0 solid #e2e2e2;
     padding-left: 3%;
     height: 50px;
     font-size: 17px;
     outline: none;
+    padding-left: 4px;
 }
 
 .search-box .search-box-2:hover {
@@ -179,7 +180,16 @@ header a {
     box-shadow: inset 2px 2px 5px #b8b9be, inset -3px -3px 7px #fff;
     transition: all .3s ease-in-out;
 }
-
+.search-box .input-group-text {
+    background-color: #f5f6f7;
+    border-top-left-radius: 0.55rem;
+    border-bottom-left-radius: 0.55rem;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border: none;
+    padding-top: 17px;
+    padding-bottom: 17px;
+  }
 /* .shadow-soft { */
     /* box-shadow: 6px 6px 12px #b8b9be, -6px -6px 12px #fff !important; */
     /* transition: transform .2s; */

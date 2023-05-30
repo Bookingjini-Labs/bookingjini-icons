@@ -193,25 +193,37 @@ input:checked + label svg.moon{
 }
 
 .search-box {
-    padding-top: 2%;
+    position: relative;
+    display: inline-block;
+    border: solid #000;
+    border-radius: 14px;
+    padding: 5px;
+    width: 98%;
+    height: 64px;
 }
 
 .search-box .search-box-2 {
-    background: #e2e2e2;
     font-family: 'DM Sans', sans-serif;
-    border-radius: 14px;
-    width: 85%;
-    color: #000;
-    border: 0 solid #e2e2e2;
-    padding-left: 3%;
-    height: 50px;
-    font-size: 17px;
+    border-radius: 6px;
+    border: none;
+    width: 100%;
+    height: 100%;
     outline: none;
-    padding-left: 4px;
+    padding: 0 0 0 40px;
+}
+
+.search-icon{
+    position: absolute;
+    top: 50%;
+    color: #000;
+    transform: translateY(-50%);
+    font-size: 16px;
+    font-weight: bold;
+    left: 15px;
 }
 
 .search-box .search-box-2:hover {
-    background: #e7eaed;
+    background:  #CCCCCC;
     -webkit-transition: .3s;
     transition: .3s;
 }
@@ -234,17 +246,7 @@ input:checked + label svg.moon{
     transition: all .3s ease-in-out;
 }
 
-.search-box .input-group-text {
-    background-color: #e2e2e2;
-    border-top-left-radius: 0.55rem;
-    border-bottom-left-radius: 0.55rem;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
-    border: none;
-    padding-top: 17px;
-    padding-bottom: 17px;
 
-  }
 
 
 .shadow-soft {

@@ -51,9 +51,9 @@ header a {
 }
 @media only screen and (max-width: 516px) {
     .head-text .title {
-      font-size: 19vw;
-      justify-content: center;
-      display: flex;
+        font-size: 19vw;
+        justify-content: center;
+        display: flex;
     }
     .icon__parent__box{
         max-width: fit-content;
@@ -96,18 +96,19 @@ header a {
     font-size: 50px;
     font-weight: 700;
     line-height: 100%;
-    letter-spacing: -4px;
     display: inline-block;
-    letter-spacing: -4px;
     -webkit-text-stroke: 2px #1f1c1c;
 }
 
 .head-text h3 {
-    font-size: 30px;
+    font-size: calc(20px + 0.390625vw);
     font-weight: 400;
     letter-spacing: auto;
-    color: #4d4d4e;
+    padding-top: 2%;
+    margin: 15px;
     padding-top: 1%;
+    font-family: 'DM sans', 'Arvo',sans-serif;
+    color: #4d4d4e;
 }
 
 .search-box {
@@ -115,11 +116,11 @@ header a {
 }
 
 .search-box .search-box-2 {
-    background: #e2e2e2;
+    background: #524242;
     font-family: 'DM Sans', sans-serif;
     border-radius: 14px;
-    width: 85%;
-    color: #000;
+    width: 100%;
+    color: white;
     border: 0 solid #e2e2e2;
     padding-left: 3%;
     height: 50px;
@@ -128,7 +129,8 @@ header a {
 }
 
 .search-box .search-box-2:hover {
-    background: #e7eaed;
+    background: #726060;
+    color: white;
     -webkit-transition: .3s;
     transition: .3s;
 }
@@ -164,7 +166,7 @@ header a {
 }
 
 .shadow-soft:hover {
-    background-color: #f3f6fb;
+    background-color: #aca7a7;
     border-radius: 16px;
     transform: scale(1.2);
     transition-duration: 250ms;

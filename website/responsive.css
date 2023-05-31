@@ -22,3 +22,7 @@
     }
   
   }
+.search-input {
+  background-image: url("search-icon.png"); /* Replace with the path to your search icon image */
+  padding-left: 40px; /* Adjust the padding to create space for the icon */
+}

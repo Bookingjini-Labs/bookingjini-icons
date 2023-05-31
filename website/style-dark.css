@@ -6,12 +6,20 @@ body {
     font-family: 'DM Sans',sans-serif;
 
 }
-
+.search-input::placeholder::before {
+    content: "\f002"; /* Unicode value for the search icon in Font Awesome */
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    padding-right: 5px; /* Adjust this value to adjust the spacing between the icon and the placeholder text */
+  }
+  
 /* header {} */
 
 header a {
     /* font-family: 'DM Sans', sans-serif; */
     color: #fff;
+    color: #1726cc;
+    justify-content: center;
 }
 .imglogo{
     width: 5%;
@@ -107,12 +115,8 @@ header a {
 
 /* changed the font-size & added margin */
 .head-text h1 {
-
     font-size: 50px;
-
     -webkit-text-stroke: 2px rgb(255, 255, 255);
-    font-size: 90px;
-
     font-weight: 700;
     line-height: 100%;
     -webkit-text-stroke: 2px rgb(255, 255, 255);
@@ -122,10 +126,10 @@ header a {
 }
 
 .head-text h3 {
+    color: #b8b9be;
     font-size: calc(20px + 0.390625vw);
     font-weight: 400;
     letter-spacing: auto;
-    color: #b8b9be;
     padding-top: 2%;
     margin: 15px;
     padding-top: 1%;
@@ -142,12 +146,8 @@ header a {
     background: #f5f6f7;
     font-family: 'DM Sans', sans-serif;
     border-radius: 14px;
-
-    width: 85%;
+    width: 100%;
     color: #000;
-
-    width: 98%;
-    color: #000000;
     border: 0 solid #e2e2e2;
     padding-left: 3%;
     height: 50px;

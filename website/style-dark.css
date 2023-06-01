@@ -14,15 +14,25 @@ header a {
     color: #fff;
 }
 .imglogo{
-    width: 5%;
-    /* height: 10%; */
-    border-radius: 100%;
+    width:5pc;
+    height:5pc;
+    border-radius:10px;
+   
+}
+.navbar{
+    
+    background-color:rgba(255,255,255,0.5);
+    border-radius:10px;
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:20px;
 }
 .logotxt{
     font-weight: bolder;
     font-size: 1.3em;
     position: relative;
     left: -180px;
+    color:white;
 }
 
 /* ====================== Dark mode ===================== */
@@ -114,10 +124,11 @@ input:checked + label svg.moon{
 }
 @media only screen and (min-width: 150px) and (max-width: 768px) {
     .logotxt{
-        left: 0px;
+        margin-left: 50px;
+        
     }
     .imglogo{
-        width: 8%;
+        width: 10%;
     }
     .btn-outline-primary{
     margin: 5px;

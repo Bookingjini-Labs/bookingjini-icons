@@ -14,20 +14,25 @@ body {
 }
 
 
+
 header a {
     font-family: 'DM Sans', sans-serif;
     color: #000;
+}
+.container-logo{
+    display: flex;
 }
 .imglogo{
     width: 5%;
     border-radius: 100%;
     box-shadow: 2px 2px #000;
 }
+
+
 .logotxt{
-    color:#262525;
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: lighter;
-    font-size: 1.8rem;
+    font-size: 1.3em;
+    color: rgb(47, 47, 47);
+    font-family: 'Righteous', cursive;
 }
 
 /* ====================== Code for CDN ===================== */    
@@ -212,6 +217,11 @@ input:checked + label svg.moon{
     .logotxt{
         font-size: em;
         left: -100px;
+    }
+}
+@media all and (min-width: 150px) and (max-width: 768px){
+    .imglogo{
+        width: 8%;
     }
 }
 @media only screen and (min-width: 150px) and (max-width: 1024px) {

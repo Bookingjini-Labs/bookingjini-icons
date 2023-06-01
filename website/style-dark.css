@@ -13,16 +13,18 @@ header a {
     /* font-family: 'DM Sans', sans-serif; */
     color: #fff;
 }
+.container-logo{
+    display: flex;
+}
 .imglogo{
-    width: 5%;
+    width: 15%;
     /* height: 10%; */
     border-radius: 100%;
 }
 .logotxt{
-    font-weight: bolder;
     font-size: 1.3em;
-    position: relative;
-    left: -180px;
+    color: rgb(254, 254, 255);
+    font-family: 'Righteous', cursive;
 }
 
 /* ====================== Dark mode ===================== */
@@ -112,6 +114,8 @@ input:checked + label svg.moon{
         margin-bottom: 0.5rem;
     }
 }
+
+
 @media only screen and (min-width: 150px) and (max-width: 768px) {
     .logotxt{
         left: 0px;

@@ -8,20 +8,25 @@ body {
 
 header {}
 
+
 header a {
     font-family: 'DM Sans', sans-serif;
     color: #000;
 }
+.container-logo{
+    display: flex;
+}
 .imglogo{
-    width: 5%;
-    height: 10%;
+    width: 15%;
+    /* height: 10%; */
     border-radius: 100%;
 }
+
+
 .logotxt{
-    font-weight: bolder;
     font-size: 1.3em;
-    position: relative;
-    left: -180px;
+    color: rgb(47, 47, 47);
+    font-family: 'Righteous', cursive;
 }
 
 /* ====================== Code for CDN ===================== */    
@@ -208,13 +213,16 @@ input:checked + label svg.moon{
         left: -100px;
     }
 }
+@media all and (min-width: 150px) and (max-width: 768px){
+    .imglogo{
+        width: 8%;
+    }
+}
 @media only screen and (min-width: 150px) and (max-width: 1024px) {
     .logotxt{
         left: 0px;
     }
-    .imglogo{
-        width: 8%;
-    }
+
     .btn-outline-primary{
     margin: 5px;
     }

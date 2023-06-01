@@ -27,9 +27,9 @@ header a {
     display: flex;
 }
 .imglogo{
-    width: 15%;
-    /* height: 10%; */
+    width: 5%;
     border-radius: 100%;
+    
 }
 .logotxt{
     color: whitesmoke;

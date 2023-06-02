@@ -1,0 +1,1452 @@
+[
+  {
+    "id": "1",
+    "icon": "jini-people",
+    "name": "people"
+  },
+  {
+    "id": "2",
+    "icon": "jini-people-2",
+    "name": "people-2"
+  },
+  {
+    "id": "3",
+    "icon": "jini-people1",
+    "name": "people1"
+  },
+  {
+    "id": "4",
+    "icon": "jini-ac",
+    "name": "ac"
+  },
+  {
+    "id": "5",
+    "icon": "jini-Add-person",
+    "name": "Add-person"
+  },
+  {
+    "id": "6",
+    "icon": "jini-Add-sheet",
+    "name": "Add-sheet"
+  },
+  {
+    "id": "7",
+    "icon": "jini-add",
+    "name": "add"
+  },
+  {
+    "id": "8",
+    "icon": "jini-add-folder",
+    "name": "add-folder"
+  },
+  {
+    "id": "9",
+    "icon": "jini-AI",
+    "name": "AI"
+  },
+  {
+    "id": "10",
+    "icon": "jini-air-in",
+    "name": "air-in"
+  },
+  {
+    "id": "11",
+    "icon": "jini-Airplay",
+    "name": "Airplay"
+  },
+  {
+    "id": "12",
+    "icon": "jini-Alarm-Clock",
+    "name": "Alarm-Clock"
+  },
+  {
+    "id": "13",
+    "icon": "jini-alt",
+    "name": "alt"
+  },
+  {
+    "id": "14",
+    "icon": "jini-amp-waves",
+    "name": "amp-waves"
+  },
+  {
+    "id": "15",
+    "icon": "jini-apthetic",
+    "name": "apthetic"
+  },
+  {
+    "id": "16",
+    "icon": "jini-Arrow-1",
+    "name": "Arrow-1"
+  },
+  {
+    "id": "17",
+    "icon": "jini-Arrow-2-down",
+    "name": "Arrow-2-down"
+  },
+  {
+    "id": "18",
+    "icon": "jini-Arrow-2-up",
+    "name": "Arrow-2-up"
+  },
+  {
+    "id": "19",
+    "icon": "jini-Arrow-2",
+    "name": "Arrow-2"
+  },
+  {
+    "id": "20",
+    "icon": "jini-Arrow-3-right",
+    "name": "Arrow-3-right"
+  },
+  {
+    "id": "21",
+    "icon": "jini-Arrow-3",
+    "name": "Arrow-3"
+  },
+  {
+    "id": "22",
+    "icon": "jini-Arrow-4-left",
+    "name": "Arrow-4-left"
+  },
+  {
+    "id": "23",
+    "icon": "jini-Arrow-4",
+    "name": "Arrow-4"
+  },
+  {
+    "id": "24",
+    "icon": "jini-Arrow-down",
+    "name": "Arrow-down"
+  },
+  {
+    "id": "25",
+    "icon": "jini-Arrow-up",
+    "name": "Arrow-up"
+  },
+  {
+    "id": "26",
+    "icon": "jini-arrow-down-1",
+    "name": "arrow-down-1"
+  },
+  {
+    "id": "27",
+    "icon": "jini-arrow-down-2",
+    "name": "arrow-down-2"
+  },
+  {
+    "id": "28",
+    "icon": "jini-arrow-left-1",
+    "name": "arrow-left-1"
+  },
+  {
+    "id": "29",
+    "icon": "jini-arrow-left-2",
+    "name": "arrow-left-2"
+  },
+  {
+    "id": "30",
+    "icon": "jini-arrow-right-1",
+    "name": "arrow-right-1"
+  },
+  {
+    "id": "31",
+    "icon": "jini-arrow-right-2",
+    "name": "arrow-right-2"
+  },
+  {
+    "id": "32",
+    "icon": "jini-arrow-up-1",
+    "name": "arrow-up-1"
+  },
+  {
+    "id": "33",
+    "icon": "jini-arrow-up-2",
+    "name": "arrow-up-2"
+  },
+  {
+    "id": "34",
+    "icon": "jini-atand-alt",
+    "name": "atand-alt"
+  },
+  {
+    "id": "35",
+    "icon": "jini-ATM-card",
+    "name": "ATM-card"
+  },
+  {
+    "id": "36",
+    "icon": "jini-attachment",
+    "name": "attachment"
+  },
+  {
+    "id": "37",
+    "icon": "jini-Bag",
+    "name": "Bag"
+  },
+  {
+    "id": "38",
+    "icon": "jini-bank-doc",
+    "name": "bank-doc"
+  },
+  {
+    "id": "39",
+    "icon": "jini-bank-note",
+    "name": "bank-note"
+  },
+  {
+    "id": "40",
+    "icon": "jini-Bar-Graph-2",
+    "name": "Bar-Graph-2"
+  },
+  {
+    "id": "41",
+    "icon": "jini-Bar-graph",
+    "name": "Bar-graph"
+  },
+  {
+    "id": "42",
+    "icon": "jini-bath-rob",
+    "name": "bath-robe"
+  },
+  {
+    "id": "43",
+    "icon": "jini-Bathtub",
+    "name": "Bathtub"
+  },
+  {
+    "id": "44",
+    "icon": "jini-Bed",
+    "name": "Bed"
+  },
+  {
+    "id": "45",
+    "icon": "jini-Bell",
+    "name": "Bell"
+  },
+  {
+    "id": "46",
+    "icon": "jini-bolt",
+    "name": "bolt"
+  },
+  {
+    "id": "47",
+    "icon": "jini-Book-1",
+    "name": "Book-1"
+  },
+  {
+    "id": "48",
+    "icon": "jini-Book-2",
+    "name": "Book-2"
+  },
+  {
+    "id": "49",
+    "icon": "jini-Book-open",
+    "name": "Book-open"
+  },
+  {
+    "id": "50",
+    "icon": "jini-booking-jini",
+    "name": "booking-jini"
+  },
+  {
+    "id": "51",
+    "icon": "jini-Books",
+    "name": "Books"
+  },
+  {
+    "id": "52",
+    "icon": "jini-Bottle",
+    "name": "Bottle"
+  },
+  {
+    "id": "53",
+    "icon": "jini-Box-2",
+    "name": "Box-2"
+  },
+  {
+    "id": "54",
+    "icon": "jini-Box-Down",
+    "name": "Box-Down"
+  },
+  {
+    "id": "55",
+    "icon": "jini-box",
+    "name": "box"
+  },
+  {
+    "id": "56",
+    "icon": "jini-box-sealed",
+    "name": "box-sealed"
+  },
+  {
+    "id": "57",
+    "icon": "jini-broken-link",
+    "name": "broken-link"
+  },
+  {
+    "id": "58",
+    "icon": "jini-Building",
+    "name": "Building"
+  },
+  {
+    "id": "59",
+    "icon": "jini-bulb",
+    "name": "bulb"
+  },
+  {
+    "id": "60",
+    "icon": "jini-bullet-2",
+    "name": "bullet-2"
+  },
+  {
+    "id": "61",
+    "icon": "jini-bullet-line",
+    "name": "bullet-line"
+  },
+  {
+    "id": "62",
+    "icon": "jini-bullet-menu-2",
+    "name": "bullet-menu-2"
+  },
+  {
+    "id": "63",
+    "icon": "jini-cab",
+    "name": "cab"
+  },
+  {
+    "id": "64",
+    "icon": "jini-call",
+    "name": "call"
+  },
+  {
+    "id": "65",
+    "icon": "jini-call-2",
+    "name": "call-2"
+  },
+  {
+    "id": "66",
+    "icon": "jini-Callender-1",
+    "name": "Calendar-1"
+  },
+  {
+    "id": "67",
+    "icon": "jini-Callender-2",
+    "name": "Calendar-2"
+  },
+  {
+    "id": "68",
+    "icon": "jini-Callender-3",
+    "name": "Calendar-3"
+  },
+  {
+    "id": "69",
+    "icon": "jini-Callender-3-1",
+    "name": "Calendar-3-1"
+  },
+  {
+    "id": "70",
+    "icon": "jini-Caution",
+    "name": "Caution"
+  },
+  {
+    "id": "71",
+    "icon": "jini-chain-link",
+    "name": "chain-link"
+  },
+  {
+    "id": "72",
+    "icon": "jini-chain-link2",
+    "name": "chain-link2"
+  },
+  {
+    "id": "73",
+    "icon": "jini-chart1",
+    "name": "chart1"
+  },
+  {
+    "id": "74",
+    "icon": "jini-chart-2",
+    "name": "chart-2"
+  },
+  {
+    "id": "75",
+    "icon": "jini-chart-up",
+    "name": "chart-up"
+  },
+  {
+    "id": "76",
+    "icon": "jini-check-in",
+    "name": "check-in"
+  },
+  {
+    "id": "77",
+    "icon": "jini-check-out",
+    "name": "check-out"
+  },
+  {
+    "id": "78",
+    "icon": "jini-Chef-hat",
+    "name": "Chef-hat"
+  },
+  {
+    "id": "79",
+    "icon": "jini-Chip",
+    "name": "Chip"
+  },
+  {
+    "id": "80",
+    "icon": "jini-Clip-board-1",
+    "name": "Clip-board-1"
+  },
+  {
+    "id": "81",
+    "icon": "jini-Clip-board-2",
+    "name": "Clip-board-2"
+  },
+  {
+    "id": "82",
+    "icon": "jini-Clock-backward",
+    "name": "Clock-backward"
+  },
+  {
+    "id": "83",
+    "icon": "jini-Clock-forward",
+    "name": "Clock-forward"
+  },
+  {
+    "id": "84",
+    "icon": "jini-Clock",
+    "name": "Clock"
+  },
+  {
+    "id": "85",
+    "icon": "jini-Cloud-Download",
+    "name": "Cloud-Download"
+  },
+  {
+    "id": "86",
+    "icon": "jini-Cloud-tick",
+    "name": "Cloud-tick"
+  },
+  {
+    "id": "87",
+    "icon": "jini-Cloud-Upload",
+    "name": "Cloud-Upload"
+  },
+  {
+    "id": "88",
+    "icon": "jini-Cloud",
+    "name": "Cloud"
+  },
+  {
+    "id": "89",
+    "icon": "jini-coffee-mug",
+    "name": "coffee-mug"
+  },
+  {
+    "id": "90",
+    "icon": "jini-Coffee",
+    "name": "Coffee"
+  },
+  {
+    "id": "91",
+    "icon": "jini-Coin",
+    "name": "Coin"
+  },
+  {
+    "id": "92",
+    "icon": "jini-Coins",
+    "name": "Coins"
+  },
+  {
+    "id": "93",
+    "icon": "jini-compass",
+    "name": "compass"
+  },
+  {
+    "id": "94",
+    "icon": "jini-Complete",
+    "name": "Complete"
+  },
+  {
+    "id": "95",
+    "icon": "jini-Confetty",
+    "name": "Confetti"
+  },
+  {
+    "id": "96",
+    "icon": "jini-Cookie",
+    "name": "Cookie"
+  },
+  {
+    "id": "97",
+    "icon": "jini-Copy",
+    "name": "Copy"
+  },
+  {
+    "id": "98",
+    "icon": "jini-coupon-2",
+    "name": "coupon-2"
+  },
+  {
+    "id": "99",
+    "icon": "jini-CPU",
+    "name": "CPU"
+  },
+  {
+    "id": "100",
+    "icon": "jini-crosshair",
+    "name": "crosshair"
+  },
+  {
+    "id": "101",
+    "icon": "jini-Crown",
+    "name": "Crown"
+  },
+  {
+    "id": "102",
+    "icon": "jini-cupboard",
+    "name": "cupboard"
+  },
+  {
+    "id": "103",
+    "icon": "jini-cursor",
+    "name": "cursor"
+  },
+  {
+    "id": "104",
+    "icon": "jini-Database",
+    "name": "Database"
+  },
+  {
+    "id": "105",
+    "icon": "jini-Delete-tag",
+    "name": "Delete-tag"
+  },
+  {
+    "id": "106",
+    "icon": "jini-DND-Tag",
+    "name": "DND-Tag"
+  },
+  {
+    "id": "107",
+    "icon": "jini-dnd",
+    "name": "dnd"
+  },
+  {
+    "id": "108",
+    "icon": "jini-doc-alt-2",
+    "name": "doc-alt-2"
+  },
+  {
+    "id": "109",
+    "icon": "jini-docs",
+    "name": "docs"
+  },
+  {
+    "id": "110",
+    "icon": "jini-Door",
+    "name": "Door"
+  },
+  {
+    "id": "111",
+    "icon": "jini-dor-close",
+    "name": "door-close"
+  },
+  {
+    "id": "112",
+    "icon": "jini-double-bed",
+    "name": "double-bed"
+  },
+  {
+    "id": "113",
+    "icon": "jini-Down-arrow",
+    "name": "Down-arrow"
+  },
+  {
+    "id": "114",
+    "icon": "jini-Down-Graph",
+    "name": "Down-Graph"
+  },
+  {
+    "id": "115",
+    "icon": "jini-download-box",
+    "name": "download-box"
+  },
+  {
+    "id": "116",
+    "icon": "jini-Download-sheet",
+    "name": "Download-sheet"
+  },
+  {
+    "id": "117",
+    "icon": "jini-Drop",
+    "name": "Drop"
+  },
+  {
+    "id": "118",
+    "icon": "jini-dry",
+    "name": "dry"
+  },
+  {
+    "id": "119",
+    "icon": "jini-Dumble",
+    "name": "Dumble"
+  },
+  {
+    "id": "120",
+    "icon": "jini-edit",
+    "name": "edit"
+  },
+  {
+    "id": "121",
+    "icon": "jini-excel",
+    "name": "excel"
+  },
+  {
+    "id": "122",
+    "icon": "jini-Exclamation",
+    "name": "Exclamation"
+  },
+  {
+    "id": "123",
+    "icon": "jini-Expand-1",
+    "name": "Expand-1"
+  },
+  {
+    "id": "124",
+    "icon": "jini-Expand-2",
+    "name": "Expand-2"
+  },
+  {
+    "id": "125",
+    "icon": "jini-Expand-sheet",
+    "name": "Expand-sheet"
+  },
+  {
+    "id": "126",
+    "icon": "jini-Eye-closed",
+    "name": "Eye-closed"
+  },
+  {
+    "id": "127",
+    "icon": "jini-Eye",
+    "name": "Eye"
+  },
+  {
+    "id": "128",
+    "icon": "jini-fan",
+    "name": "fan"
+  },
+  {
+    "id": "129",
+    "icon": "jini-female",
+    "name": "female"
+  },
+  {
+    "id": "130",
+    "icon": "jini-filter",
+    "name": "filter"
+  },
+  {
+    "id": "131",
+    "icon": "jini-filter-alt",
+    "name": "filter-alt"
+  },
+  {
+    "id": "132",
+    "icon": "jini-fireplace",
+    "name": "fireplace"
+  },
+  {
+    "id": "133",
+    "icon": "jini-first-aid",
+    "name": "first-aid"
+  },
+  {
+    "id": "134",
+    "icon": "jini-flag",
+    "name": "flag"
+  },
+  {
+    "id": "135",
+    "icon": "jini-floaters",
+    "name": "floaters"
+  },
+  {
+    "id": "136",
+    "icon": "jini-flower-bas",
+    "name": "flower-vase"
+  },
+  {
+    "id": "137",
+    "icon": "jini-folder",
+    "name": "folder"
+  },
+  {
+    "id": "138",
+    "icon": "jini-fork-spoon",
+    "name": "fork-spoon"
+  },
+  {
+    "id": "139",
+    "icon": "jini-Frontdesk",
+    "name": "Frontdesk"
+  },
+  {
+    "id": "140",
+    "icon": "jini-gear",
+    "name": "gear"
+  },
+  {
+    "id": "141",
+    "icon": "jini-gender1",
+    "name": "gender1"
+  },
+  {
+    "id": "142",
+    "icon": "jini-gender2",
+    "name": "gender2"
+  },
+  {
+    "id": "143",
+    "icon": "jini-gender3",
+    "name": "gender3"
+  },
+  {
+    "id": "144",
+    "icon": "jini-gender4",
+    "name": "gender4"
+  },
+  {
+    "id": "145",
+    "icon": "jini-gift",
+    "name": "gift"
+  },
+  {
+    "id": "146",
+    "icon": "jini-Glass",
+    "name": "Glass"
+  },
+  {
+    "id": "147",
+    "icon": "jini-glitter",
+    "name": "glitter"
+  },
+  {
+    "id": "148",
+    "icon": "jini-group",
+    "name": "group"
+  },
+  {
+    "id": "149",
+    "icon": "jini-group-3",
+    "name": "group-3"
+  },
+  {
+    "id": "150",
+    "icon": "jini-group-4",
+    "name": "group-4"
+  },
+  {
+    "id": "151",
+    "icon": "jini-group-alt-3",
+    "name": "group-alt-3"
+  },
+  {
+    "id": "152",
+    "icon": "jini-group-alt-4",
+    "name": "group-alt-4"
+  },
+  {
+    "id": "153",
+    "icon": "jini-hair-dryer",
+    "name": "hair-dryer"
+  },
+  {
+    "id": "154",
+    "icon": "jini-hamburger-menu",
+    "name": "hamburger-menu"
+  },
+  {
+    "id": "155",
+    "icon": "jini-Hanger",
+    "name": "Hanger"
+  },
+  {
+    "id": "156",
+    "icon": "jini-happy",
+    "name": "happy"
+  },
+  {
+    "id": "157",
+    "icon": "jini-headphones",
+    "name": "headphones"
+  },
+  {
+    "id": "158",
+    "icon": "jini-heart",
+    "name": "heart"
+  },
+  {
+    "id": "159",
+    "icon": "jini-home",
+    "name": "home"
+  },
+  {
+    "id": "160",
+    "icon": "jini-hourglass",
+    "name": "hourglass"
+  },
+  {
+    "id": "161",
+    "icon": "jini-hygine",
+    "name": "hygiene"
+  },
+  {
+    "id": "162",
+    "icon": "jini-icon-2",
+    "name": "icon-2"
+  },
+  {
+    "id": "163",
+    "icon": "jini-icon-3",
+    "name": "icon-3"
+  },
+  {
+    "id": "164",
+    "icon": "jini-ID-card",
+    "name": "ID-card"
+  },
+  {
+    "id": "165",
+    "icon": "jini-image",
+    "name": "image"
+  },
+  {
+    "id": "166",
+    "icon": "jini-in",
+    "name": "in"
+  },
+  {
+    "id": "167",
+    "icon": "jini-incoming-call",
+    "name": "incoming-call"
+  },
+  {
+    "id": "168",
+    "icon": "jini-iron-alt",
+    "name": "iron-alt"
+  },
+  {
+    "id": "169",
+    "icon": "jini-JPG",
+    "name": "JPG"
+  },
+  {
+    "id": "170",
+    "icon": "jini-kebab",
+    "name": "kebab"
+  },
+  {
+    "id": "171",
+    "icon": "jini-kebab1",
+    "name": "kebab1"
+  },
+  {
+    "id": "172",
+    "icon": "jini-key",
+    "name": "key"
+  },
+  {
+    "id": "173",
+    "icon": "jini-keyhole",
+    "name": "keyhole"
+  },
+  {
+    "id": "174",
+    "icon": "jini-knife",
+    "name": "knife"
+  },
+  {
+    "id": "175",
+    "icon": "jini-lamp",
+    "name": "lamp"
+  },
+  {
+    "id": "176",
+    "icon": "jini-lamp-alt",
+    "name": "lamp-alt"
+  },
+  {
+    "id": "177",
+    "icon": "jini-leaf-alt",
+    "name": "leaf-alt"
+  },
+  {
+    "id": "178",
+    "icon": "jini-left-Arrow",
+    "name": "left-Arrow"
+  },
+  {
+    "id": "179",
+    "icon": "jini-link",
+    "name": "link"
+  },
+  {
+    "id": "180",
+    "icon": "jini-link2",
+    "name": "link2"
+  },
+  {
+    "id": "181",
+    "icon": "jini-link3",
+    "name": "link3"
+  },
+  {
+    "id": "182",
+    "icon": "jini-loafa",
+    "name": "loafa"
+  },
+  {
+    "id": "183",
+    "icon": "jini-location",
+    "name": "location"
+  },
+  {
+    "id": "184",
+    "icon": "jini-location-alt",
+    "name": "location-alt"
+  },
+  {
+    "id": "185",
+    "icon": "jini-lock",
+    "name": "lock"
+  },
+  {
+    "id": "186",
+    "icon": "jini-Mail-1",
+    "name": "Mail-1"
+  },
+  {
+    "id": "187",
+    "icon": "jini-mail-2",
+    "name": "mail-2"
+  },
+  {
+    "id": "188",
+    "icon": "jini-Mail-open-1",
+    "name": "Mail-open-1"
+  },
+  {
+    "id": "189",
+    "icon": "jini-Mail-open-2",
+    "name": "Mail-open-2"
+  },
+  {
+    "id": "190",
+    "icon": "jini-mailbox",
+    "name": "mailbox"
+  },
+  {
+    "id": "191",
+    "icon": "jini-male",
+    "name": "male"
+  },
+  {
+    "id": "192",
+    "icon": "jini-man",
+    "name": "man"
+  },
+  {
+    "id": "193",
+    "icon": "jini-map",
+    "name": "map"
+  },
+  {
+    "id": "194",
+    "icon": "jini-mask",
+    "name": "mask"
+  },
+  {
+    "id": "195",
+    "icon": "jini-meal",
+    "name": "meal"
+  },
+  {
+    "id": "196",
+    "icon": "jini-meal-2",
+    "name": "meal-2"
+  },
+  {
+    "id": "197",
+    "icon": "jini-medal",
+    "name": "medal"
+  },
+  {
+    "id": "198",
+    "icon": "jini-megafone",
+    "name": "megaphone"
+  },
+  {
+    "id": "199",
+    "icon": "jini-menu-1",
+    "name": "menu-1"
+  },
+  {
+    "id": "200",
+    "icon": "jini-mini-fridge",
+    "name": "mini-fridge"
+  },
+  {
+    "id": "201",
+    "icon": "jini-Minus-sheet",
+    "name": "Minus-sheet"
+  },
+  {
+    "id": "202",
+    "icon": "jini-minus",
+    "name": "minus"
+  },
+  {
+    "id": "203",
+    "icon": "jini-mirror",
+    "name": "mirror"
+  },
+  {
+    "id": "204",
+    "icon": "jini-mocktail",
+    "name": "mocktail"
+  },
+  {
+    "id": "205",
+    "icon": "jini-Monitor",
+    "name": "Monitor"
+  },
+  {
+    "id": "206",
+    "icon": "jini-Monument",
+    "name": "Monument"
+  },
+  {
+    "id": "207",
+    "icon": "jini-moon",
+    "name": "moon"
+  },
+  {
+    "id": "208",
+    "icon": "jini-moon-2",
+    "name": "moon-2"
+  },
+  {
+    "id": "209",
+    "icon": "jini-mouse",
+    "name": "mouse"
+  },
+  {
+    "id": "210",
+    "icon": "jini-needle",
+    "name": "needle"
+  },
+  {
+    "id": "211",
+    "icon": "jini-No-wifi",
+    "name": "No-wifi"
+  },
+  {
+    "id": "212",
+    "icon": "jini-numb",
+    "name": "numb"
+  },
+  {
+    "id": "213",
+    "icon": "jini-Office-Bag",
+    "name": "Office-Bag"
+  },
+  {
+    "id": "214",
+    "icon": "jini-open-folder",
+    "name": "open-folder"
+  },
+  {
+    "id": "215",
+    "icon": "jini-out",
+    "name": "out"
+  },
+  {
+    "id": "216",
+    "icon": "jini-outgoing-call",
+    "name": "outgoing-call"
+  },
+  {
+    "id": "217",
+    "icon": "jini-Paper",
+    "name": "Paper"
+  },
+  {
+    "id": "218",
+    "icon": "jini-Parking",
+    "name": "Parking"
+  },
+  {
+    "id": "219",
+    "icon": "jini-path",
+    "name": "path"
+  },
+  {
+    "id": "220",
+    "icon": "jini-pdf",
+    "name": "pdf"
+  },
+  {
+    "id": "221",
+    "icon": "jini-pencil",
+    "name": "pencil"
+  },
+  {
+    "id": "222",
+    "icon": "jini-person-2",
+    "name": "person-2"
+  },
+  {
+    "id": "223",
+    "icon": "jini-Phone",
+    "name": "Phone"
+  },
+  {
+    "id": "224",
+    "icon": "jini-Pie-chart",
+    "name": "Pie-chart"
+  },
+  {
+    "id": "225",
+    "icon": "jini-pillow",
+    "name": "pillow"
+  },
+  {
+    "id": "226",
+    "icon": "jini-pin",
+    "name": "pin"
+  },
+  {
+    "id": "227",
+    "icon": "jini-pin-3",
+    "name": "pin-3"
+  },
+  {
+    "id": "228",
+    "icon": "jini-Plane-2",
+    "name": "Plane-2"
+  },
+  {
+    "id": "229",
+    "icon": "jini-Plane",
+    "name": "Plane"
+  },
+  {
+    "id": "230",
+    "icon": "jini-play-alt",
+    "name": "play-alt"
+  },
+  {
+    "id": "231",
+    "icon": "jini-pool",
+    "name": "pool"
+  },
+  {
+    "id": "232",
+    "icon": "jini-print",
+    "name": "print"
+  },
+  {
+    "id": "233",
+    "icon": "jini-Profile",
+    "name": "Profile"
+  },
+  {
+    "id": "234",
+    "icon": "jini-Profit",
+    "name": "Profit"
+  },
+  {
+    "id": "235",
+    "icon": "jini-puzzle",
+    "name": "puzzle"
+  },
+  {
+    "id": "236",
+    "icon": "jini-QR-code",
+    "name": "QR-code"
+  },
+  {
+    "id": "237",
+    "icon": "jini-Question",
+    "name": "Question"
+  },
+  {
+    "id": "238",
+    "icon": "jini-receptionist",
+    "name": "receptionist"
+  },
+  {
+    "id": "239",
+    "icon": "jini-refresh",
+    "name": "refresh"
+  },
+  {
+    "id": "240",
+    "icon": "jini-register",
+    "name": "register"
+  },
+  {
+    "id": "241",
+    "icon": "jini-remove-folder",
+    "name": "remove-folder"
+  },
+  {
+    "id": "242",
+    "icon": "jini-Revolve-person",
+    "name": "Revolve-person"
+  },
+  {
+    "id": "243",
+    "icon": "jini-Right-Arrow",
+    "name": "Right-Arrow"
+  },
+  {
+    "id": "244",
+    "icon": "jini-sad",
+    "name": "sad"
+  },
+  {
+    "id": "245",
+    "icon": "jini-safe-locker",
+    "name": "safe-locker"
+  },
+  {
+    "id": "246",
+    "icon": "jini-sanitizer",
+    "name": "sanitizer"
+  },
+  {
+    "id": "247",
+    "icon": "jini-save-2",
+    "name": "save-2"
+  },
+  {
+    "id": "248",
+    "icon": "jini-Save",
+    "name": "Save"
+  },
+  {
+    "id": "249",
+    "icon": "jini-scissors",
+    "name": "scissors"
+  },
+  {
+    "id": "250",
+    "icon": "jini-search",
+    "name": "search"
+  },
+  {
+    "id": "251",
+    "icon": "jini-sea-wave",
+    "name": "sea-wave"
+  },
+  {
+    "id": "252",
+    "icon": "jini-security",
+    "name": "security"
+  },
+  {
+    "id": "253",
+    "icon": "jini-Server",
+    "name": "Server"
+  },
+  {
+    "id": "254",
+    "icon": "jini-Share",
+    "name": "Share"
+  },
+  {
+    "id": "255",
+    "icon": "jini-shower",
+    "name": "shower"
+  },
+  {
+    "id": "256",
+    "icon": "jini-shutown",
+    "name": "shutown"
+  },
+  {
+    "id": "257",
+    "icon": "jini-Silent",
+    "name": "Silent"
+  },
+  {
+    "id": "258",
+    "icon": "jini-socket",
+    "name": "socket"
+  },
+  {
+    "id": "259",
+    "icon": "jini-sofa",
+    "name": "sofa"
+  },
+  {
+    "id": "260",
+    "icon": "jini-spatula",
+    "name": "spatula"
+  },
+  {
+    "id": "261",
+    "icon": "jini-Stack",
+    "name": "Stack"
+  },
+  {
+    "id": "262",
+    "icon": "jini-stairs",
+    "name": "stairs"
+  },
+  {
+    "id": "263",
+    "icon": "jini-star",
+    "name": "star"
+  },
+  {
+    "id": "264",
+    "icon": "jini-student",
+    "name": "student"
+  },
+  {
+    "id": "265",
+    "icon": "jini-teeth",
+    "name": "teeth"
+  },
+  {
+    "id": "266",
+    "icon": "jini-thermometer",
+    "name": "thermometer"
+  },
+  {
+    "id": "267",
+    "icon": "jini-thunder",
+    "name": "thunder"
+  },
+  {
+    "id": "268",
+    "icon": "jini-tick-circle",
+    "name": "tick-circle"
+  },
+  {
+    "id": "269",
+    "icon": "jini-tick",
+    "name": "tick"
+  },
+  {
+    "id": "270",
+    "icon": "jini-toilet",
+    "name": "toilet"
+  },
+  {
+    "id": "271",
+    "icon": "jini-toilet-paper",
+    "name": "toilet-paper"
+  },
+  {
+    "id": "272",
+    "icon": "jini-towel",
+    "name": "towel"
+  },
+  {
+    "id": "273",
+    "icon": "jini-trash",
+    "name": "trash"
+  },
+  {
+    "id": "274",
+    "icon": "jini-truck",
+    "name": "truck"
+  },
+  {
+    "id": "275",
+    "icon": "jini-TV",
+    "name": "TV"
+  },
+  {
+    "id": "276",
+    "icon": "jini-umbrella-sun",
+    "name": "umbrella-sun"
+  },
+  {
+    "id": "277",
+    "icon": "jini-unlock",
+    "name": "unlock"
+  },
+  {
+    "id": "278",
+    "icon": "jini-Up-Arrow",
+    "name": "Up-Arrow"
+  },
+  {
+    "id": "279",
+    "icon": "jini-Up-graph",
+    "name": "Up-graph"
+  },
+  {
+    "id": "280",
+    "icon": "jini-Upload-sheet",
+    "name": "Upload-sheet"
+  },
+  {
+    "id": "281",
+    "icon": "jini-Upload",
+    "name": "Upload"
+  },
+  {
+    "id": "282",
+    "icon": "jini-user",
+    "name": "user"
+  },
+  {
+    "id": "283",
+    "icon": "jini-Wallet",
+    "name": "Wallet"
+  },
+  {
+    "id": "284",
+    "icon": "jini-washing-machine",
+    "name": "washing-machine"
+  },
+  {
+    "id": "285",
+    "icon": "jini-washing-machine-alt",
+    "name": "washing-machine-alt"
+  },
+  {
+    "id": "286",
+    "icon": "jini-web",
+    "name": "web"
+  },
+  {
+    "id": "287",
+    "icon": "jini-Wifi",
+    "name": "Wifi"
+  },
+  {
+    "id": "288",
+    "icon": "jini-windows",
+    "name": "windows"
+  },
+  {
+    "id": "289",
+    "icon": "jini-x-circle",
+    "name": "x-circle"
+  },
+  {
+    "id": "290",
+    "icon": "jini-x",
+    "name": "x"
+  }
+]

@@ -224,6 +224,20 @@ input:checked + label svg.moon{
     color: #f1f1f1;
     
 }
+.animated {
+    text-decoration: none;
+    background: linear-gradient(to right, #CCC 50%, #090979 30%, #00d4ff);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    transition: 0.5s ease-out;
+   }
+   
+   .animated:hover {
+    cursor: pointer;
+    -webkit-text-fill-color: transparent;
+    background-position: -100%;
+   }
 
 .head-text h3 {
     font-size: calc(20px + 0.390625vw);
@@ -335,7 +349,7 @@ input:checked + label svg.moon{
     color: #fff;
 }
 
-.icon-box {}
+/*.icon-box {} */
 
 .icon-box li {
     list-style: none;

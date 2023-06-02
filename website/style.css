@@ -35,6 +35,7 @@ header a {
     font-weight: bolder;
 }
 
+
 /* ====================== Code for CDN ===================== */    
 
 
@@ -296,6 +297,7 @@ input:checked + label svg.moon{
     background: rgb(146, 146, 146);
 }
 
+
 .head-text {
     font-family: 'DM Sans', sans-serif;
 }
@@ -308,6 +310,21 @@ input:checked + label svg.moon{
     font-family: 'DM Sans',sans-serif;
 
 }
+
+.animated {
+    text-decoration: none;
+    background: linear-gradient(to right, #CCC 50%, #090979 30%, #00d4ff);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    transition: 0.5s ease-out;
+   }
+   
+   .animated:hover {
+    cursor: pointer;
+    -webkit-text-fill-color: transparent;
+    background-position: -100%;
+   }
 
 .head-text h3 {
     font-size: 30px;
@@ -374,13 +391,13 @@ input:checked + label svg.moon{
 
 
 
-.shadow-soft {
+/* .shadow-soft { */
     /* box-shadow: 6px 6px 12px #b8b9be, -6px -6px 12px #fff !important; */
     /* transition: transform .2s; */
     /* border-radius: 2%;
     margin-left: 2rem;
-    margin-bottom: 2rem; */
-}
+    margin-bottom: 2rem; 
+} */
 
 .shadow-soft button {
     display: none;
@@ -410,7 +427,7 @@ input:checked + label svg.moon{
     font-size: 1.5rem;
 }
 
-.icon-box {}
+/* .icon-box {} */
 
 .icon-box li {
     list-style: none;

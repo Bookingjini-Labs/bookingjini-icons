@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
 
-
+.navbar{
+    padding: 5% 10%;
+    align-items: center;
+}
+.navbar-nav-in{
+    padding-top: 20px;
+    height:80px
+}
 body {
     background-color: #272929;
     font-family: 'DM Sans',sans-serif;
@@ -8,21 +15,26 @@ body {
 }
 
 /* header {} */
+.container{
+    display:flexbox;
+}
 
 header a {
     /* font-family: 'DM Sans', sans-serif; */
     color: #fff;
 }
+.container-logo{
+    display: flex;
+}
 .imglogo{
     width: 5%;
-    /* height: 10%; */
     border-radius: 100%;
+    
 }
 .logotxt{
+    color: whitesmoke;
     font-weight: bolder;
-    font-size: 1.3em;
-    position: relative;
-    left: -180px;
+    font-size: 1.8rem;
 }
 
 /* ====================== Dark mode ===================== */
@@ -30,8 +42,9 @@ header a {
     margin-right: 0.5rem;
     display: flex;
     align-items: center;
-    padding: 10px;
+    padding: 25px 35px;
     gap: 10px;
+    flex-wrap: wrap;
 }
 .nightmode {
     display: flex;
@@ -112,12 +125,14 @@ input:checked + label svg.moon{
         margin-bottom: 0.5rem;
     }
 }
+
+
 @media only screen and (min-width: 150px) and (max-width: 768px) {
     .logotxt{
         left: 0px;
     }
     .imglogo{
-        width: 8%;
+        width: 20%;
     }
     .btn-outline-primary{
     margin: 5px;
@@ -140,7 +155,7 @@ input:checked + label svg.moon{
     position: relative;
     } */
 }
-@media only screen and (max-width: 516px) {
+@media only screen and (max-width: 500px) {
     .head-text .title {
         font-size: 19vw;
         justify-content: center;
@@ -154,7 +169,22 @@ input:checked + label svg.moon{
     }
   }
   
-  
+@media only screen and (max-width: 500px) {
+    #icon-wrapper{
+        width: 360px;
+    }
+    
+}
+@media only screen and (max-width: 500px) {
+    .bigContainer{
+        width:360px;
+    }
+    #myUL{
+        width:360px;
+    }
+    
+}
+
 .btn-outline-primary {
     color: #fff;
     border-color: #fff;
@@ -187,18 +217,12 @@ input:checked + label svg.moon{
 
 /* changed the font-size & added margin */
 .head-text h1 {
-
-    font-size: 50px;
-
-    -webkit-text-stroke: 2px rgb(255, 255, 255);
-    font-size: 90px;
-
-    font-weight: 700;
-    line-height: 100%;
-    -webkit-text-stroke: 2px rgb(255, 255, 255);
-    color: #f3f0f0;
+    font-size: 5rem;
     font-family: 'DM Sans',sans-serif;
-
+    font-weight: bolder;
+    -webkit-text-stroke: 2px rgb(255, 255, 255);
+    color: #f1f1f1;
+    
 }
 
 .head-text h3 {

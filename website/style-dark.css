@@ -544,3 +544,47 @@ input:checked + label svg.moon{
   
   /* ====================== END OF SCROLL-TO-TOP BUTTON ===================== */
 
+/* Footer Section */
+
+.footer{
+    background-color: black;
+    padding-top: 30px;
+}
+
+.footer-items{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+.footer-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.copyright{
+    color: white;
+    font-size: small;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.footer-items:hover::after{
+    /* transform: scale(1.1); */
+    transition: 400ms;
+    width: 100%;
+  }
+  
+  .footer-items::after{
+    content:'';
+    display:block;
+    height: 4px;
+    width:0;
+    background: blue;
+    transition:all .5
+  }
+  

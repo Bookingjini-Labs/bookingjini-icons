@@ -30,9 +30,9 @@ header a {
 
 
 .logotxt{
-    font-size: 1.3em;
+    font-size: 1.8rem;
     color: rgb(47, 47, 47);
-    font-family: 'Righteous', cursive;
+    font-weight: bolder;
 }
 
 /* ====================== Code for CDN ===================== */    
@@ -302,7 +302,10 @@ input:checked + label svg.moon{
 
 .head-text h1 {
     font-size: 5rem;
-    font-family: 'Black Ops One', cursive;
+    font-weight: 700;
+    font-weight: bolder;
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
+    font-family: 'DM Sans',sans-serif;
 
 }
 

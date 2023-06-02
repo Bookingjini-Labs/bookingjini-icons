@@ -33,8 +33,7 @@ header a {
 }
 .logotxt{
     color: whitesmoke;
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: lighter;
+    font-weight: bolder;
     font-size: 1.8rem;
 }
 
@@ -219,7 +218,9 @@ input:checked + label svg.moon{
 /* changed the font-size & added margin */
 .head-text h1 {
     font-size: 5rem;
-    font-family: 'Black Ops One', cursive;
+    font-family: 'DM Sans',sans-serif;
+    font-weight: bolder;
+    -webkit-text-stroke: 2px rgb(255, 255, 255);
     color: #f1f1f1;
     
 }

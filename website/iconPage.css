@@ -1,0 +1,45 @@
+#iconContainer {
+      display: inline-block;
+      font-size: 800%; /* Adjust the font size as desired */
+      /* height: 10%; */
+      /* width: 15%;  */
+      line-height: 1;
+      text-align: center;
+        padding: 20px;
+    }
+
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+.container {
+  margin: 12%;
+      display: flex;
+      align-items: center;
+margin-left: 28%;
+width: 70%;
+}
+
+
+  .options { 
+    margin-left: 5%; /* Adjust the spacing between the icon and options as desired */
+display: flex;
+      flex-direction: column;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px;
+      border: 1px solid #000000; /* Border style for buttons */
+      margin-bottom: 10px; /* Adjust the spacing between the buttons as desired */
+    }
+
+.btn-download {
+background-color: lightgreen;}
+
+.done-button {
+    margin-left: 43%;
+    margin-top: -300px;
+}

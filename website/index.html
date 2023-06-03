@@ -93,16 +93,27 @@
   </main>
 
   <script>
-    function iconCopy(icon) {
-      navigator.clipboard.writeText(icon).then(() => {
-        iziToast.success({
-          timeout: 5000,
-          position: 'bottomCenter',
-          progressBar: false,
-          message: 'Icon Copied!'
-        });
-      });
-    }
+    // function iconCopy(icon) {
+    //   navigator.clipboard.writeText(icon).then(() => {
+    //     iziToast.success({
+    //       timeout: 5000,
+    //       position: 'bottomCenter',
+    //       progressBar: false,
+    //       message: 'Icon Copied!'
+    //     });
+    //   });
+    // }
+
+
+
+  function iconCopy(icon, iconName) {
+      // Encode the icon value and append it to the URL
+      var encodedIcon = encodeURIComponent(icon);
+      var encodedIconName = encodeURIComponent(iconName);
+      var url = 'icon.html?icon=' + encodedIcon + '&name=' + encodedIconName;
+      window.location.href = url;
+}
+
   </script>
 
   <script>

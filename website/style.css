@@ -12,7 +12,13 @@ body {
     background-color: #ffffff;
     
 }
+#github{
+    color:#007bff; 
+}
 
+.star:hover #github {
+    color: white;
+}
 
 
 header a {

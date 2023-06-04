@@ -223,22 +223,10 @@
   </script>
   <!-- Function for enabling dark mode -->
   <script>
-    const darkModeToggle = document.querySelector("#darkmode-toggle");
-    const theme = document.querySelector("#theme-link");
-    
-    darkModeToggle.addEventListener("change", function () {
-      if (darkModeToggle.checked) {
-        theme.href = "style-dark.css";
-      } else {
-        theme.href = "style.css";
-      }
-    });
-  </script>
-
-  <script>
     
     const btn = document.querySelector(".btn-toggle");
-    const footer=document.getElementById("custom-footer"  )
+    const theme = document.querySelector("#theme-link");
+    const footer=document.getElementById("custom-footer");
 
     btn.addEventListener("click", function () {
       // Swap out the URL for the different stylesheets

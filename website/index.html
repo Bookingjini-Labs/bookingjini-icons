@@ -151,7 +151,8 @@
 
   <script>
     function searchIcon() {
-      var input, filter, p, ul, li, a, i, txtValue;
+      var input, filter, p, ul, li, a, i, txtValue, flag=false;
+      var txt = 'not found';
       input = document.getElementById("searchInput");
       filter = input.value.toUpperCase();
       ul = document.getElementById("myUL");
@@ -162,9 +163,9 @@
         if (txtValue.toUpperCase().indexOf(filter) > -1) {
           li[i].style.display = "";
         } else {
-          li[i].style.display = "none";
+          li[i].style.display="none";
         }
-      }
+      }   
     }
   </script>
 

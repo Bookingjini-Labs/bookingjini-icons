@@ -1,0 +1,112 @@
+[
+    {
+        "id": "14",
+        "icon": "jini-amp-waves",
+        "name": "amp-waves"
+    },
+    {
+        "id": "34",
+        "icon": "jini-atand-alt",
+        "name": "atand-alt"
+    },
+    {
+      "id": "85",
+      "icon": "jini-Cloud-Download",
+      "name": "Cloud-Download"
+    },
+    {
+      "id": "86",
+      "icon": "jini-Cloud-tick",
+      "name": "Cloud-tick"
+    },
+    {
+      "id": "87",
+      "icon": "jini-Cloud-Upload",
+      "name": "Cloud-Upload"
+    },
+    {
+      "id": "88",
+      "icon": "jini-Cloud",
+      "name": "Cloud"
+    },
+    {
+      "id": "91",
+      "icon": "jini-Coin",
+      "name": "Coin"
+    },
+    {
+      "id": "92",
+      "icon": "jini-Coins",
+      "name": "Coins"
+    },
+    {
+      "id": "94",
+      "icon": "jini-Complete",
+      "name": "Complete"
+    },
+    {
+      "id": "122",
+      "icon": "jini-Exclamation",
+      "name": "Exclamation"
+    },
+    {
+      "id": "126",
+      "icon": "jini-Eye-closed",
+      "name": "Eye-closed"
+    },
+    {
+      "id": "127",
+      "icon": "jini-Eye",
+      "name": "Eye"
+    },
+    {
+      "id": "147",
+      "icon": "jini-glitter",
+      "name": "glitter"
+    },
+    {
+      "id": "183",
+      "icon": "jini-location",
+      "name": "location"
+    },
+    {
+      "id": "184",
+      "icon": "jini-location-alt",
+      "name": "location-alt"
+    },
+    {
+      "id": "207",
+      "icon": "jini-moon",
+      "name": "moon"
+    },
+    {
+      "id": "208",
+      "icon": "jini-moon-2",
+      "name": "moon-2"
+    },
+    {
+      "id": "219",
+      "icon": "jini-path",
+      "name": "path"
+    },
+    {
+      "id": "236",
+      "icon": "jini-QR-code",
+      "name": "QR-code"
+    },
+    {
+      "id": "237",
+      "icon": "jini-Question",
+      "name": "Question"
+    },
+    {
+      "id": "251",
+      "icon": "jini-sea-wave",
+      "name": "sea-wave"
+    },
+    {
+      "id": "267",
+      "icon": "jini-thunder",
+      "name": "thunder"
+    }
+]

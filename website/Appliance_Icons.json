@@ -1,0 +1,187 @@
+[
+    {
+        "id": "4",
+        "icon": "jini-ac",
+        "name": "ac"
+    },
+    {
+      "id": "11",
+      "icon": "jini-Airplay",
+      "name": "Airplay"
+    },
+    {
+      "id": "12",
+      "icon": "jini-Alarm-Clock",
+      "name": "Alarm-Clock"
+    },
+    {
+      "id": "59",
+      "icon": "jini-bulb",
+      "name": "bulb"
+    },
+    {
+      "id": "63",
+      "icon": "jini-cab",
+      "name": "cab"
+    },
+    {
+      "id": "64",
+      "icon": "jini-call",
+      "name": "call"
+    },
+    {
+      "id": "65",
+      "icon": "jini-call-2",
+      "name": "call-2"
+    },
+    {
+      "id": "79",
+      "icon": "jini-Chip",
+      "name": "Chip"
+    },
+    {
+      "id": "82",
+      "icon": "jini-Clock-backward",
+      "name": "Clock-backward"
+    },
+    {
+      "id": "83",
+      "icon": "jini-Clock-forward",
+      "name": "Clock-forward"
+    },
+    {
+      "id": "84",
+      "icon": "jini-Clock",
+      "name": "Clock"
+    },
+    {
+      "id": "99",
+      "icon": "jini-CPU",
+      "name": "CPU"
+    },
+    {
+      "id": "128",
+      "icon": "jini-fan",
+      "name": "fan"
+    },
+    {
+      "id": "139",
+      "icon": "jini-Frontdesk",
+      "name": "Frontdesk"
+    },
+    {
+      "id": "153",
+      "icon": "jini-hair-dryer",
+      "name": "hair-dryer"
+    },
+    {
+      "id": "157",
+      "icon": "jini-headphones",
+      "name": "headphones"
+    },
+    {
+      "id": "168",
+      "icon": "jini-iron-alt",
+      "name": "iron-alt"
+    },
+    {
+      "id": "175",
+      "icon": "jini-lamp",
+      "name": "lamp"
+    },
+    {
+      "id": "176",
+      "icon": "jini-lamp-alt",
+      "name": "lamp-alt"
+    },
+    {
+      "id": "198",
+      "icon": "jini-megafone",
+      "name": "megaphone"
+    },
+    {
+      "id": "200",
+      "icon": "jini-mini-fridge",
+      "name": "mini-fridge"
+    },
+    {
+      "id": "205",
+      "icon": "jini-Monitor",
+      "name": "Monitor"
+    },
+    {
+      "id": "209",
+      "icon": "jini-mouse",
+      "name": "mouse"
+    },
+    {
+      "id": "223",
+      "icon": "jini-Phone",
+      "name": "Phone"
+    },
+    {
+      "id": "228",
+      "icon": "jini-Plane-2",
+      "name": "Plane-2"
+    },
+    {
+      "id": "229",
+      "icon": "jini-Plane",
+      "name": "Plane"
+    },
+    {
+      "id": "232",
+      "icon": "jini-print",
+      "name": "print"
+    },
+    {
+      "id": "266",
+      "icon": "jini-thermometer",
+      "name": "thermometer"
+    },
+    {
+      "id": "275",
+      "icon": "jini-TV",
+      "name": "TV"
+    },
+    {
+      "id": "284",
+      "icon": "jini-washing-machine",
+      "name": "washing-machine"
+    },
+    {
+      "id": "285",
+      "icon": "jini-washing-machine-alt",
+      "name": "washing-machine-alt"
+    },
+    {
+      "id": "216",
+      "icon": "jini-outgoing-call",
+      "name": "outgoing-call"
+    },
+    {
+      "id": "167",
+      "icon": "jini-incoming-call",
+      "name": "incoming-call"
+    },
+    {
+      "id": "257",
+      "icon": "jini-Silent",
+      "name": "Silent"
+    },
+    {
+      "id": "286",
+      "icon": "jini-web",
+      "name": "web"
+    },
+    {
+      "id": "287",
+      "icon": "jini-Wifi",
+      "name": "Wifi"
+    },
+    {
+      "id": "211",
+      "icon": "jini-No-wifi",
+      "name": "No-wifi"
+    }
+]

@@ -1,0 +1,207 @@
+[
+    {
+        "id": "42",
+        "icon": "jini-bath-rob",
+        "name": "bath-robe"
+      },
+      {
+        "id": "43",
+        "icon": "jini-Bathtub",
+        "name": "Bathtub"
+      },
+      {
+        "id": "44",
+        "icon": "jini-Bed",
+        "name": "Bed"
+      },
+      {
+        "id": "45",
+        "icon": "jini-Bell",
+        "name": "Bell"
+      },
+      {
+        "id": "53",
+        "icon": "jini-Box-2",
+        "name": "Box-2"
+      },
+      {
+        "id": "54",
+        "icon": "jini-Box-Down",
+        "name": "Box-Down"
+      },
+      {
+        "id": "55",
+        "icon": "jini-box",
+        "name": "box"
+      },
+      {
+        "id": "56",
+        "icon": "jini-box-sealed",
+        "name": "box-sealed"
+      },
+      {
+        "id": "58",
+        "icon": "jini-Building",
+        "name": "Building"
+      },
+      {
+        "id": "95",
+        "icon": "jini-Confetty",
+        "name": "Confetti"
+      },
+      {
+        "id": "102",
+        "icon": "jini-cupboard",
+        "name": "cupboard"
+      },
+      {
+        "id": "110",
+        "icon": "jini-Door",
+        "name": "Door"
+      },
+      {
+        "id": "111",
+        "icon": "jini-dor-close",
+        "name": "door-close"
+      },
+      {
+        "id": "112",
+        "icon": "jini-double-bed",
+        "name": "double-bed"  
+      },
+      {
+        "id": "128",
+        "icon": "jini-fan",
+        "name": "fan"
+      },
+      {
+        "id": "128",
+        "icon": "jini-fan",
+        "name": "fan"
+      },
+      {
+        "id": "132",
+        "icon": "jini-fireplace",
+        "name": "fireplace"
+      },
+      {
+        "id": "133",
+        "icon": "jini-first-aid",
+        "name": "first-aid"
+      },
+      {
+        "id": "135",
+        "icon": "jini-floaters",
+        "name": "floaters"
+      },
+      {
+        "id": "136",
+        "icon": "jini-flower-bas",
+        "name": "flower-vase"
+      },
+      {
+        "id": "145",
+        "icon": "jini-gift",
+        "name": "gift"
+      },
+      {
+        "id": "155",
+        "icon": "jini-Hanger",
+        "name": "Hanger"
+      },
+      {
+        "id": "160",
+        "icon": "jini-hourglass",
+        "name": "hourglass"
+      },
+      {
+        "id": "194",
+        "icon": "jini-mask",
+        "name": "mask"
+      },
+      {
+        "id": "203",
+        "icon": "jini-mirror",
+        "name": "mirror"
+      },
+      {
+        "id": "218",
+        "icon": "jini-Parking",
+        "name": "Parking"
+      },
+      {
+        "id": "225",
+        "icon": "jini-pillow",
+        "name": "pillow"
+      },
+      {
+        "id": "231",
+        "icon": "jini-pool",
+        "name": "pool"
+      },
+      {
+        "id": "235",
+        "icon": "jini-puzzle",
+        "name": "puzzle"
+      },
+      {
+        "id": "246",
+        "icon": "jini-sanitizer",
+        "name": "sanitizer"
+      },
+      {
+        "id": "255",
+        "icon": "jini-shower",
+        "name": "shower"
+      },
+      {
+        "id": "258",
+        "icon": "jini-socket",
+        "name": "socket"
+      },
+      {
+        "id": "259",
+        "icon": "jini-sofa",
+        "name": "sofa"
+      },
+      {
+        "id": "261",
+        "icon": "jini-Stack",
+        "name": "Stack"
+      },
+      {
+        "id": "262",
+        "icon": "jini-stairs",
+        "name": "stairs"
+      },
+      {
+        "id": "270",
+        "icon": "jini-toilet",
+        "name": "toilet"
+      },
+      {
+        "id": "271",
+        "icon": "jini-toilet-paper",
+        "name": "toilet-paper"
+      },
+      {
+        "id": "272",
+        "icon": "jini-towel",
+        "name": "towel"
+      },
+      {
+        "id": "274",
+        "icon": "jini-truck",
+        "name": "truck"
+      },
+      {
+        "id": "273",
+        "icon": "jini-trash",
+        "name": "trash"
+      },
+      {
+        "id": "276",
+        "icon": "jini-umbrella-sun",
+        "name": "umbrella-sun"
+      }
+]

@@ -24,16 +24,17 @@
     rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-
   <script>
-    // fetch method used to read the people.json data
-    fetch("./iconsSet.json")
+
+
+    // fetch method used to read the User_Icons.json data
+    fetch("./User_Icons.json")
       .then(response => response.json())
       .then(data => {
         // get the parent div for rendering the icons
-        let iconWrapper = document.getElementById("icon-wrapper");
+        let iconWrapper = document.getElementById("User_Icons-wrapper");
         let div = "";
-        // loop used to read all the data from people.json
+        // loop used to read all the data from User_Icons.json
         for (let j = 0; j < data.length; j++) {
           div += `
           <div class="shadow-soft py-3 me-3 mb-4" onclick="iconCopy('<i class=&quot;${data[j].icon}&quot;></i>')">
@@ -43,7 +44,175 @@
             </div>
           `
         }
-        document.getElementById("icon-wrapper").innerHTML = div;
+        document.getElementById("User_Icons-wrapper").innerHTML += div;
+
+      })
+
+
+      // fetch method used to read the Arrow_Icons.json data
+      fetch("./Arrow_Icons.json")
+      .then(response => response.json())
+      .then(data => {
+        // get the parent div for rendering the icons
+        let iconWrapper = document.getElementById("Arrow_Icons-wrapper");
+        let div = "";
+        // loop used to read all the data from Arrow_Icons.json
+        for (let j = 0; j < data.length; j++) {
+          div += `
+          <div class="shadow-soft py-3 me-3 mb-4" onclick="iconCopy('<i class=&quot;${data[j].icon}&quot;></i>')">
+            <i class=${data[j].icon}></i>
+            <p>${data[j].name}</p>
+            <div class="icon-div" id="iconTextToCopy${j}"><i class=${data[j].icon}></i></div>
+            </div>
+          `
+        }
+        document.getElementById("Arrow_Icons-wrapper").innerHTML += div;
+
+      })
+      // fetch method used to read the Appliance_Icons.json data
+      fetch("./Appliance_Icons.json")
+      .then(response => response.json())
+      .then(data => {
+        // get the parent div for rendering the icons
+        let iconWrapper = document.getElementById("Appliance_Icons-wrapper");
+        let div = "";
+        // loop used to read all the data from Appliance_Icons.json
+        for (let j = 0; j < data.length; j++) {
+          div += `
+          <div class="shadow-soft py-3 me-3 mb-4" onclick="iconCopy('<i class=&quot;${data[j].icon}&quot;></i>')">
+            <i class=${data[j].icon}></i>
+            <p>${data[j].name}</p>
+            <div class="icon-div" id="iconTextToCopy${j}"><i class=${data[j].icon}></i></div>
+            </div>
+          `
+        }
+        document.getElementById("Appliance_Icons-wrapper").innerHTML += div;
+
+      })
+
+      // fetch method used to read the Office_Icons.json data
+      fetch("./Office_Icons.json")
+      .then(response => response.json())
+      .then(data => {
+        // get the parent div for rendering the icons
+        let iconWrapper = document.getElementById("Office_Icons-wrapper");
+        let div = "";
+        // loop used to read all the data from Office_Icons.json
+        for (let j = 0; j < data.length; j++) {
+          div += `
+          <div class="shadow-soft py-3 me-3 mb-4" onclick="iconCopy('<i class=&quot;${data[j].icon}&quot;></i>')">
+            <i class=${data[j].icon}></i>
+            <p>${data[j].name}</p>
+            <div class="icon-div" id="iconTextToCopy${j}"><i class=${data[j].icon}></i></div>
+            </div>
+          `
+        }
+        document.getElementById("Office_Icons-wrapper").innerHTML += div;
+
+      })
+
+      // fetch method used to read the Household_Icons.json data
+      fetch("./Household_Icons.json")
+      .then(response => response.json())
+      .then(data => {
+        // get the parent div for rendering the icons
+        let iconWrapper = document.getElementById("Household_Icons-wrapper");
+        let div = "";
+        // loop used to read all the data from Household_Icons.json
+        for (let j = 0; j < data.length; j++) {
+          div += `
+          <div class="shadow-soft py-3 me-3 mb-4" onclick="iconCopy('<i class=&quot;${data[j].icon}&quot;></i>')">
+            <i class=${data[j].icon}></i>
+            <p>${data[j].name}</p>
+            <div class="icon-div" id="iconTextToCopy${j}"><i class=${data[j].icon}></i></div>
+            </div>
+          `
+        }
+        document.getElementById("Household_Icons-wrapper").innerHTML += div;
+
+      })
+
+      // fetch method used to read the Banking_Icons.json data
+      fetch("./Banking_Icons.json")
+      .then(response => response.json())
+      .then(data => {
+        // get the parent div for rendering the icons
+        let iconWrapper = document.getElementById("Banking_Icons-wrapper");
+        let div = "";
+        // loop used to read all the data from Banking_Icons.json
+        for (let j = 0; j < data.length; j++) {
+          div += `
+          <div class="shadow-soft py-3 me-3 mb-4" onclick="iconCopy('<i class=&quot;${data[j].icon}&quot;></i>')">
+            <i class=${data[j].icon}></i>
+            <p>${data[j].name}</p>
+            <div class="icon-div" id="iconTextToCopy${j}"><i class=${data[j].icon}></i></div>
+            </div>
+          `
+        }
+        document.getElementById("Banking_Icons-wrapper").innerHTML += div;
+
+      })
+
+      // fetch method used to read the Tool_Icons.json data
+      fetch("./Tool_Icons.json")
+      .then(response => response.json())
+      .then(data => {
+        // get the parent div for rendering the icons
+        let iconWrapper = document.getElementById("Tool_Icons-wrapper");
+        let div = "";
+        // loop used to read all the data from Tool_Icons.json
+        for (let j = 0; j < data.length; j++) {
+          div += `
+          <div class="shadow-soft py-3 me-3 mb-4" onclick="iconCopy('<i class=&quot;${data[j].icon}&quot;></i>')">
+            <i class=${data[j].icon}></i>
+            <p>${data[j].name}</p>
+            <div class="icon-div" id="iconTextToCopy${j}"><i class=${data[j].icon}></i></div>
+            </div>
+          `
+        }
+        document.getElementById("Tool_Icons-wrapper").innerHTML += div;
+
+      })
+
+      // fetch method used to read the Food_Icons.json data
+      fetch("./Food_Icons.json")
+      .then(response => response.json())
+      .then(data => {
+        // get the parent div for rendering the icons
+        let iconWrapper = document.getElementById("Food_Icons-wrapper");
+        let div = "";
+        // loop used to read all the data from Food_Icons.json
+        for (let j = 0; j < data.length; j++) {
+          div += `
+          <div class="shadow-soft py-3 me-3 mb-4" onclick="iconCopy('<i class=&quot;${data[j].icon}&quot;></i>')">
+            <i class=${data[j].icon}></i>
+            <p>${data[j].name}</p>
+            <div class="icon-div" id="iconTextToCopy${j}"><i class=${data[j].icon}></i></div>
+            </div>
+          `
+        }
+        document.getElementById("Food_Icons-wrapper").innerHTML += div;
+
+      })
+
+      // fetch method used to read the Other_Icons.json data
+      fetch("./Other_Icons.json")
+      .then(response => response.json())
+      .then(data => {
+        // get the parent div for rendering the icons
+        let iconWrapper = document.getElementById("Other_Icons-wrapper");
+        let div = "";
+        // loop used to read all the data Other_Icons.json
+        for (let j = 0; j < data.length; j++) {
+          div += `
+          <div class="shadow-soft py-3 me-3 mb-4" onclick="iconCopy('<i class=&quot;${data[j].icon}&quot;></i>')">
+            <i class=${data[j].icon}></i>
+            <p>${data[j].name}</p>
+            <div class="icon-div" id="iconTextToCopy${j}"><i class=${data[j].icon}></i></div>
+            </div>
+          `
+        }
+        document.getElementById("Other_Icons-wrapper").innerHTML += div;
 
       })
   </script>
@@ -125,7 +294,7 @@
           </div>
           <p class="text1 text2"> To use the icons, click on your preferred icons, and paste inside your body tag.</p>
           <div class="search input-group mb-3 mt-3 input-group-lg search-box">
-            <input type="text" id="searchInput" onkeyup="searchIcon()" class="search-box-2" placeholder="Search Icon"
+            <input type="text" id="searchInput" onclick="remove_headings()" onkeyup="searchIcon()" class="search-box-2" placeholder="Search Icon"
               aria-label="Recipient's username" aria-describedby="button-addon2">
               <i class="jini-search search-icon"></i>
           </div>
@@ -137,7 +306,43 @@
 
     <section class="bigContainer pt-0 text-center container icon-box">
       <div class="row py-lg-5 " id="myUL">
-        <div id="icon-wrapper" class="icon__parent__box"></div>
+        <div id="icon-wrapper" class="icon__parent__box">
+         
+                          <!--User_Icons-->
+          <h2 class="Icons_Heading" id="Icons_Heading"> User Icons</h2>
+         
+          <div id="User_Icons-wrapper" class="Icons_parent_box">
+          </div>
+                          <!--Arrow_Icons-->
+          <h2 class="Icons_Heading" id="Icons_Heading"> Arrow Icons</h2>
+          <div id="Arrow_Icons-wrapper" class="Icons_parent_box">
+          </div>
+                          <!--Appliance_Icons-->
+          <h2 class="Icons_Heading" id="Icons_Heading">Appliance_Icons</h2>
+          <div id="Appliance_Icons-wrapper" class="Icons_parent_box">
+          </div>
+                          <!--Office_Icons-->
+          <h2 class="Icons_Heading" id="Icons_Heading">Office Icons</h2>
+          <div id="Office_Icons-wrapper" class="Icons_parent_box">
+          </div>
+                          <!--Household_Icons-->
+          <h2 class="Icons_Heading" id="Icons_Heading">Household Icons</h2>
+          <div id="Household_Icons-wrapper" class="Icons_parent_box">
+          </div>
+                          <!--Banking_Icons-->
+          <h2 class="Icons_Heading" id="Icons_Heading">Banking Icons</h2>
+          <div id="Banking_Icons-wrapper" class="Icons_parent_box"></div>
+                          <!--Tool_Icons-->
+          <h2 class="Icons_Heading" id="Icons_Heading">Tool Icons</h2>
+          <div id="Tool_Icons-wrapper" class="Icons_parent_box"></div>
+                          <!--Food_Icons-->
+          <h2 class="Icons_Heading" id="Icons_Heading">Food Icons</h2>
+          <div id="Food_Icons-wrapper" class="Icons_parent_box"></div>
+                          <!--Other_Icons-->
+          <h2 class="Icons_Heading" id="Icons_Heading">Miscellaneous Icons</h2>
+          <div id="Other_Icons-wrapper" class="Icons_parent_box"></div>
+        </div>
+
       </div>
     </section>
 
@@ -175,6 +380,19 @@
   <!-- Importing search helper function to implement it here! -->
   <script src="searchIcons.js"></script>
   <script>
+
+    function Remove() {
+      // Removing the Icon headings while searching for an icon
+      var headings = document.getElementById("Icons_Heading");      
+      headings.remove();
+    }
+
+    function remove_headings() {
+      for(let i=0 ; i<100000 ; i++){
+        Remove();
+      }
+    }
+
     function searchIcon() {
 
       // THRESHOLD while checking for values, 1 means exact match, 0 means all
@@ -204,11 +422,13 @@
         }
       }
         if (found_count > 0) {
-          document.querySelector(".notFound").classList.add("display") ;
+          // document.querySelector(".notFound").classList.add("display") ;
         }
         else{
-          document.querySelector(".notFound").classList.remove("display");
+          // document.querySelector(".notFound").classList.remove("display");
         }
+
+        remove_headings();
     }
   </script>
   <!-- Function for enabling dark mode -->

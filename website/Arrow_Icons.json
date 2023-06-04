@@ -1,0 +1,172 @@
+[
+    {
+        "id": "16",
+        "icon": "jini-Arrow-1",
+        "name": "Arrow-1"
+      },
+      {
+        "id": "17",
+        "icon": "jini-Arrow-2-down",
+        "name": "Arrow-2-down"
+      },
+      {
+        "id": "18",
+        "icon": "jini-Arrow-2-up",
+        "name": "Arrow-2-up"
+      },
+      {
+        "id": "19",
+        "icon": "jini-Arrow-2",
+        "name": "Arrow-2"
+      },
+      {
+        "id": "20",
+        "icon": "jini-Arrow-3-right",
+        "name": "Arrow-3-right"
+      },
+      {
+        "id": "21",
+        "icon": "jini-Arrow-3",
+        "name": "Arrow-3"
+      },
+      {
+        "id": "22",
+        "icon": "jini-Arrow-4-left",
+        "name": "Arrow-4-left"
+      },
+      {
+        "id": "23",
+        "icon": "jini-Arrow-4",
+        "name": "Arrow-4"
+      },
+      {
+        "id": "24",
+        "icon": "jini-Arrow-down",
+        "name": "Arrow-down"
+      },
+      {
+        "id": "25",
+        "icon": "jini-Arrow-up",
+        "name": "Arrow-up"
+      },
+      {
+        "id": "26",
+        "icon": "jini-arrow-down-1",
+        "name": "arrow-down-1"
+      },
+      {
+        "id": "27",
+        "icon": "jini-arrow-down-2",
+        "name": "arrow-down-2"
+      },
+      {
+        "id": "28",
+        "icon": "jini-arrow-left-1",
+        "name": "arrow-left-1"
+      },
+      {
+        "id": "29",
+        "icon": "jini-arrow-left-2",
+        "name": "arrow-left-2"
+      },
+      {
+        "id": "30",
+        "icon": "jini-arrow-right-1",
+        "name": "arrow-right-1"
+      },
+      {
+        "id": "31",
+        "icon": "jini-arrow-right-2",
+        "name": "arrow-right-2"
+      },
+      {
+        "id": "32",
+        "icon": "jini-arrow-up-1",
+        "name": "arrow-up-1"
+      },
+      {
+        "id": "33",
+        "icon": "jini-arrow-up-2",
+        "name": "arrow-up-2"
+      },
+      {
+        "id": "76",
+        "icon": "jini-check-in",
+        "name": "check-in"
+      },
+      {
+        "id": "77",
+        "icon": "jini-check-out",
+        "name": "check-out"
+      },
+      {
+        "id": "113",
+        "icon": "jini-Down-arrow",
+        "name": "Down-arrow"
+      },
+      {
+        "id": "178",
+        "icon": "jini-left-Arrow",
+        "name": "left-Arrow"
+      },
+      {
+        "id": "243",
+        "icon": "jini-Right-Arrow",
+        "name": "Right-Arrow"
+      },
+      {
+        "id": "278",
+        "icon": "jini-Up-Arrow",
+        "name": "Up-Arrow"
+      },
+      {
+        "id": "123",
+        "icon": "jini-Expand-1",
+        "name": "Expand-1"
+      },
+      {
+        "id": "124",
+        "icon": "jini-Expand-2",
+        "name": "Expand-2"
+      },
+      {
+        "id": "215",
+        "icon": "jini-out",
+        "name": "out"
+      },
+      {
+        "id": "166",
+        "icon": "jini-in",
+        "name": "in"
+      },
+      {
+        "id": "230",
+        "icon": "jini-play-alt",
+        "name": "play-alt"
+      },
+      {
+        "id": "239",
+        "icon": "jini-refresh",
+        "name": "refresh"
+      },
+      {
+        "id": "268",
+        "icon": "jini-tick-circle",
+        "name": "tick-circle"
+      },
+      {
+        "id": "269",
+        "icon": "jini-tick",
+        "name": "tick"
+      },
+      {
+        "id": "289",
+        "icon": "jini-x-circle",
+        "name": "x-circle"
+      },
+      {
+        "id": "290",
+        "icon": "jini-x",
+        "name": "x"
+      }
+]

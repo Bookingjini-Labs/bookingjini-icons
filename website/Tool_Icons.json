@@ -1,0 +1,82 @@
+[
+  {
+    "id": "46",
+    "icon": "jini-bolt",
+    "name": "bolt"
+  },
+  {
+    "id": "93",
+    "icon": "jini-compass",
+    "name": "compass"
+  },
+  {
+    "id": "100",
+    "icon": "jini-crosshair",
+    "name": "crosshair"
+  },
+  {
+    "id": "106",
+    "icon": "jini-DND-Tag",
+    "name": "DND-Tag"
+  },
+  {
+    "id": "107",
+    "icon": "jini-dnd",
+    "name": "dnd"
+  },
+  {
+    "id": "119",
+    "icon": "jini-Dumble",
+    "name": "Dumble"
+  },
+  {
+    "id": "130",
+    "icon": "jini-filter",
+    "name": "filter"
+  },
+  {
+    "id": "131",
+    "icon": "jini-filter-alt",
+    "name": "filter-alt"
+  },
+  {
+    "id": "140",
+    "icon": "jini-gear",
+    "name": "gear"
+  },
+  {
+    "id": "174",
+    "icon": "jini-knife",
+    "name": "knife"
+  },
+  {
+    "id": "193",
+    "icon": "jini-map",
+    "name": "map"
+  },
+  {
+    "id": "197",
+    "icon": "jini-medal",
+    "name": "medal"
+  },
+  {
+    "id": "210",
+    "icon": "jini-needle",
+    "name": "needle"
+  },
+  {
+    "id": "221",
+    "icon": "jini-pencil",
+    "name": "pencil"
+  },
+  {
+    "id": "249",
+    "icon": "jini-scissors",
+    "name": "scissors"
+  },
+  {
+    "id": "134",
+    "icon": "jini-flag",
+    "name": "flag"
+  }
+]

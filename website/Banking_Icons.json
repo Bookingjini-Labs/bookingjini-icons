@@ -1,0 +1,92 @@
+[   
+  {
+    "id": "206",
+    "icon": "jini-Monument",
+    "name": "Monument"
+  },
+  {
+    "id": "39",
+    "icon": "jini-bank-note",
+    "name": "bank-note"
+  },
+  {
+    "id": "98",
+    "icon": "jini-coupon-2",
+    "name": "coupon-2"
+  },
+  {
+    "id": "101",
+    "icon": "jini-Crown",
+    "name": "Crown"
+  },
+  {
+    "id": "104",
+    "icon": "jini-Database",
+    "name": "Database"
+  },
+  {
+    "id": "164",
+    "icon": "jini-ID-card",
+    "name": "ID-card"
+  },
+  {
+    "id": "172",
+    "icon": "jini-key",
+    "name": "key"
+  },
+  {
+    "id": "173",
+    "icon": "jini-keyhole",
+    "name": "keyhole"
+  },
+  {
+    "id": "185",
+    "icon": "jini-lock",
+    "name": "lock"
+  },
+  {
+    "id": "277",
+    "icon": "jini-unlock",
+    "name": "unlock"
+  },
+  {
+    "id": "245",
+    "icon": "jini-safe-locker",
+    "name": "safe-locker"
+  },
+  {
+    "id": "283",
+    "icon": "jini-Wallet",
+    "name": "Wallet"
+  },
+  {
+    "id": "253",
+    "icon": "jini-Server",
+    "name": "Server"
+  },
+  {
+    "id": "263",
+    "icon": "jini-star",
+    "name": "star"
+  },
+  {
+    "id": "252",
+    "icon": "jini-security",
+    "name": "security"
+  },
+  {
+    "id": "234",
+    "icon": "jini-Profit",
+    "name": "Profit"
+  },
+  {
+    "id": "224",
+    "icon": "jini-Pie-chart",
+    "name": "Pie-chart"
+  },
+  {
+    "id": "213",
+    "icon": "jini-Office-Bag",
+    "name": "Office-Bag"
+  }
+]

@@ -1,0 +1,147 @@
+[
+    {
+        "id": "1",
+        "icon": "jini-people",
+        "name": "people"
+      },
+      {
+        "id": "2",
+        "icon": "jini-people-2",
+        "name": "people-2"
+      },
+      {
+        "id": "3",
+        "icon": "jini-people1",
+        "name": "people1"
+      },
+      {
+        "id": "282",
+        "icon": "jini-user",
+        "name": "user"
+      },
+      {
+        "id": "4",
+        "icon": "jini-Add-person",
+        "name": "Add-person"
+      },
+      {
+        "id": "238",
+        "icon": "jini-receptionist",
+        "name": "receptionist"
+      },
+      {
+        "id": "242",
+        "icon": "jini-Revolve-person",
+        "name": "Revolve-person"
+      },
+      {
+        "id": "240",
+        "icon": "jini-register",
+        "name": "register"
+      },
+      {
+        "id": "148",
+        "icon": "jini-group",
+        "name": "group"
+      },
+      {
+        "id": "149",
+        "icon": "jini-group-3",
+        "name": "group-3"
+      },
+      {
+        "id": "150",
+        "icon": "jini-group-4",
+        "name": "group-4"
+      },
+      { 
+        "id": "151",
+        "icon": "jini-group-alt-3",
+        "name": "group-alt-3"
+      },
+      {
+        "id": "152",
+        "icon": "jini-group-alt-4",
+        "name": "group-alt-4"
+      },
+      {
+        "id": "222",
+        "icon": "jini-person-2",
+        "name": "person-2"
+      },
+      {  
+        "id": "192",
+        "icon": "jini-man",
+        "name": "man"
+      },
+      {
+        "id": "15",
+        "icon": "jini-apthetic",
+        "name": "apthetic"
+      },
+      {
+        "id": "156",
+        "icon": "jini-happy",
+        "name": "happy"
+      },
+      {
+        "id": "244",
+        "icon": "jini-sad",
+        "name": "sad"
+      },
+      {
+        "id": "212",
+        "icon": "jini-numb",
+        "name": "numb"
+      },
+      {
+        "id": "191",
+        "icon": "jini-male",
+        "name": "male"
+      },
+      {
+        "id": "192",
+        "icon": "jini-man",
+        "name": "man"
+      },
+      {
+        "id": "129",
+        "icon": "jini-female",
+        "name": "female"
+      },
+      {
+        "id": "141",
+        "icon": "jini-gender1",
+        "name": "gender1"
+      },
+      {
+        "id": "142",
+        "icon": "jini-gender2",
+        "name": "gender2"
+      },
+      {
+        "id": "143",
+        "icon": "jini-gender3",
+        "name": "gender3"
+      },
+      {
+        "id": "144",
+        "icon": "jini-gender4",
+        "name": "gender4"
+      },
+      {
+        "id": "158",
+        "icon": "jini-heart",
+        "name": "heart"
+      },
+      {
+        "id": "233",
+        "icon": "jini-Profile",
+        "name": "Profile"
+      },
+      {
+        "id": "264",
+        "icon": "jini-student",
+        "name": "student"
+      }
+]

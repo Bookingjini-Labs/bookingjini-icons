@@ -452,6 +452,13 @@ input:checked + label svg.moon{
     align-items: center;
 }
 
+.Icons_parent_box{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
 .icon-div {
     display: none;
 }
@@ -463,6 +470,10 @@ input:checked + label svg.moon{
 }
 .display {
     display: none;
+}
+
+.Icons_Heading{
+    color: #888;
 }
 
 /* ====================== START OF SCROLL-TO-TOP BUTTON===================== */    

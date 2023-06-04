@@ -1,0 +1,342 @@
+[
+  {
+    "id": "6",
+    "icon": "jini-Add-sheet",
+    "name": "Add-sheet"
+  },
+  {
+    "id": "7",
+    "icon": "jini-add",
+    "name": "add"
+  },
+  {
+    "id": "8",
+    "icon": "jini-add-folder",
+    "name": "add-folder"
+  },
+  {
+    "id": "9",
+    "icon": "jini-AI",
+    "name": "AI"
+  },
+  {
+    "id": "36",
+    "icon": "jini-attachment",
+    "name": "attachment"
+  },
+  {
+    "id": "38",
+    "icon": "jini-bank-doc",
+    "name": "bank-doc"
+  },
+  {
+    "id": "40",
+    "icon": "jini-Bar-Graph-2",
+    "name": "Bar-Graph-2"
+  },
+  {
+    "id": "41",
+    "icon": "jini-Bar-graph",
+    "name": "Bar-graph"
+  },
+  {
+    "id": "47",
+    "icon": "jini-Book-1",
+    "name": "Book-1"
+  },
+  {
+    "id": "48",
+    "icon": "jini-Book-2",
+    "name": "Book-2"
+  },
+  {
+    "id": "49",
+    "icon": "jini-Book-open",
+    "name": "Book-open"
+  },
+  {
+    "id": "50",
+    "icon": "jini-booking-jini",
+    "name": "booking-jini"
+  },
+  {
+    "id": "51",
+    "icon": "jini-Books",
+    "name": "Books"
+  },
+  {
+    "id": "179",
+    "icon": "jini-link",
+    "name": "link"
+  },
+  {
+    "id": "180",
+    "icon": "jini-link2",
+    "name": "link2"
+  },
+  {
+    "id": "181",
+    "icon": "jini-link3",
+    "name": "link3"
+  },
+  {
+    "id": "57",
+    "icon": "jini-broken-link",
+    "name": "broken-link"
+  },
+  {
+    "id": "66",
+    "icon": "jini-Callender-1",
+    "name": "Calendar-1"
+  },
+  {
+    "id": "67",
+    "icon": "jini-Callender-2",
+    "name": "Calendar-2"
+  },
+  {
+    "id": "68",
+    "icon": "jini-Callender-3",
+    "name": "Calendar-3"
+  },
+  {
+    "id": "69",
+    "icon": "jini-Callender-3-1",
+    "name": "Calendar-3-1"
+  },
+  {
+    "id": "70",
+    "icon": "jini-Caution",
+    "name": "Caution"
+  },
+  {
+    "id": "71",
+    "icon": "jini-chain-link",
+    "name": "chain-link"
+  },
+  {
+    "id": "72",
+    "icon": "jini-chain-link2",
+    "name": "chain-link2"
+  },
+  {
+    "id": "73",
+    "icon": "jini-chart1",
+    "name": "chart1"
+  },
+  {
+    "id": "74",
+    "icon": "jini-chart-2",
+    "name": "chart-2"
+  },
+  {
+    "id": "75",
+    "icon": "jini-chart-up",
+    "name": "chart-up"
+  },
+  {
+    "id": "80",
+    "icon": "jini-Clip-board-1",
+    "name": "Clip-board-1"
+  },
+  {
+    "id": "81",
+    "icon": "jini-Clip-board-2",
+    "name": "Clip-board-2"
+  },
+  {
+    "id": "97",
+    "icon": "jini-Copy",
+    "name": "Copy"
+  },
+  {
+    "id": "108",
+    "icon": "jini-doc-alt-2",
+    "name": "doc-alt-2"
+  },
+  {
+    "id": "109",
+    "icon": "jini-docs",
+    "name": "docs"
+  },
+  {
+    "id": "105",
+    "icon": "jini-Delete-tag",
+    "name": "Delete-tag"
+  },
+  {
+    "id": "114",
+    "icon": "jini-Down-Graph",
+    "name": "Down-Graph"
+  },
+  {
+    "id": "115",
+    "icon": "jini-download-box",
+    "name": "download-box"
+  },
+  {
+    "id": "116",
+    "icon": "jini-Download-sheet",
+    "name": "Download-sheet"
+  },
+  {
+    "id": "125",
+    "icon": "jini-Expand-sheet",
+    "name": "Expand-sheet"
+  },
+  {
+    "id": "120",
+    "icon": "jini-edit",
+    "name": "edit"
+  },
+  {
+    "id": "121",
+    "icon": "jini-excel",
+    "name": "excel"
+  },
+  {
+    "id": "241",
+    "icon": "jini-remove-folder",
+    "name": "remove-folder"
+  },
+  {
+    "id": "214",
+    "icon": "jini-open-folder",
+    "name": "open-folder"
+  },
+  {
+    "id": "137",
+    "icon": "jini-folder",
+    "name": "folder"
+  },
+  {
+    "id": "159",
+    "icon": "jini-home",
+    "name": "home"
+  },
+  {
+    "id": "162",
+    "icon": "jini-icon-2",
+    "name": "icon-2"
+  },
+  {
+    "id": "163",
+    "icon": "jini-icon-3",
+    "name": "icon-3"
+  },
+  {
+    "id": "165",
+    "icon": "jini-image",
+    "name": "image"
+  },
+  {
+    "id": "179",
+    "icon": "jini-link",
+    "name": "link"
+  },
+  {
+    "id": "180",
+    "icon": "jini-link2",
+    "name": "link2"
+  },
+  {
+    "id": "181",
+    "icon": "jini-link3",
+    "name": "link3"
+  },
+  {
+    "id": "186",
+    "icon": "jini-Mail-1",
+    "name": "Mail-1"
+  },
+  {
+    "id": "187",
+    "icon": "jini-mail-2",
+    "name": "mail-2"
+  },
+  {
+    "id": "188",
+    "icon": "jini-Mail-open-1",
+    "name": "Mail-open-1"
+  },
+  {
+    "id": "189",
+    "icon": "jini-Mail-open-2",
+    "name": "Mail-open-2"
+  },
+  {
+    "id": "190",
+    "icon": "jini-mailbox",
+    "name": "mailbox"
+  },
+  {
+    "id": "199",
+    "icon": "jini-menu-1",
+    "name": "menu-1"
+  },
+  {
+    "id": "201",
+    "icon": "jini-Minus-sheet",
+    "name": "Minus-sheet"
+  },
+  {
+    "id": "202",
+    "icon": "jini-minus",
+    "name": "minus"
+  },
+  {
+    "id": "217",
+    "icon": "jini-Paper",
+    "name": "Paper"
+  },
+  {
+    "id": "220",
+    "icon": "jini-pdf",
+    "name": "pdf"
+  },
+  {
+    "id": "226",
+    "icon": "jini-pin",
+    "name": "pin"
+  },
+  {
+    "id": "227",
+    "icon": "jini-pin-3",
+    "name": "pin-3"
+  },
+  {
+    "id": "241",
+    "icon": "jini-remove-folder",
+    "name": "remove-folder"
+  },
+  {
+    "id": "247",
+    "icon": "jini-save-2",
+    "name": "save-2"
+  },
+  {
+    "id": "248",
+    "icon": "jini-Save",
+    "name": "Save"
+  },
+  {
+    "id": "250",
+    "icon": "jini-search",
+    "name": "search"
+  },
+  {
+    "id": "254",
+    "icon": "jini-Share",
+    "name": "Share"
+  },
+  {
+    "id": "256",
+    "icon": "jini-shutown",
+    "name": "shutown"
+  },
+  {
+    "id": "288",
+    "icon": "jini-windows",
+    "name": "windows"
+  }
+]

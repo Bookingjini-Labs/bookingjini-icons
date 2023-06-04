@@ -392,6 +392,19 @@ input:checked + label svg.moon{
     display: none;
 }
 
+.Icons_parent_box{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.Icons_Heading{
+    color: #888;
+    
+}
 /* ====================== Code for CDN ===================== */    
 
 

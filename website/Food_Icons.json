@@ -1,0 +1,92 @@
+[
+    {
+        "id": "78",
+        "icon": "jini-Chef-hat",
+        "name": "Chef-hat"
+    },
+    {
+      "id": "89",
+      "icon": "jini-coffee-mug",
+      "name": "coffee-mug"
+    },
+    {
+      "id": "90",
+      "icon": "jini-Coffee",
+      "name": "Coffee"
+    },
+    {
+      "id": "117",
+      "icon": "jini-Drop",
+      "name": "Drop"
+    },
+    {
+      "id": "118",
+      "icon": "jini-dry",
+      "name": "dry"
+    },
+    {
+      "id": "96",
+      "icon": "jini-Cookie",
+      "name": "Cookie"
+    },
+    {
+      "id": "146",
+      "icon": "jini-Glass",
+      "name": "Glass"
+    },
+    {
+      "id": "161",
+      "icon": "jini-hygine",
+      "name": "hygiene"
+    },
+    {
+      "id": "171",
+      "icon": "jini-kebab1",
+      "name": "kebab1"
+    },
+    {
+      "id": "177",
+      "icon": "jini-leaf-alt",
+      "name": "leaf-alt"
+    },
+    {
+      "id": "182",
+      "icon": "jini-loafa",
+      "name": "loafa"
+    },
+    {
+      "id": "195",
+      "icon": "jini-meal",
+      "name": "meal"
+    },
+    {
+      "id": "196",
+      "icon": "jini-meal-2",
+      "name": "meal-2"
+    },
+    {
+      "id": "204",
+      "icon": "jini-mocktail",
+      "name": "mocktail"
+    },
+    {
+      "id": "260",
+      "icon": "jini-spatula",
+      "name": "spatula"
+    },
+    {
+      "id": "265",
+      "icon": "jini-teeth",
+      "name": "teeth"
+    },
+    {
+      "id": "138",
+      "icon": "jini-fork-spoon",
+      "name": "fork-spoon"
+    },
+    {
+      "id": "52",
+      "icon": "jini-Bottle",
+      "name": "Bottle"
+    }
+]

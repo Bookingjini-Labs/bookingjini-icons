@@ -220,10 +220,24 @@ input:checked + label svg.moon{
     font-size: 5rem;
     font-family: 'DM Sans',sans-serif;
     font-weight: bolder;
-    -webkit-text-stroke: 2px rgb(255, 255, 255);
+    /* -webkit-text-stroke: 2px rgb(255, 255, 255); */
     color: #f1f1f1;
     
 }
+.animated {
+    text-decoration: none;
+    background: linear-gradient(to right, #CCC 50%, #315BA9 50%, #3766BD 30%, #3E73D6);
+    background-size: 200%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    transition: 0.5s ease-in-out;
+   }
+   
+   .animated:hover {
+    cursor: pointer;
+    background-position: -100%;
+   }
 
 .head-text h3 {
     font-size: calc(20px + 0.390625vw);
@@ -335,7 +349,7 @@ input:checked + label svg.moon{
     color: #fff;
 }
 
-.icon-box {}
+/*.icon-box {} */
 
 .icon-box li {
     list-style: none;

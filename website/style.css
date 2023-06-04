@@ -306,23 +306,23 @@ input:checked + label svg.moon{
     font-size: 5rem;
     font-weight: 700;
     font-weight: bolder;
-    -webkit-text-stroke: 2px rgb(0, 0, 0);
+    /* -webkit-text-stroke: 0.5px rgb(0, 0, 0);  */
     font-family: 'DM Sans',sans-serif;
 
 }
 
 .animated {
     text-decoration: none;
-    background: linear-gradient(to right, #CCC 50%, #090979 30%, #00d4ff);
+    background: linear-gradient(to right, #CCC 50%, #315BA9 50%, #3766BD 30%, #3E73D6);
     background-size: 200%;
+    -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
-    transition: 0.5s ease-out;
+    transition: 0.5s ease-in-out;
    }
    
-   .animated:hover {
+   .animated:hover { 
     cursor: pointer;
-    -webkit-text-fill-color: transparent;
     background-position: -100%;
    }
 

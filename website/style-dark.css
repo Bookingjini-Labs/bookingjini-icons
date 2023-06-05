@@ -433,6 +433,10 @@ input:checked + label svg.moon{
     display: none;
 }
 
+.notFound img{
+    width: 3.4rem;
+}
+
 /* ====================== Code for CDN ===================== */    
 
 

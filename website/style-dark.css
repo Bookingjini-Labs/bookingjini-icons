@@ -361,11 +361,19 @@ input:checked + label svg.moon{
 }
 
 .icon-box .shadow-soft {
+    border: solid rgba(255, 255, 255, 0.352) 2px;
     width: 5.5rem;
     border-radius: 4%;
     height: fit-content;
+   
 }
-
+.icon-box .shadow-soft:hover{
+  
+    background-color: rgba(255, 255, 255, 0.667);
+    transition: 0.5s;
+    
+   
+}
 .shadow-soft textarea {
     width: -webkit-fill-available;
     resize: none;

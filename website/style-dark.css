@@ -1,11 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
 
+.navbar {
+  padding: 5% 10%;
+  align-items: center;
+}
+.navbar-nav-in {
+  padding-top: 20px;
+  height: 80px;
+}
 body {
   background-color: #272929;
   font-family: "DM Sans", sans-serif;
 }
+#github {
+  color: white;
+}
 
 /* header {} */
+.container {
+  display: flexbox;
+}
 
 header a {
   /* font-family: 'DM Sans', sans-serif; */
@@ -15,6 +29,12 @@ header a {
   width: 5%;
   /* height: 10%; */
   border-radius: 100%;
+}
+.logotxt {
+  font-weight: bolder;
+  font-size: 1.3em;
+  position: relative;
+  left: -180px;
 }
 .logotxt {
   font-weight: bolder;
@@ -110,6 +130,7 @@ input:checked + label svg.moon {
     margin-bottom: 0.5rem;
   }
 }
+
 @media only screen and (min-width: 150px) and (max-width: 768px) {
   html,
   body {

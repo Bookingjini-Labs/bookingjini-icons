@@ -554,43 +554,78 @@ input:checked + label svg.moon{
 
 /* Footer Section */
 
-.footer{
-    padding-top: 30px;
-}
-
-.footer-items{
-    color: black;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-
-.footer-list{
+  footer{
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    align-items: center;
-}
-
-
-.copyright{
-    color: black;
-    font-size: small;
     text-align: center;
-    padding-bottom: 30px;
-}
-
-.footer-items:hover::after{
-    /* transform: scale(1.1); */
-    transition: 400ms;
-    width: 100%;
+    flex-flow: row wrap;
+    padding: 50px;
+    color: #747070;
+    background-color: rgb(186, 183, 183);
   }
   
-  .footer-items::after{
-    content:'';
-    display:block;
-    height: 4px;
-    width:0;
-    background: blue;
-    transition:all .5
+  .footer-content{
+    margin-right: 1.25em;
+    margin-bottom: 2em;
+  }
+  
+  .footer-content h1{
+    font-size: 2rem;
+    margin-top: 0.5em;
+    background-size: 200%;
+    transition: 0.5s ease-in-out;
+    background: linear-gradient(to right, rgb(145, 177, 215),rgb(38, 64, 190));
+    background-size: 200% 200%;
+    -webkit-background-clip:text;
+  }
+  .footer-content h1:hover{
+    color:rgba(0,0,0,0);
+    cursor: pointer;
+    background-position: -100%;
+  }
+  
+  .footer-content img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+
+  .footer-content p{
+    padding: 0% 15%;
+    color: #747070;
+  }
+  
+  .socials a{
+    width: 50px;
+    height: 40px;
+    color: #747070;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 12px;
+    font-size: 25px;
+  }
+
+  .socials a:nth-of-type(1){
+    background: linear-gradient(to left, rgb(226, 27, 203),rgb(235, 225, 40));
+    background-size: 200% 200%;
+    -webkit-background-clip:text;
+  }
+
+  .socials a:nth-of-type(1):hover{
+    color:rgba(0,0,0,0);
+    cursor: pointer;
+    background-position: -100%;
+  }
+  .socials a:nth-of-type(2):hover{
+    color: black;
+  }
+  .socials a:nth-of-type(3):hover{
+    color: rgb(66, 170, 231);
+  }
+  .socials a:nth-of-type(4):hover{
+    color: rgb(61, 109, 213);
+  }
+
+  .copyright{
+    color: #747070;
   }

@@ -369,7 +369,7 @@ input:checked + label svg.moon{
 }
 .icon-box .shadow-soft:hover{
   
-    background-color: rgb(15, 14, 14);
+    background-color: #3b3a3a;
     transition: 0.5s;
     
    

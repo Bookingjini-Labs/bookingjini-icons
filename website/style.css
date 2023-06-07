@@ -560,8 +560,8 @@ input:checked + label svg.moon{
     text-align: center;
     flex-flow: row wrap;
     padding: 50px;
-    color: #747070;
-    background-color: rgb(186, 183, 183);
+    color: #323030;
+    background-color: rgb(186, 225, 240, 0.25);
   }
   
   .footer-content{
@@ -571,17 +571,17 @@ input:checked + label svg.moon{
   
   .footer-content h1{
     font-size: 2rem;
+    font-family: 'DM Sans', sans-serif;
     margin-top: 0.5em;
+    color: rgb(68, 130, 207);
     background-size: 200%;
-    transition: 0.5s ease-in-out;
-    background: linear-gradient(to right, rgb(145, 177, 215),rgb(38, 64, 190));
-    background-size: 200% 200%;
-    -webkit-background-clip:text;
   }
-  .footer-content h1:hover{
-    color:rgba(0,0,0,0);
-    cursor: pointer;
-    background-position: -100%;
+  
+  .footer-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 15%;
   }
   
   .footer-content img{
@@ -590,42 +590,49 @@ input:checked + label svg.moon{
     border-radius: 50%;
   }
 
-  .footer-content p{
-    padding: 0% 15%;
-    color: #747070;
+  .footer-content span{
+    font-size: 1rem;
+    margin: 0px 100px;
+    color: rgb(101, 143, 194);
   }
   
   .socials a{
     width: 50px;
     height: 40px;
-    color: #747070;
+    color: rgb(101, 143, 194);
     display: inline-block;
     text-decoration: none;
+    margin: 10px 0px;
     padding: 10px 12px;
     font-size: 25px;
+    transition: 0.5s;
   }
 
-  .socials a:nth-of-type(1){
+  .socials a:hover{
+    transform: scale(1.25);
+  }
+
+  .socials a:nth-of-type(2){
     background: linear-gradient(to left, rgb(226, 27, 203),rgb(235, 225, 40));
     background-size: 200% 200%;
     -webkit-background-clip:text;
   }
-
+  
   .socials a:nth-of-type(1):hover{
-    color:rgba(0,0,0,0);
+    color: rgb(61, 109, 213);
+  }
+  .socials a:nth-of-type(2):hover{
+    color: rgba(0,0,0,0);
     cursor: pointer;
     background-position: -100%;
   }
-  .socials a:nth-of-type(2):hover{
-    color: black;
+  .socials a:nth-of-type(3):hover{
+    color: rgb(66, 231, 99);
   }
   .socials a:nth-of-type(3):hover{
-    color: rgb(66, 170, 231);
-  }
-  .socials a:nth-of-type(4):hover{
     color: rgb(61, 109, 213);
   }
 
   .copyright{
-    color: #747070;
+    color: rgb(101, 143, 194);
   }

@@ -27,7 +27,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital@1&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="Footer.css">
-
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -35,7 +34,7 @@
     rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-
+  <script src="https://kit.fontawesome.com/279191565c.js" crossorigin="anonymous"></script>
   <script>
     // fetch method used to read the people.json data
     fetch("./iconsSet.json")
@@ -101,7 +100,7 @@
           <div class="navbar-nav navbar-expand-lg">
             <div class="navbar-nav-in"> 
               <a class="btn btn-outline-primary" href="https://drive.bookingjini.tech/icons/v2/fonts.zip">Download</a>
-              <a class="btn btn-outline-primary" href="https://github.com/Bookingjini-Labs/bookingjini-icons">Get CDN</a>
+              <a class="btn btn-outline-primary star" href="https://github.com/Bookingjini-Labs/bookingjini-icons" target="_blank">Star Repo <i class="jini-star" id="github"></i></a>
             </div>
             <div class="navright">
               <div class="nightmode" >
@@ -150,7 +149,17 @@
       </div>
     </section>
 
-    <h4 class="notFound display">No Result found</h4>
+    <div class="notFound display">
+      
+        <img src="./no-search-img-min.png" alt="no-result-img" srcset="">
+        <div class="no-search-text">
+          <h1>
+          No matching icons found
+        </h1>
+        <h3> Try updating your search term for better results.</h3>
+      </div>
+    </div>
+
 
     <section class="bigContainer pt-0 text-center container icon-box">
       <div class="row py-lg-5 " id="myUL">

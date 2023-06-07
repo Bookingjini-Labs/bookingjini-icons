@@ -13,6 +13,9 @@ body {
     font-family: 'DM Sans',sans-serif;
 
 }
+#github{
+    color:white;
+}
 
 /* header {} */
 .container{
@@ -428,6 +431,10 @@ input:checked + label svg.moon{
 }
 .display {
     display: none;
+}
+
+.notFound img{
+    width: 3.4rem;
 }
 
 /* ====================== Code for CDN ===================== */    

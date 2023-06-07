@@ -440,7 +440,7 @@ input:checked + label svg.moon{
 }
 
 .icon-box .shadow-soft {
-    border: solid black 2px;
+    
     width: 5.5rem;
     border-radius: 4%;
     height: fit-content;
@@ -448,9 +448,9 @@ input:checked + label svg.moon{
 }
 
 .icon-box .shadow-soft:hover{
-    background-color: rgba(29, 30, 29, 0.748);
+    background-color: rgba(177, 187, 177, 0.443);
     transition: 0.5s;
-    color: white;
+    
 }
 
 .shadow-soft textarea {

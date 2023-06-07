@@ -49,7 +49,7 @@ header a {
 .copy-code-container {
     display: flex;
     align-items: center;
-    width: 90%;
+    width: 100%;
     padding: 0.3rem;
     border: 1px solid #ccc;
     border-radius: 5px;

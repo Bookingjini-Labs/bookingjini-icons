@@ -1,13 +1,35 @@
-@media only screen and (max-width: 514px){
- 
-    .bigContainer{
-        width: 129vw;
-        padding: 39px;
-    }
+@media (max-width: 776px){
+    
+  .head-text h1 {
+    font-size: 3.8rem;
+  }
+  .navbar {
+    padding: 5% 3%;
+  }
+  .imglogo {
+    width: 15%;
+  }
+  .logotxt {
+    font-size: 2.5rem;
+  }
+  .container, .container-sm {
+      max-width: 95%;
   }
 
-  @media only screen and (max-width: 360px){
- 
+}
+@media (max-width: 666px){
+  .logotxt {
+    font-size: 2rem;
+  } 
+  
+}
+@media(max-width: 500px){
+  .logotxt {
+    font-size: 1.5rem;
+  }
+
+}
+  @media only screen and (max-width: 380px){
     .bigContainer{
       width: 148vw !important;
     }
@@ -15,10 +37,10 @@
   }
 
   @media only screen and (max-width: 312px){
- 
     .bigContainer{
       width: 168vw ;
       padding: 20px;
     }
-  
   }
+
+  

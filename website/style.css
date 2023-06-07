@@ -559,14 +559,13 @@ input:checked + label svg.moon{
     justify-content: center;
     text-align: center;
     flex-flow: row wrap;
-    padding: 50px;
+    padding: 24px 50px;
     color: #323030;
     background-color: rgb(186, 225, 240, 0.25);
   }
   
   .footer-content{
     margin-right: 1.25em;
-    margin-bottom: 2em;
   }
   
   .footer-content h1{
@@ -574,7 +573,6 @@ input:checked + label svg.moon{
     font-family: 'DM Sans', sans-serif;
     margin-top: 0.5em;
     color: rgb(68, 130, 207);
-    background-size: 200%;
   }
   
   .footer-logo{
@@ -591,8 +589,8 @@ input:checked + label svg.moon{
   }
 
   .footer-content span{
+    font-family: 'DM Sans', sans-serif;
     font-size: 1rem;
-    margin: 0px 100px;
     color: rgb(101, 143, 194);
   }
   

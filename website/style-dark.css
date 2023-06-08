@@ -171,7 +171,7 @@ input:checked + label svg.moon{
 @media only screen and (max-width: 500px) {
     .head-text .title {
         font-size: 2.7rem;;
-        justify-content: center;
+        justify-content: flex-start;
         display: flex;
     }
     .icon__parent__box{
@@ -183,7 +183,7 @@ input:checked + label svg.moon{
   }
   @media only screen and (max-width: 400px){
     .head-text .title {
-        font-size: 2.3rem;
+        font-size: 2.2rem;
     }
   }
   
@@ -262,7 +262,6 @@ input:checked + label svg.moon{
     font-weight: 400;
     letter-spacing: auto;
     color: #b8b9be;
-    padding-top: 2%;
     margin: 15px;
     padding-top: 1%;
     font-family: 'DM sans', 'Arvo',sans-serif;

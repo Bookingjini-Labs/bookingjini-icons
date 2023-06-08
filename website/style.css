@@ -442,5 +442,91 @@ input:checked + label svg.moon {
     font-size: 35px;
     color: #69757c;
   }
-}
 /* ====================== END OF SCROLL-TO-TOP BUTTON ===================== */
+=======
+  
+  /* ====================== END OF SCROLL-TO-TOP BUTTON ===================== */
+
+
+/* Footer Section */
+
+  footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-flow: row wrap;
+    padding: 24px 50px;
+    color: #323030;
+    background-color: rgb(186, 225, 240, 0.25);
+  }
+  
+  .footer-content{
+    margin-right: 1.25em;
+  }
+  
+  .footer-content h1{
+    font-size: 2rem;
+    font-family: 'DM Sans', sans-serif;
+    margin-top: 0.5em;
+    color: rgb(68, 130, 207);
+  }
+  
+  .footer-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 15%;
+  }
+  
+  .footer-content img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+
+  .footer-content span{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1rem;
+    color: rgb(101, 143, 194);
+  }
+  
+  .socials a{
+    width: 50px;
+    height: 40px;
+    color: rgb(101, 143, 194);
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px 0px;
+    padding: 10px 12px;
+    font-size: 25px;
+    transition: 0.5s;
+  }
+
+  .socials a:hover{
+    transform: scale(1.25);
+  }
+
+  .socials a:nth-of-type(2){
+    background: linear-gradient(to left, rgb(226, 27, 203),rgb(235, 225, 40));
+    background-size: 200% 200%;
+    -webkit-background-clip:text;
+  }
+  
+  .socials a:nth-of-type(1):hover{
+    color: rgb(61, 109, 213);
+  }
+  .socials a:nth-of-type(2):hover{
+    color: rgba(0,0,0,0);
+    cursor: pointer;
+    background-position: -100%;
+  }
+  .socials a:nth-of-type(3):hover{
+    color: rgb(66, 231, 99);
+  }
+  .socials a:nth-of-type(3):hover{
+    color: rgb(61, 109, 213);
+  }
+
+  .copyright{
+    color: rgb(101, 143, 194);
+  }

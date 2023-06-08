@@ -684,20 +684,20 @@ footer {
 }
 
 .navbar.nav-2{
-    color: rgb(95, 91, 91);
+    color: white;
     width: 98%;
-    background-color: rgb(186, 225, 240, 0.25);
+    background-color: rgb(204, 204, 204);
     border-radius: 10px;
     padding: 5px 25px;
 }
 .nav-title{
-    color: rgb(61, 109, 213);
+    color: rgb(100, 98, 98);
 }
 .nav-title:hover{
-    color: rgb(61, 109, 213);
+    color: rgb(100, 98, 98);
 }
 .nav-list a{
-    color: rgb(61, 109, 213);
+    color: rgb(117, 115, 115);
 }
 .nav-list a:hover{
     color: rgb(26, 25, 25);

@@ -43,6 +43,9 @@ header a {
     color: rgb(47, 47, 47);
     font-weight: bolder;
 }
+.logotxt:hover{
+    color: whitesmoke;
+}
 
 
 /* ====================== Code for CDN ===================== */    

@@ -26,6 +26,9 @@ header a {
     /* font-family: 'DM Sans', sans-serif; */
     color: #fff;
 }
+
+a.navbar-brand:hover {color: #fff !important;} 
+
 .container-logo{
     display: flex;
 }

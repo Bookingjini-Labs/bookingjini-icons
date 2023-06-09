@@ -4,9 +4,14 @@
     padding: 5% 10%;
     align-items: center;
 }
+
+.navbar-nav{
+    flex-direction: row;
+}
+
 .navbar-nav-in{
     padding-top: 20px;
-    height:80px
+    height:80px;
 }
 body {
     background-color: #272929;
@@ -161,10 +166,15 @@ input:checked + label svg.moon{
     position: relative;
     } */
 }
+@media only screen and (max-width: 545px){
+    .head-text .title {
+        font-size: 3.5rem;
+    }
+}
 @media only screen and (max-width: 500px) {
     .head-text .title {
-        font-size: 19vw;
-        justify-content: center;
+        font-size: 2.7rem;;
+        justify-content: flex-start;
         display: flex;
     }
     .icon__parent__box{
@@ -172,6 +182,11 @@ input:checked + label svg.moon{
     }
     .search-box{
         padding: 4vw;
+    }
+  }
+  @media only screen and (max-width: 400px){
+    .head-text .title {
+        font-size: 2.2rem;
     }
   }
   
@@ -250,7 +265,6 @@ input:checked + label svg.moon{
     font-weight: 400;
     letter-spacing: auto;
     color: #b8b9be;
-    padding-top: 2%;
     margin: 15px;
     padding-top: 1%;
     font-family: 'DM sans', 'Arvo',sans-serif;
@@ -447,7 +461,7 @@ input:checked + label svg.moon{
 .copy-code-container {
     display: flex;
     align-items: center;
-    width: 90%;
+    width: 98%;
     padding: 0.3rem;
     border: 1px solid #ccc;
     border-radius: 5px;

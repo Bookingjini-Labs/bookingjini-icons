@@ -1,24 +1,80 @@
-@media only screen and (max-width: 514px){
- 
-    .bigContainer{
-        width: 129vw;
-        padding: 39px;
-    }
+@media (max-width:980px){
+  .navright{
+    margin-right: 0;
+    padding: 25px 15px;
+  }
+  .nightmode {
+    margin-right: 0;
+  }
+  .navbar .container-fluid{
+    justify-content: flex-end;
+  }
+  .imglogo {
+    width: 12%;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 776px){ 
+  .head-text h1 {
+    font-size: 3.5rem;
+  }
+  .navbar {
+    padding: 5% 3%;
+  }
+  .logotxt {
+    font-size: 2.5rem;
+  }
+  .btn-outline-primary {
+    font-size: small;
+  }
+  .container, .container-sm {
+      max-width: 95%;
   }
 
-  @media only screen and (max-width: 360px){
- 
+}
+
+@media (max-width: 666px){
+  .logotxt {
+    font-size: 2rem;
+  } 
+  
+}
+
+@media(max-width: 500px){
+  .logotxt {
+    font-size: 1.5rem;
+  }
+  .head-text h3 {
+    font-size: calc(15px + 0.390625vw);
+  }
+  .text1{
+    font-size: 1rem;
+  }
+  .copy-code-container {
+    height:64px;
+  }
+  .search-box {
+    height: 54px;
+  }
+}
+  @media only screen and (max-width: 375px){
     .bigContainer{
       width: 148vw !important;
     }
-  
+    .logotxt {
+      font-size: 1.2rem;
+  }
+    .btn-outline-primary {
+      font-size: xx-small;
+    }
   }
 
   @media only screen and (max-width: 312px){
- 
     .bigContainer{
       width: 168vw ;
       padding: 20px;
     }
-  
   }
+
+  

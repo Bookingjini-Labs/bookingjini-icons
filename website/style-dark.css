@@ -47,6 +47,9 @@ a.navbar-brand:hover {color: #fff !important;}
     font-weight: bolder;
     font-size: 1.8rem;
 }
+.logotxt:hover{
+    color: whitesmoke;
+}
 
 /* ====================== Dark mode ===================== */
 .navright{

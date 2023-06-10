@@ -5,9 +5,13 @@
     align-items: center;
 }
 
-.navbar-nav-in {
+.navbar-nav{
+    flex-direction: row;
+}
+
+.navbar-nav-in{
     padding-top: 20px;
-    height: 80px
+    height:80px;
 }
 
 body {
@@ -30,7 +34,9 @@ header a {
     color: #fff;
 }
 
-.container-logo {
+a.navbar-brand:hover {color: #fff !important;} 
+
+.container-logo{
     display: flex;
 }
 
@@ -183,7 +189,11 @@ input:checked+label svg.moon {
     position: relative;
     } */
 }
-
+@media only screen and (max-width: 545px){
+    .head-text .title {
+        font-size: 3.5rem;
+    }
+}
 @media only screen and (max-width: 500px) {
     .head-text .title {
         font-size: 19vw;
@@ -198,8 +208,13 @@ input:checked+label svg.moon {
     .search-box {
         padding: 4vw;
     }
-}
-
+  }
+  @media only screen and (max-width: 400px){
+    .head-text .title {
+        font-size: 2.2rem;
+    }
+  }
+  
 @media only screen and (max-width: 500px) {
     #icon-wrapper {
         width: 360px;
@@ -278,7 +293,6 @@ input:checked+label svg.moon {
     font-weight: 400;
     letter-spacing: auto;
     color: #b8b9be;
-    padding-top: 2%;
     margin: 15px;
     padding-top: 1%;
     font-family: 'DM sans', 'Arvo', sans-serif;
@@ -476,7 +490,7 @@ input:checked+label svg.moon {
 .copy-code-container {
     display: flex;
     align-items: center;
-    width: 90%;
+    width: 98%;
     padding: 0.3rem;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -672,39 +686,7 @@ footer {
     color: rgba(0, 0, 0, 0);
     cursor: pointer;
     background-position: -100%;
-}
-
-.socials a:nth-of-type(3):hover {
+  }
+  .socials a:nth-of-type(3):hover{
     color: rgb(61, 109, 213);
-}
-
-/* icons category */
-
-.category {
-    margin: 3% 50% 2%;
-    position: relative;
-}
-
-.households,
-.social,
-.uiActions,
-.others {
-    color: white;
-}
-
-.navbar.nav-2{
-    color: white;
-    width: 98%;
-    background-color: rgba(184, 177, 177, 0.4);
-    border-radius: 10px;
-    padding: 5px 25px;
-}
-.nav-title{
-    color: rgb(200, 194, 194);
-}
-.nav-title:hover{
-    color: rgb(200, 194, 194);
-}
-.nav-list a{
-    color: white;
-}
+  }  

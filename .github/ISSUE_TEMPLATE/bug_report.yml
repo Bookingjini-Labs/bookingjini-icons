@@ -23,14 +23,14 @@ body:
     id: screenshots
     attributes:
       label: Screenshots
-      description: Please add screenshots if applicable
+      description: Please add screenshots, if applicable
     validations:
       required: false
 
   - type: textarea
     attributes:
       label: Additional context
-      description: Add any other context about the problem here.
+      description: Add other context about the problem here.
     validations:
       required: false
   - type: checkboxes

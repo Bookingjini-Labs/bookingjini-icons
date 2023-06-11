@@ -1,6 +1,6 @@
 # Code of Conduct
 
-We are committed to providing a friendly, inclusive, and safe environment for all participants in our project repository. This code of conduct outlines our expectations for behavior and ensures that everyone can collaborate in a positive and respectful manner. By participating in this project, you agree to abide by this code of conduct.
+We are committed to providing a friendly, inclusive, and safe environment for all participants in our project repository. This 'Code of Conduct' outlines our expectations for behavior and ensures that everyone can collaborate in a positive and respectful manner. By participating in this project, you agree to abide by this code of conduct.
 
 ## 1. Be Respectful and Inclusive
 

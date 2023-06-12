@@ -25,6 +25,14 @@ header a {
   /* font-family: 'DM Sans', sans-serif; */
   color: #fff;
 }
+
+a.navbar-brand:hover {
+  color: #fff !important;
+}
+
+.container-logo {
+  display: flex;
+}
 .imglogo {
   width: 5%;
   /* height: 10%; */
@@ -162,7 +170,9 @@ input:checked + label svg.moon {
     margin-top: 2rem;
   }
   h1.title {
-    font-size: 1.93rem !important;
+    font-size: 1.6rem !important;
+    font-weight: lighter !important;
+    margin-left: 1.3rem !important;
   }
   h3.title-title {
     font-size: 1rem !important;
@@ -185,6 +195,7 @@ input:checked + label svg.moon {
   }
   h1.title {
     font-size: 2rem !important;
+    margin-left: 1.3rem !important;
   }
   h3.title-title {
     font-size: 1rem !important;
@@ -209,6 +220,7 @@ input:checked + label svg.moon {
 @media only screen and (min-width: 376px) and (max-width: 426px) {
   h1.title {
     font-size: 2.7rem !important;
+    margin-left: 1.3rem !important;
   }
   h3.title-title {
     font-size: 1rem !important;
@@ -230,6 +242,7 @@ input:checked + label svg.moon {
 @media only screen and (min-width: 426px) and (max-width: 768px) {
   h1.title {
     font-size: 3.5rem !important;
+    text-align: center;
     width: 100% !important;
   }
   .copy-code-container {
@@ -281,10 +294,15 @@ input:checked + label svg.moon {
     position: relative;
     } */
 }
-@media only screen and (max-width: 516px) {
+@media only screen and (max-width: 545px) {
   .head-text .title {
-    font-size: 19vw;
-    justify-content: center;
+    font-size: 3.5rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .head-text .title {
+    font-size: 2.7rem;
+    justify-content: flex-start;
     display: flex;
   }
   .icon__parent__box {
@@ -292,6 +310,25 @@ input:checked + label svg.moon {
   }
   .search-box {
     padding: 4vw;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .head-text .title {
+    font-size: 2.2rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #icon-wrapper {
+    width: 360px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .bigContainer {
+    width: 360px;
+  }
+  #myUL {
+    width: 360px;
   }
 }
 
@@ -554,7 +591,24 @@ input:checked + label svg.moon {
   background-color: #888;
   border-radius: 3px;
 }
-
+.copy-code-container {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  padding: 0.3rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  justify-content: space-between;
+}
+.copy-code-container {
+  display: flex;
+  align-items: center;
+  width: 98%;
+  padding: 0.3rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  justify-content: space-between;
+}
 .copy-code-input::-webkit-scrollbar-track {
   background-color: #f1f1f1;
   border-radius: 3px;

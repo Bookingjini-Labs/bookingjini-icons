@@ -34,58 +34,6 @@
     rel="stylesheet">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-  <script src="https://kit.fontawesome.com/279191565c.js" crossorigin="anonymous"></script>
-  <script>
-    // fetch method used to read the people.json data
-    fetch("./iconsSet.json")
-      .then(response => response.json())
-      .then(data => {
-        // get the parent div for rendering the icons
-        let iconWrapper = document.getElementById("icon-wrapper");
-        let div = "";
-        // loop used to read all the data from people.json
-        for (let j = 0; j < data.length; j++) {
-          div += `
-          <div class="shadow-soft py-3 me-3 mb-4" onclick="iconCopy('<i class=&quot;${data[j].icon}&quot;></i>')">
-            <i class=${data[j].icon}></i>
-            <p>${data[j].name}</p>
-            <div class="icon-div" id="iconTextToCopy${j}"><i class=${data[j].icon}></i></div>
-            </div>
-          `
-        }
-        document.getElementById("icon-wrapper").innerHTML = div;
-
-      })
-  </script>
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      const iconContainer = document.querySelector('.img-icon');
-      const tooltipText = document.querySelector('.tooltip-text');
-      const code = document.querySelector('code');
-
-      iconContainer.addEventListener('click', () => {
-        const text = code.textContent;
-        document.execCommand('copy');
-        navigator.clipboard.writeText(text);
-
-        const range = document.createRange();
-        range.selectNodeContents(code);
-
-        const selection = window.getSelection();
-        selection.removeAllRanges();
-        selection.addRange(range);
-
-        tooltipText.textContent = 'Copied!';
-        tooltipText.style.visibility = 'visible';
-
-        setTimeout(() => {
-          tooltipText.textContent = 'Click to Copy';
-          tooltipText.style.visibility = 'hidden';
-          selection.removeRange(range);
-        }, 500);
-      });
-    });
-  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
@@ -99,6 +47,7 @@
         <a class="navbar-brand logotxt" href="#">Bookingjini Icons (v2.0)</a>
         <div class="navbar-nav navbar-expand-lg">
           <div class="navbar-nav-in">
+            <a class="btn btn-outline-primary" href="./about.html">About</a>
             <a class="btn btn-outline-primary" href="https://drive.bookingjini.tech/icons/v2/fonts.zip">Download</a>
             <a class="btn btn-outline-primary star" href="https://github.com/Bookingjini-Labs/bookingjini-icons"
               target="_blank">Star Repo <i class="jini-star" id="github"></i></a>
@@ -297,7 +246,58 @@
     </div>
   </footer>
 
+  <script src="https://kit.fontawesome.com/279191565c.js" crossorigin="anonymous"></script>
+  <script>
+    // fetch method used to read the people.json data
+    fetch("./iconsSet.json")
+      .then(response => response.json())
+      .then(data => {
+        // get the parent div for rendering the icons
+        let iconWrapper = document.getElementById("icon-wrapper");
+        let div = "";
+        // loop used to read all the data from people.json
+        for (let j = 0; j < data.length; j++) {
+          div += `
+          <div class="shadow-soft py-3 me-3 mb-4" onclick="iconCopy('<i class=&quot;${data[j].icon}&quot;></i>')">
+            <i class=${data[j].icon}></i>
+            <p>${data[j].name}</p>
+            <div class="icon-div" id="iconTextToCopy${j}"><i class=${data[j].icon}></i></div>
+            </div>
+          `
+        }
+        document.getElementById("icon-wrapper").innerHTML = div;
 
+      })
+  </script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const iconContainer = document.querySelector('.img-icon');
+      const tooltipText = document.querySelector('.tooltip-text');
+      const code = document.querySelector('code');
+
+      iconContainer.addEventListener('click', () => {
+        const text = code.textContent;
+        document.execCommand('copy');
+        navigator.clipboard.writeText(text);
+
+        const range = document.createRange();
+        range.selectNodeContents(code);
+
+        const selection = window.getSelection();
+        selection.removeAllRanges();
+        selection.addRange(range);
+
+        tooltipText.textContent = 'Copied!';
+        tooltipText.style.visibility = 'visible';
+
+        setTimeout(() => {
+          tooltipText.textContent = 'Click to Copy';
+          tooltipText.style.visibility = 'hidden';
+          selection.removeRange(range);
+        }, 500);
+      });
+    });
+  </script>
 
   <script>
     function iconCopy(icon) {

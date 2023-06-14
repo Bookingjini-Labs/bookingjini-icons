@@ -13,6 +13,12 @@
     width: 12%;
     margin-right: auto;
   }
+  .navbar{
+    padding: 8% 5%;
+  }
+  .container{
+    margin-top: 40vw;
+  }
 }
 
 @media (max-width: 776px){ 
@@ -20,7 +26,7 @@
     font-size: 3.5rem;
   }
   .navbar {
-    padding: 5% 3%;
+    padding: 8% 5%;
   }
   .logotxt {
     font-size: 2.5rem;

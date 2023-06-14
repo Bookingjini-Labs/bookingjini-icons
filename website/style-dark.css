@@ -789,3 +789,16 @@ h1{
 .icons{
     font-size: 4rem;
 }
+
+@media screen and (max-width:980px) {
+    .section{
+        margin-top: 60vw;
+    }
+    .section .right{
+        display: none;
+    }
+    .section .left{
+        width: 100%;
+    }
+    
+}

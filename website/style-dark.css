@@ -261,7 +261,7 @@ input:checked + label svg.moon{
    }
 
 .head-text h3 {
-    font-size: calc(20px + 0.390625vw);
+    font-size: 30px;
     font-weight: 400;
     letter-spacing: auto;
     color: #b8b9be;

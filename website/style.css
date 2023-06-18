@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
 
 .navbar {
-  /* padding: 5% 10%; */
-  /* border: 5px #007bff; */
   align-items: center;
 }
 .navbar-nav {
@@ -38,17 +36,23 @@ header a {
 .container-logo {
   display: flex;
 }
+.container-flex {
+  display: flex;
+  margin: 10px;
+}
 .imglogo {
-  width: 5%;
+  width: 6%;
   border-radius: 100%;
   box-shadow: 2px 2px #000;
+  margin: 10px;
 }
 
 .logotxt {
-  font-size: 4rem;
+  font-size: 2rem;
   color: rgb(47, 47, 47);
   font-weight: bolder;
-  font-style: oblique;
+  /* font-style: oblique; */
+  margin-left: 12px;
 }
 
 /* ====================== Code for CDN ===================== */
@@ -346,6 +350,7 @@ input:checked + label svg.moon {
   -webkit-background-clip: text;
   background-clip: text;
   transition: 0.5s ease-in-out;
+  margin: 13px;
   /* color: #000; */
 }
 

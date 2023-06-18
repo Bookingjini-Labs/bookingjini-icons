@@ -4,6 +4,9 @@
     padding: 5% 10%;
     align-items: center;
 }
+.navbar-nav{
+    flex-direction: row;
+}
 .navbar-nav-in{
     padding-top: 20px;
     height:80px
@@ -12,7 +15,13 @@ body {
     background-color: #ffffff;
     
 }
+#github{
+    color:#007bff; 
+}
 
+.star:hover #github {
+    color: white;
+}
 
 
 header a {
@@ -35,6 +44,7 @@ header a {
     font-weight: bolder;
 }
 
+
 /* ====================== Code for CDN ===================== */    
 
 
@@ -42,7 +52,7 @@ header a {
 .copy-code-container {
     display: flex;
     align-items: center;
-    width: 90%;
+    width: 100%;
     padding: 0.3rem;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -257,12 +267,18 @@ input:checked + label svg.moon{
     position: relative;
     } */
 }
-@media only screen and (max-width: 516px) {
+@media only screen and (max-width: 545px){
     .head-text .title {
-      font-size: 19vw;
-      justify-content: center;
+        font-size: 3.5rem;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .head-text .title {
+      font-size: 2.7rem;
+      justify-content: flex-start;
       display: flex;
     }
+    
     .icon__parent__box{
         max-width: fit-content;
         justify-content: center;
@@ -270,6 +286,11 @@ input:checked + label svg.moon{
     }
     .search-box{
         padding: 4vw;
+    }
+  }
+  @media only screen and (max-width: 400px){
+    .head-text .title {
+        font-size: 2.2rem;
     }
   }
 .btbtn-outline-primaryn {
@@ -296,6 +317,7 @@ input:checked + label svg.moon{
     background: rgb(146, 146, 146);
 }
 
+
 .head-text {
     font-family: 'DM Sans', sans-serif;
 }
@@ -304,10 +326,25 @@ input:checked + label svg.moon{
     font-size: 5rem;
     font-weight: 700;
     font-weight: bolder;
-    -webkit-text-stroke: 2px rgb(0, 0, 0);
+    /* -webkit-text-stroke: 0.5px rgb(0, 0, 0);  */
     font-family: 'DM Sans',sans-serif;
 
 }
+
+.animated {
+    text-decoration: none;
+    background: linear-gradient(to right, #CCC 50%, #315BA9 50%, #3766BD 30%, #3E73D6);
+    background-size: 200%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    transition: 0.5s ease-in-out;
+   }
+   
+   .animated:hover { 
+    cursor: pointer;
+    background-position: -100%;
+   }
 
 .head-text h3 {
     font-size: 30px;
@@ -315,6 +352,7 @@ input:checked + label svg.moon{
     letter-spacing: auto;
     color: #4d4d4e;
     padding-top: 1%;
+    margin: 15px;
 }
 
 .search-box {
@@ -374,13 +412,13 @@ input:checked + label svg.moon{
 
 
 
-.shadow-soft {
+/* .shadow-soft { */
     /* box-shadow: 6px 6px 12px #b8b9be, -6px -6px 12px #fff !important; */
     /* transition: transform .2s; */
     /* border-radius: 2%;
     margin-left: 2rem;
-    margin-bottom: 2rem; */
-}
+    margin-bottom: 2rem; 
+} */
 
 .shadow-soft button {
     display: none;
@@ -410,7 +448,7 @@ input:checked + label svg.moon{
     font-size: 1.5rem;
 }
 
-.icon-box {}
+/* .icon-box {} */
 
 .icon-box li {
     list-style: none;
@@ -492,6 +530,11 @@ input:checked + label svg.moon{
     display: none;
 }
 
+.notFound img{
+    width: 3.4rem;
+}
+
+
 /* ====================== START OF SCROLL-TO-TOP BUTTON===================== */    
 
 #progress {
@@ -524,4 +567,85 @@ input:checked + label svg.moon{
   /* ====================== END OF SCROLL-TO-TOP BUTTON ===================== */
 
 
- 
+/* Footer Section */
+
+  footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-flow: row wrap;
+    padding: 24px 50px;
+    color: #323030;
+    background-color: rgb(186, 225, 240, 0.25);
+  }
+  
+  .footer-content{
+    margin-right: 1.25em;
+  }
+  
+  .footer-content h1{
+    font-size: 2rem;
+    font-family: 'DM Sans', sans-serif;
+    margin-top: 0.5em;
+    color: rgb(68, 130, 207);
+  }
+  
+  .footer-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 15%;
+  }
+  
+  .footer-content img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+
+  .footer-content span{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1rem;
+    color: rgb(101, 143, 194);
+  }
+  
+  .socials a{
+    width: 50px;
+    height: 40px;
+    color: rgb(101, 143, 194);
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px 0px;
+    padding: 10px 12px;
+    font-size: 25px;
+    transition: 0.5s;
+  }
+
+  .socials a:hover{
+    transform: scale(1.25);
+  }
+
+  .socials a:nth-of-type(2){
+    background: linear-gradient(to left, rgb(226, 27, 203),rgb(235, 225, 40));
+    background-size: 200% 200%;
+    -webkit-background-clip:text;
+  }
+  
+  .socials a:nth-of-type(1):hover{
+    color: rgb(61, 109, 213);
+  }
+  .socials a:nth-of-type(2):hover{
+    color: rgba(0,0,0,0);
+    cursor: pointer;
+    background-position: -100%;
+  }
+  .socials a:nth-of-type(3):hover{
+    color: rgb(66, 231, 99);
+  }
+  .socials a:nth-of-type(3):hover{
+    color: rgb(61, 109, 213);
+  }
+
+  .copyright{
+    color: rgb(101, 143, 194);
+  }

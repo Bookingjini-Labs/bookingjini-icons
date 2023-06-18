@@ -4,14 +4,22 @@
     padding: 5% 10%;
     align-items: center;
 }
+
+.navbar-nav{
+    flex-direction: row;
+}
+
 .navbar-nav-in{
     padding-top: 20px;
-    height:80px
+    height:80px;
 }
 body {
     background-color: #272929;
     font-family: 'DM Sans',sans-serif;
 
+}
+#github{
+    color:white;
 }
 
 /* header {} */
@@ -23,6 +31,9 @@ header a {
     /* font-family: 'DM Sans', sans-serif; */
     color: #fff;
 }
+
+a.navbar-brand:hover {color: #fff !important;} 
+
 .container-logo{
     display: flex;
 }
@@ -155,10 +166,15 @@ input:checked + label svg.moon{
     position: relative;
     } */
 }
+@media only screen and (max-width: 545px){
+    .head-text .title {
+        font-size: 3.5rem;
+    }
+}
 @media only screen and (max-width: 500px) {
     .head-text .title {
-        font-size: 19vw;
-        justify-content: center;
+        font-size: 2.7rem;;
+        justify-content: flex-start;
         display: flex;
     }
     .icon__parent__box{
@@ -166,6 +182,11 @@ input:checked + label svg.moon{
     }
     .search-box{
         padding: 4vw;
+    }
+  }
+  @media only screen and (max-width: 400px){
+    .head-text .title {
+        font-size: 2.2rem;
     }
   }
   
@@ -220,17 +241,30 @@ input:checked + label svg.moon{
     font-size: 5rem;
     font-family: 'DM Sans',sans-serif;
     font-weight: bolder;
-    -webkit-text-stroke: 2px rgb(255, 255, 255);
+    /* -webkit-text-stroke: 2px rgb(255, 255, 255); */
     color: #f1f1f1;
     
 }
+.animated {
+    text-decoration: none;
+    background: linear-gradient(to right, #CCC 50%, #315BA9 50%, #3766BD 30%, #3E73D6);
+    background-size: 200%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    transition: 0.5s ease-in-out;
+   }
+   
+   .animated:hover {
+    cursor: pointer;
+    background-position: -100%;
+   }
 
 .head-text h3 {
     font-size: calc(20px + 0.390625vw);
     font-weight: 400;
     letter-spacing: auto;
     color: #b8b9be;
-    padding-top: 2%;
     margin: 15px;
     padding-top: 1%;
     font-family: 'DM sans', 'Arvo',sans-serif;
@@ -335,7 +369,7 @@ input:checked + label svg.moon{
     color: #fff;
 }
 
-.icon-box {}
+/*.icon-box {} */
 
 .icon-box li {
     list-style: none;
@@ -416,6 +450,10 @@ input:checked + label svg.moon{
     display: none;
 }
 
+.notFound img{
+    width: 3.4rem;
+}
+
 /* ====================== Code for CDN ===================== */    
 
 
@@ -423,7 +461,7 @@ input:checked + label svg.moon{
 .copy-code-container {
     display: flex;
     align-items: center;
-    width: 90%;
+    width: 98%;
     padding: 0.3rem;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -544,3 +582,77 @@ input:checked + label svg.moon{
   
   /* ====================== END OF SCROLL-TO-TOP BUTTON ===================== */
 
+/* Footer Section */
+  
+  footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-flow: row wrap;
+    padding: 24px 50px;
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
+  }
+  
+  .footer-content{
+    margin-right: 1.25em;
+  }
+
+  .footer-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 15%;
+  }
+  
+  .footer-content h1{
+    font-size: 2rem;
+    font-family: 'DM Sans', sans-serif;
+    margin-top: 0.5em;
+  }
+
+  
+  .footer-content img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+
+  .footer-content span{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1rem;
+    color: #ffffff;
+  }
+  
+  .socials a{
+    width: 50px;
+    height: 40px;
+    color: #e7f2f4;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 12px;
+    font-size: 25px;
+    margin: 10px 0px;
+    transition: 0.5s;
+  }
+
+  .socials a:hover{
+    transform: scale(1.25);
+  }
+
+  .socials a:nth-of-type(2){
+    background: linear-gradient(to left, rgb(226, 27, 203),rgb(235, 225, 40));
+    background-size: 200% 200%;
+    -webkit-background-clip:text;
+  }
+  .socials a:nth-of-type(1):hover{
+    color: rgb(61, 109, 213);
+  }
+  .socials a:nth-of-type(2):hover{
+    color:rgba(0,0,0,0);
+    cursor: pointer;
+    background-position: -100%;
+  }
+  .socials a:nth-of-type(3):hover{
+    color: rgb(61, 109, 213);
+  }  

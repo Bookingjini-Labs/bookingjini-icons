@@ -99,7 +99,7 @@
         <img class="imglogo" src="logo.png">
         <a class="navbar-brand logotxt" href="#">Bookingjini Icons (v2.0)</a>
           <div class="navbar-nav navbar-expand-lg">
-            <div class="navbar-nav-in">
+            <div class="navbar-nav-in"> 
               <button class="btn-toggle btn btn-primary" style="margin-right: 0.5rem;" >Light Mode</button>
               <a class="btn btn-outline-primary" href="https://drive.bookingjini.tech/icons/v2/fonts.zip">Download</a>
               <a class="btn btn-outline-primary" href="https://github.com/Bookingjini-Labs/bookingjini-icons">Get CDN</a>
@@ -221,7 +221,8 @@
         }
     }
   </script>
-  <!-- Function for enabling dark mode -->
+    
+
   <script>
     
     const btn = document.querySelector(".btn-toggle");
@@ -232,12 +233,11 @@
       // Swap out the URL for the different stylesheets
       if (theme.getAttribute("href") == "style.css") {
         theme.href = "style-dark.css";
-        btn.textContent = "Light Mode";
-
+        btn.innerHTML = "Light Mode";
         
       } else {
         theme.href = "style.css";
-        btn.textContent = "Dark Mode";
+        btn.innerHTML = "Dark Mode";
       }
 
       footer.classList.toggle("dark-color")

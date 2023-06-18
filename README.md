@@ -44,7 +44,12 @@ Find hospitality related icons, curated by creators from Bookingjini
 
 ## GirlScript Summer of Code 2023   - Join Us!
 
-![213306239-9e8fc317-ce2f-4127-8bfe-17f5df06ee99](https://github.com/harshsingh32/bookingjini-icons/assets/63696299/558a2840-ded2-4305-b3a5-83d5ad76b3fd)
+<!-- ![213306239-9e8fc317-ce2f-4127-8bfe-17f5df06ee99](https://github.com/harshsingh32/bookingjini-icons/assets/63696299/558a2840-ded2-4305-b3a5-83d5ad76b3fd) -->
+
+<!-- <img src="https://user-images.githubusercontent.com/88102392/239682688-0c5debf5-d414-4916-87d8-e1a710773ae3.png"> -->
+
+![GSSoC Logo Light](https://user-images.githubusercontent.com/63473496/213306239-9e8fc317-ce2f-4127-8bfe-17f5df06ee99.png#gh-light-mode-only)
+![GSSoC Logo Dark](https://user-images.githubusercontent.com/63473496/213306279-338f7ce9-9a9f-4427-8c2a-3e344874498f.png#gh-dark-mode-only)
 
 BookingJini Icons is thrilled to announce that we are open for participation in GirlScript Summer of Code 2023 (GSSoC'23)! We invite aspiring developers, designers, and open-source enthusiasts to join our project and make a meaningful impact in the hospitality industry. GSSoC'23 offers a unique opportunity to gain practical experience, collaborate with mentors, and contribute to real-world projects like BookingJini Icons. Whether you're interested in coding, UI/UX design, documentation, or project management, there's a place for you in our vibrant community. Come join us and be a part of the BookingJini Icons revolution!
 

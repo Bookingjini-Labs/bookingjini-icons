@@ -36,54 +36,109 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <script src="https://kit.fontawesome.com/279191565c.js" crossorigin="anonymous"></script>
   <script>
-    // fetch method used to read the people.json data
+    // fetch method used to read the iconsSet.json data
+    let jsonData = null;
     fetch("./iconsSet.json")
       .then(response => response.json())
       .then(data => {
+        jsonData = data;
         // get the parent div for rendering the icons
         let iconWrapper = document.getElementById("icon-wrapper");
         let div = "";
-        // loop used to read all the data from people.json
+        // loop used to read all the data from iconsSet.json
         for (let j = 0; j < data.length; j++) {
-          div += `
-          <div class="shadow-soft py-3 me-3 mb-4" onclick="iconCopy('<i class=&quot;${data[j].icon}&quot;></i>')">
-            <i class=${data[j].icon}></i>
-            <p>${data[j].name}</p>
-            <div class="icon-div" id="iconTextToCopy${j}"><i class=${data[j].icon}></i></div>
+          div = `
+          <div class="icon icon-tile" id="${j}">
+            <div class="shadow-soft py-3 me-3 mb-4">
+              <i class=${data[j].icon}></i>
+              <p>${data[j].name}</p>
+              <div class="icon-div" id="iconTextToCopy${j}"><i class=${data[j].icon}></i></div>
             </div>
+          </div>
           `
-        }
-        document.getElementById("icon-wrapper").innerHTML = div;
 
-      })
+          document.getElementById("icon-wrapper").innerHTML += div;
+        }
+      });
+
+      function disableScroll() {
+          // Get the current page scroll position
+          scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+          scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
+
+              // if any scroll is attempted, set this to the previous value
+              window.onscroll = function() {
+                  window.scrollTo(scrollLeft, scrollTop);
+              };
+      }
+
+      function enableScroll() {
+          window.onscroll = function() {};
+      }
   </script>
   <script>
     document.addEventListener('DOMContentLoaded', () => {
-      const iconContainer = document.querySelector('.img-icon');
-      const tooltipText = document.querySelector('.tooltip-text');
-      const code = document.querySelector('code');
+      const iconTiles = document.querySelectorAll('.icon-tile');
+      for (let iconTile of iconTiles){
+        const index = Number(iconTile.id);
+        const iconModal = document.querySelector('.icon-modal');
+        iconTile.addEventListener('click', () => {
+          document.body.querySelector('main').style.opacity = "0.5"
 
-      iconContainer.addEventListener('click', () => {
-        const text = code.textContent;
-        document.execCommand('copy');
-        navigator.clipboard.writeText(text);
+          iconModal.innerHTML = `
+          <i class="jini-x" style="cursor:pointer;"></i>
+          <i class="icon-preview ${jsonData[index].icon}"></i>
+          <div>For HTML</div>
+          <code onclick="iconCopy('<i class=&quot;${jsonData[index].icon}&quot;></i>')">
+            &lt;i 
+              class=&quot;${jsonData[index].icon}&quot;&gt;
+              &lt;/i&gt;
+          </code>
+          <br>
+          <div>For React</div>
+          <code onclick="iconCopy('<${jsonData[index].react_icon} />')">&lt;${jsonData[index].react_icon} /&gt;</code>`;
 
-        const range = document.createRange();
-        range.selectNodeContents(code);
+          iconModal.style.display = "flex";
+          disableScroll();
+          
+          iconModal.getElementsByTagName('i')[0].addEventListener('click', () => {
+            document.body.querySelector('main').style.opacity = "1";
+            enableScroll();
+            iconModal.innerHTML = "";
+            iconModal.style.display = "none";
+          });
+        });
+      }
 
-        const selection = window.getSelection();
-        selection.removeAllRanges();
-        selection.addRange(range);
 
-        tooltipText.textContent = 'Copied!';
-        tooltipText.style.visibility = 'visible';
-
-        setTimeout(() => {
-          tooltipText.textContent = 'Click to Copy';
-          tooltipText.style.visibility = 'hidden';
-          selection.removeRange(range);
-        }, 500);
-      });
+      const copyCodeContainers = document.querySelectorAll('.copy-code-container');
+      for (let copyCodeContainer of copyCodeContainers){
+        const iconContainer = copyCodeContainer.querySelector('.img-icon');
+        const tooltipText = copyCodeContainer.querySelector('.tooltip-text');
+        const code = copyCodeContainer.querySelector('code');
+  
+        iconContainer.addEventListener('click', () => {
+          const text = code.textContent;
+          document.execCommand('copy');
+          navigator.clipboard.writeText(text);
+  
+          const range = document.createRange();
+          range.selectNodeContents(code);
+  
+          const selection = window.getSelection();
+          selection.removeAllRanges();
+          selection.addRange(range);
+  
+          tooltipText.textContent = 'Copied!';
+          tooltipText.style.visibility = 'visible';
+  
+          setTimeout(() => {
+            tooltipText.textContent = 'Click to Copy';
+            tooltipText.style.visibility = 'hidden';
+            selection.removeRange(range);
+          }, 500);
+        });
+      }
     });
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -92,6 +147,8 @@
 </head>
 
 <body>
+  <div class="icon-modal">
+  </div>
   <main>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
@@ -241,6 +298,22 @@
               </div>
             </div>
           </div>
+          <br>
+          <p class="text1"> For using Icons in React, paste and run the following command: </p>
+          <div class="copy-code-container">
+            <div class="copy-code-input">
+              <p>
+                <code>npm install bookingjini-icons</code>
+              </p>
+            </div>
+            <div class="icon">
+              <div class="hover-text">
+                <img src="https://i.ibb.co/Jzrg63c/image-removebg-preview-1.png" alt="" class="img-icon">
+                <span class="tooltip-text" id="bottom">Click to Copy</span>
+              </div>
+            </div>
+          </div>
+          <br>
           <p class="text1 text2"> To use the icons, click on your preferred icons, and paste inside your body tag.</p>
           <div class="search input-group mb-3 mt-3 input-group-lg search-box">
             <input type="text" id="searchInput" onkeyup="searchIcon()" class="search-box-2" placeholder="Search Icon"

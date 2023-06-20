@@ -2,6 +2,7 @@
 
 .navbar {
   align-items: center;
+  padding: 3% 10% 0 10% ;
 }
 .navbar-nav {
   flex-direction: row;

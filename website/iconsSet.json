@@ -1448,5 +1448,10 @@
     "id": "290",
     "icon": "jini-x",
     "name": "x"
+  },
+  {
+    "id": "291",
+    "icon": "jini-instagram",
+    "name": "instagram"
   }
 ]

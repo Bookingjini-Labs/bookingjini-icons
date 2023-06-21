@@ -38,8 +38,9 @@ a.navbar-brand:hover {
   display: flex;
 }
 .imglogo {
-  width: 5%;
+  width: 8%;
   border-radius: 100%;
+  margin: 10px;
 }
 .logotxt {
   color: whitesmoke;

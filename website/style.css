@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
 
 .navbar {
-  padding: 5% 10%;
   align-items: center;
 }
 .navbar-nav {
@@ -10,6 +9,14 @@
 .navbar-nav-in {
   padding-top: 20px;
   height: 80px;
+}
+
+.navbar-brand {
+  font-size: 3rem;
+  font-weight: 700;
+  font-weight: bolder;
+  /* -webkit-text-stroke: 0.5px rgb(0, 0, 0);  */
+  font-family: "DM Sans", sans-serif;
 }
 body {
   background-color: #ffffff;
@@ -29,16 +36,23 @@ header a {
 .container-logo {
   display: flex;
 }
+.container-flex {
+  display: flex;
+  margin: 10px;
+}
 .imglogo {
-  width: 30%;
+  width: 6%;
   border-radius: 100%;
   box-shadow: 2px 2px #000;
+  margin: 10px;
 }
 
 .logotxt {
-  font-size: 1.8rem;
+  font-size: 2rem;
   color: rgb(47, 47, 47);
   font-weight: bolder;
+  /* font-style: oblique; */
+  margin-left: 12px;
 }
 
 /* ====================== Code for CDN ===================== */
@@ -233,7 +247,7 @@ input:checked + label svg.moon {
     left: 0px;
   }
   .imglogo {
-    width: 30%;
+    width: 20%;
   }
   .btn-outline-primary {
     margin: 5px;

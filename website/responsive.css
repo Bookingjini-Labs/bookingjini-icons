@@ -1,21 +1,21 @@
-@media (max-width:980px){
-  .navright{
+@media (max-width: 980px) {
+  .navright {
     margin-right: 0;
     padding: 25px 15px;
   }
   .nightmode {
     margin-right: 0;
   }
-  .navbar .container-fluid{
+  .navbar .container-fluid {
     justify-content: flex-end;
   }
   .imglogo {
-    width: 12%;
+    width: 20%;
     margin-right: auto;
   }
 }
 
-@media (max-width: 776px){ 
+@media (max-width: 776px) {
   .head-text h1 {
     font-size: 3.5rem;
   }
@@ -28,53 +28,50 @@
   .btn-outline-primary {
     font-size: small;
   }
-  .container, .container-sm {
-      max-width: 95%;
+  .container,
+  .container-sm {
+    max-width: 95%;
   }
-
 }
 
-@media (max-width: 666px){
+@media (max-width: 666px) {
   .logotxt {
     font-size: 2rem;
-  } 
-  
+  }
 }
 
-@media(max-width: 500px){
+@media (max-width: 500px) {
   .logotxt {
     font-size: 1.5rem;
   }
   .head-text h3 {
     font-size: calc(15px + 0.390625vw);
   }
-  .text1{
+  .text1 {
     font-size: 1rem;
   }
   .copy-code-container {
-    height:64px;
+    height: 64px;
   }
   .search-box {
     height: 54px;
   }
 }
-  @media only screen and (max-width: 375px){
-    .bigContainer{
-      width: 148vw !important;
-    }
-    .logotxt {
-      font-size: 1.2rem;
+@media only screen and (max-width: 375px) {
+  .bigContainer {
+    width: 148vw !important;
   }
-    .btn-outline-primary {
-      font-size: xx-small;
-    }
+  .logotxt {
+    font-size: 1.2rem;
   }
+  .btn-outline-primary {
+    font-size: xx-small;
+  }
+}
 
-  @media only screen and (max-width: 312px){
-    .bigContainer{
-      width: 168vw ;
-      padding: 20px;
-    }
+@media only screen and (max-width: 312px) {
+  .bigContainer {
+    width: 168vw;
+    padding: 20px;
   }
-
-  
+}

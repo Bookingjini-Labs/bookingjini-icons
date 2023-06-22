@@ -41,7 +41,7 @@ header a {
   margin: 10px;
 }
 .imglogo {
-  width: 6%;
+  width: 20%;
   border-radius: 100%;
   box-shadow: 2px 2px #000;
   margin: 10px;
@@ -340,18 +340,16 @@ input:checked + label svg.moon {
   text-decoration: none;
   background: linear-gradient(
     to right,
-    #3e73d6 50%,
-    #e1358b 50%,
-    #db3487 30%,
-    #d63384
+    #ccc 50%,
+    #315ba9 50%,
+    #3766bd 30%,
+    #3e73d6
   );
   background-size: 200%;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
   transition: 0.5s ease-in-out;
-  margin: 13px;
-  /* color: #000; */
 }
 
 .animated:hover {

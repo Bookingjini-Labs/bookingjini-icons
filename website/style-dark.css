@@ -25,10 +25,6 @@ body {
   /* -webkit-text-stroke: 0.5px rgb(0, 0, 0);  */
   font-family: "DM Sans", sans-serif;
 }
-body {
-  background-color: #272929;
-  font-family: "DM Sans", sans-serif;
-}
   
 #github {
   color: white;
@@ -50,23 +46,16 @@ a.navbar-brand:hover {
 
 .container-logo {
   display: flex;
-  /* margin: 10px; */
-}
-.container-flex {
-  display: flex;
-  margin: 10px;
 }
 .imglogo {
-  width: 6%;
+  width: 8%;
   border-radius: 100%;
   margin: 10px;
 }
 .logotxt {
   color: whitesmoke;
-  font-size: 2rem;
   font-weight: bolder;
-  /* font-style: oblique; */
-  margin-left: 12px;
+  font-size: 1.8rem;
 }
 
 /* ====================== Dark mode ===================== */
@@ -265,17 +254,16 @@ input:checked + label svg.moon {
   text-decoration: none;
   background: linear-gradient(
     to right,
-    #3e73d6 50%,
-    #e1358b 50%,
-    #db3487 30%,
-    #d63384
+    #ccc 50%,
+    #315ba9 50%,
+    #3766bd 30%,
+    #3e73d6
   );
   background-size: 200%;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
   transition: 0.5s ease-in-out;
-  margin: 13px;
 }
 
 .animated:hover {

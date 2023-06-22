@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Error 404 page</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Combo&family=Open+Sans&family=Pacifico&family=Poppins:wght@200;300;400&family=Prosto+One&display=swap");
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Poppins", sans-serif;
+        background-color: white;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .wrapper {
+        text-align: center;
+      }
+
+      .wrapper h2 {
+        margin: 40px 0;
+        font-size: 2.5rem;
+      }
+
+      .wrapper img {
+        width: 600px;
+        max-width: 75%;
+      }
+
+      .wrapper h4 {
+        margin: 40px 0 20px;
+        font-size: 1.2rem;
+      }
+
+      .main-btn {
+        padding: 15px;
+        background-color: #6c63ff;
+        color: #fff;
+        border: none;
+        font-weight: 700;
+        letter-spacing: 1px;
+        border-radius: 6px;
+        cursor: pointer;
+      }
+
+      @media (max-width: 767px) {
+        .wrapper h2 {
+          font-size: 2rem;
+        }
+        .wrapper h4 {
+          font-size: 1rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h2>Oops! Page not found</h2>
+      <div>
+        <img src="error404.svg" alt="404" />
+      </div>
+      <h4>We can't find the page you're looking for</h4>
+      <button type="button" class="main-btn">GO BACK HOME</button>
+    </div>
+  </body>
+</html>

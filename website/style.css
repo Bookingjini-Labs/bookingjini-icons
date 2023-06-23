@@ -337,24 +337,11 @@ input:checked + label svg.moon {
 }
 
 .animated {
-  text-decoration: none;
-  background: linear-gradient(
-    to right,
-    #ccc 50%,
-    #315ba9 50%,
-    #3766bd 30%,
-    #3e73d6
-  );
-  background-size: 200%;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
-  transition: 0.5s ease-in-out;
+ color: black;
 }
 
 .animated:hover {
   cursor: pointer;
-  background-position: -100%;
 }
 
 .head-text h3 {

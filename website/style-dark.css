@@ -36,17 +36,21 @@ a.navbar-brand:hover {
 
 .container-logo {
   display: flex;
+  margin: 10px;
 }
 .imglogo {
-  width: 8%;
+  width: 20%;
   border-radius: 100%;
   margin: 10px;
 }
 .logotxt {
   color: whitesmoke;
   font-weight: bolder;
-  font-size: 1.8rem;
+  font-size: 2rem;
+  font-weight: bolder;
+  margin-left: 12px;
 }
+
 
 /* ====================== Dark mode ===================== */
 .navright {
@@ -129,9 +133,9 @@ input:checked + label svg.moon {
 
 /* ====================== ******************************************** ===================== */
 @media only screen and (max-width: 1000px) {
-  .logotxt {
+  /* .logotxt {
     left: -100px;
-  }
+  } */
   .me-1 {
     margin-bottom: 0.5rem;
   }
@@ -241,24 +245,15 @@ input:checked + label svg.moon {
   color: #f1f1f1;
 }
 .animated {
-  text-decoration: none;
-  background: linear-gradient(
-    to right,
-    #ccc 50%,
-    #315ba9 50%,
-    #3766bd 30%,
-    #3e73d6
-  );
-  background-size: 200%;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
-  transition: 0.5s ease-in-out;
+ color: white;
 }
 
 .animated:hover {
   cursor: pointer;
   background-position: -100%;
+}
+.container-flex {
+  display: flex;
 }
 
 .head-text h3 {

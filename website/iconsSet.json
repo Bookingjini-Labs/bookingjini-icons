@@ -141,17 +141,17 @@
   },
   {
     "id": "29",
-    "icon": "jini-arrow-left-2",
-    "name": "arrow-left-2"
-  },
-  {
-    "id": "30",
     "icon": "jini-arrow-right-1",
     "name": "arrow-right-1"
   },
   {
-    "id": "31",
+    "id": "30",
     "icon": "jini-arrow-right-2",
+    "name": "arrow-left-2"
+  },
+  {
+    "id": "31",
+    "icon": "jini-arrow-left-2",
     "name": "arrow-right-2"
   },
   {

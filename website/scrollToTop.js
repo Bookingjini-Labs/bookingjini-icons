@@ -23,3 +23,8 @@ let calcScrollValue = () => {
 
   window.onscroll = calcScrollValue;
   window.onload = calcScrollValue;
+
+
+  function defaultDark(){
+    alert("ok")
+  }

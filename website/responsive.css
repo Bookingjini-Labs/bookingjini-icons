@@ -75,3 +75,14 @@
     padding: 20px;
   }
 }
+
+/* maked the navbar responsive at this width size */
+@media (min-width: 800px) and (max-width: 943px){
+ .imglogo{
+  width: 90%;
+ }
+ .navbar-brand{
+  font-size: 3.5rem;
+ }
+
+} 

@@ -72,6 +72,9 @@ b. To use the icons, click on your preferred icons, and paste inside your body t
         <i class="jini-people1"></i>
     </body>
 
+### 2. With `React` Apps:
+
+Go to [React Icons Docs](./package/README.md)
 
 ## Contributors✨
 

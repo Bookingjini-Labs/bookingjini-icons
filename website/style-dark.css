@@ -12,10 +12,20 @@
   padding-top: 20px;
   height: 80px;
 }
+
 body {
-  background-color: #272929;
+    background-color: #272929;
+    font-family: 'DM Sans',sans-serif;
+}
+
+.navbar-brand {
+  font-size: 3rem;
+  font-weight: 700;
+  font-weight: bolder;
+  /* -webkit-text-stroke: 0.5px rgb(0, 0, 0);  */
   font-family: "DM Sans", sans-serif;
 }
+  
 #github {
   color: white;
 }
@@ -446,7 +456,47 @@ input:checked + label svg.moon {
   width: 3.4rem;
 }
 
-/* ====================== Code for CDN ===================== */
+.icon-modal{
+    position: sticky;
+    padding: 20px;
+    border-radius: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f3f0f0;
+    min-width: 250px;
+    width: 30%;
+    z-index: 100;
+    display: none;
+    flex-direction: column;
+}
+
+.icon-modal div{
+    text-align: left;
+}
+
+.icon-modal code{
+    padding: min(10px, 2%);
+    width: 100%;
+    word-wrap: normal;
+    border-radius: 5px;
+    background-color: #272929;
+    color: white;
+    text-align: left;
+}
+
+.icon-modal .icon-preview{
+    text-align: center;
+    font-size: 50px;
+}
+
+.icon-modal .jini-x{
+    font-weight: 900;
+    position: absolute;
+    right: 20px;
+}
+
+/* ====================== Code for CDN ===================== */    
 
 .copy-code-container {
   display: flex;

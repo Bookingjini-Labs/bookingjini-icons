@@ -41,7 +41,7 @@ header a {
   margin: 10px;
 }
 .imglogo {
-  width: 6%;
+  width: 20%;
   border-radius: 100%;
   box-shadow: 2px 2px #000;
   margin: 10px;
@@ -337,26 +337,11 @@ input:checked + label svg.moon {
 }
 
 .animated {
-  text-decoration: none;
-  background: linear-gradient(
-    to right,
-    #3e73d6 50%,
-    #e1358b 50%,
-    #db3487 30%,
-    #d63384
-  );
-  background-size: 200%;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
-  transition: 0.5s ease-in-out;
-  margin: 13px;
-  /* color: #000; */
+ color: black;
 }
 
 .animated:hover {
   cursor: pointer;
-  background-position: -100%;
 }
 
 .head-text h3 {
@@ -541,6 +526,51 @@ input:checked + label svg.moon {
 .notFound img {
   width: 3.4rem;
 }
+
+.icon-modal{
+    position: sticky;
+    padding: 20px;
+    border-radius: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f3f0f0;
+    min-width: 250px;
+    width: 30%;
+    z-index: 100;
+    display: none;
+    flex-direction: column;
+    background-color: #242424;
+}
+
+.icon-modal div{
+    text-align: left;
+    color: white;
+}
+
+.icon-modal code{
+    padding: min(10px, 2%);
+    width: 100%;
+    word-wrap: normal;
+    border-radius: 5px;
+    background-color: white;
+    color: #242424;
+    text-align: left;
+}
+
+.icon-modal .icon-preview{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+.icon-modal .jini-x{
+    color: white;
+    font-weight: 900;
+    position: absolute;
+    right: 20px;
+}
+
 
 /* ====================== START OF SCROLL-TO-TOP BUTTON===================== */
 

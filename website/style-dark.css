@@ -13,6 +13,11 @@
   height: 80px;
 }
 
+body {
+    background-color: #272929;
+    font-family: 'DM Sans',sans-serif;
+}
+
 .navbar-brand {
   font-size: 3rem;
   font-weight: 700;
@@ -20,10 +25,7 @@
   /* -webkit-text-stroke: 0.5px rgb(0, 0, 0);  */
   font-family: "DM Sans", sans-serif;
 }
-body {
-  background-color: #272929;
-  font-family: "DM Sans", sans-serif;
-}
+  
 #github {
   color: white;
 }
@@ -44,24 +46,21 @@ a.navbar-brand:hover {
 
 .container-logo {
   display: flex;
-  /* margin: 10px; */
-}
-.container-flex {
-  display: flex;
   margin: 10px;
 }
 .imglogo {
-  width: 6%;
+  width: 20%;
   border-radius: 100%;
   margin: 10px;
 }
 .logotxt {
   color: whitesmoke;
+  font-weight: bolder;
   font-size: 2rem;
   font-weight: bolder;
-  /* font-style: oblique; */
   margin-left: 12px;
 }
+
 
 /* ====================== Dark mode ===================== */
 .navright {
@@ -144,9 +143,9 @@ input:checked + label svg.moon {
 
 /* ====================== ******************************************** ===================== */
 @media only screen and (max-width: 1000px) {
-  .logotxt {
+  /* .logotxt {
     left: -100px;
-  }
+  } */
   .me-1 {
     margin-bottom: 0.5rem;
   }
@@ -157,7 +156,7 @@ input:checked + label svg.moon {
     left: 0px;
   }
   .imglogo {
-    width: 20%;
+    width: 8%;
   }
   .btn-outline-primary {
     margin: 5px;
@@ -256,25 +255,15 @@ input:checked + label svg.moon {
   color: #f1f1f1;
 }
 .animated {
-  text-decoration: none;
-  background: linear-gradient(
-    to right,
-    #3e73d6 50%,
-    #e1358b 50%,
-    #db3487 30%,
-    #d63384
-  );
-  background-size: 200%;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
-  transition: 0.5s ease-in-out;
-  margin: 13px;
+ color: white;
 }
 
 .animated:hover {
   cursor: pointer;
   background-position: -100%;
+}
+.container-flex {
+  display: flex;
 }
 
 .head-text h3 {
@@ -467,7 +456,47 @@ input:checked + label svg.moon {
   width: 3.4rem;
 }
 
-/* ====================== Code for CDN ===================== */
+.icon-modal{
+    position: sticky;
+    padding: 20px;
+    border-radius: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f3f0f0;
+    min-width: 250px;
+    width: 30%;
+    z-index: 100;
+    display: none;
+    flex-direction: column;
+}
+
+.icon-modal div{
+    text-align: left;
+}
+
+.icon-modal code{
+    padding: min(10px, 2%);
+    width: 100%;
+    word-wrap: normal;
+    border-radius: 5px;
+    background-color: #272929;
+    color: white;
+    text-align: left;
+}
+
+.icon-modal .icon-preview{
+    text-align: center;
+    font-size: 50px;
+}
+
+.icon-modal .jini-x{
+    font-weight: 900;
+    position: absolute;
+    right: 20px;
+}
+
+/* ====================== Code for CDN ===================== */    
 
 .copy-code-container {
   display: flex;

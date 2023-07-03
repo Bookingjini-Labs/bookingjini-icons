@@ -45,11 +45,11 @@ To use `bookingjini-react-icons` library in your React application, follow the f
     For example, to use the JiniAc icon in your web application, simply use the following code:
 
     ```javascript
-    import { JiniAc } from 'bookingjini-react-icons';
+    import { AcIcon } from 'bookingjini-react-icons';
 
     const CustomComponent = () => {
         return (
-            <JiniAc />
+            <AcIcon />
         );
     };
 

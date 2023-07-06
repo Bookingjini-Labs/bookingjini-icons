@@ -22,30 +22,35 @@ fetch("./iconsSet.json")
 
 // Function For Document Content Loaded 
 document.addEventListener('DOMContentLoaded', () => {
-  const iconContainer = document.querySelector('.img-icon');
-  const tooltipText = document.querySelector('.tooltip-text');
-  const code = document.querySelector('code');
+  const iconContainers = document.querySelectorAll('.icon');
+  const tooltipText = document.querySelectorAll('.tooltip-text');
+  const codeElements = document.querySelectorAll('code');
 
-  iconContainer.addEventListener('click', () => {
-    const text = code.textContent;
-    document.execCommand('copy');
-    navigator.clipboard.writeText(text);
+  iconContainers.forEach((iconContainer, index) => {
+    iconContainer.addEventListener('click', () => {
+      const text = codeElements[index].textContent;
+      document.execCommand('copy');
+      navigator.clipboard.writeText(text);
 
-    const range = document.createRange();
-    range.selectNodeContents(code);
+      const range = document.createRange();
+      range.selectNodeContents(codeElements[index]);
 
-    const selection = window.getSelection();
-    selection.removeAllRanges();
-    selection.addRange(range);
+      const selection = window.getSelection();
+      selection.removeAllRanges();
+      selection.addRange(range);
 
-    tooltipText.textContent = 'Copied!';
-    tooltipText.style.visibility = 'visible';
+      tooltipText[index].textContent = 'Copied!';
+      tooltipText[index].style.visibility = 'visible';
 
-    setTimeout(() => {
-      tooltipText.textContent = 'Click to Copy';
-      tooltipText.style.visibility = 'hidden';
-      selection.removeRange(range);
-    }, 500);
+      iconContainer.querySelector('img').src = 'https://i.ibb.co/Sck3gBN/check-mark-3-32.png';
+
+      setTimeout(() => {
+        tooltipText[index].textContent = 'Click to Copy';
+        tooltipText[index].style.visibility = 'hidden';
+        iconContainer.querySelector('img').src = 'https://i.ibb.co/Jzrg63c/image-removebg-preview-1.png';
+        selection.removeRange(range);
+      }, 500);
+    });
   });
 });
 

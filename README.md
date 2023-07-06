@@ -57,20 +57,25 @@ Feel free to customize the paragraph to suit the specific requirements or tone o
 
 
 
+<div align="left">
 
 ## How to use BookingJini Icons
 
 ### 1. With `HTML` file:
 
-a. In the `html` file, paste the following line inside the `head` tag:
+- a. In the `html` file, paste the following line inside the `head` tag:
 
+```html
     <link href="https://cdn.jsdelivr.net/gh/bookingjini-labs/bookingjini-icons@1.0.0/font-css.css" rel="stylesheet">
+```
 
-b. To use the icons, click on your preferred icons, and paste inside your body tag.
+- b. To use the icons, click on your preferred icons, and paste inside your body tag.
 
+```html
     <body>
         <i class="jini-people1"></i>
     </body>
+```
 
 ### 2. With `React` Apps:
 
@@ -86,53 +91,53 @@ We would like to express our heartfelt gratitude to the amazing contributors who
 
 
 
-## How to Start Contributing <a name = "how_contribute"></a>
+## How to Start Contributing 🚀 <a name = "how_contribute"></a>
 1. Fork this repository by clicking on the fork button on the top of this page. This will create a copy of this repository in your account.
-    <p align="center">
+    <p align="left">
     <img width="949" alt="step-1" src="https://github.com/pranjay-poddar/Dev-Geeks/assets/112299754/51e4dc68-177e-4499-be1b-69918183a6a5">
     </p>
 
 2. Now clone the forked repository to your machine. Go to your GitHub account, open the forked repository, click on the code button and then click the copy to clipboard icon.
 
-    <p align="center">
+    <p align="left">
     <img width="305" alt="step-2" src="https://github.com/pranjay-poddar/Dev-Geeks/assets/112299754/1844c83a-ba64-40ee-ad34-5e54ae136e6d">
     </p>
 
 3. Open a terminal and run the following git command:
-      ```
+      ```bash
       git clone "url you just copied"
       ```
    where "url you just copied" (without the quotation marks) is the url to this repository (your fork of this project). See the previous steps to obtain the url.
    For example:
-      ```
+      ```bash
       git clone https://github.com/your_username/bookingjini-icons.git
       ```
 4. Now create a branch using the 'git switch' command in repository directory:
-      ```
+      ```js
       git switch -c your-new-branch-name
       ```
 5. Make necessary changes and commit those changes. Add those changes to the branch you just created using the 'git add' command:
-      ```
+      ```js
       git add .
       ```
     Now commit those changes using the 'git commit' command:
-      ```
+      ```bash
       git commit -m "Add your title here"
       ```
 6. Push your changes using the command git push:
-      ```
+      ```bash
       git push -u origin your-branch-name
       ```
       replacing your-branch-name with the name of the branch you created earlier.
       
 7. Submit your changes for review 
     
-    <p align="center">
+    <p align="left">
     <img width="960" alt="step-3" src="https://github.com/pranjay-poddar/Dev-Geeks/assets/112299754/f126abbd-d594-42eb-8d30-55e9193e5c9d">
     </p>
 
     
-    If you go to your repository on GitHub, you'll see a Compare & pull request button. Click on that button. Now add appropriate title and comment on it and submit
+    If you go to your repository on GitHub, you'll see a **Compare & pull request** button. Click on that button. Now add appropriate title and comment on it and submit
     the pull request.
 
-
+  <div>

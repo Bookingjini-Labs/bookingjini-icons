@@ -527,6 +527,51 @@ input:checked + label svg.moon {
   width: 3.4rem;
 }
 
+.icon-modal{
+    position: sticky;
+    padding: 20px;
+    border-radius: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f3f0f0;
+    min-width: 250px;
+    width: 30%;
+    z-index: 100;
+    display: none;
+    flex-direction: column;
+    background-color: #242424;
+}
+
+.icon-modal div{
+    text-align: left;
+    color: white;
+}
+
+.icon-modal code{
+    padding: min(10px, 2%);
+    width: 100%;
+    word-wrap: normal;
+    border-radius: 5px;
+    background-color: white;
+    color: #242424;
+    text-align: left;
+}
+
+.icon-modal .icon-preview{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+.icon-modal .jini-x{
+    color: white;
+    font-weight: 900;
+    position: absolute;
+    right: 20px;
+}
+
+
 /* ====================== START OF SCROLL-TO-TOP BUTTON===================== */
 
 #progress {

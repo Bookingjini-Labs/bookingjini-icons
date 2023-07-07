@@ -62,16 +62,16 @@ function iconCopy(icon) {
     }
  
 //  Importing search helper function to implement it here! -->
-function searchIcon() {
+
+function searchAlgo(filter){
 
       // THRESHOLD while checking for values, 1 means exact match, 0 means all
       // Try experimenting with it before use THRESHOLD between range of 0.7 to 0.9 is recommended
       const THRESHOLD = 0.8;
 
-      var input, filter, p, ul, li, a, i, txtValue;
+      var  p, ul, li, a, i, txtValue;
 
-      input = document.getElementById("searchInput");
-      filter = input.value.toUpperCase();
+     
 
       ul = document.getElementById("myUL");
       li = ul.getElementsByClassName("shadow-soft");
@@ -81,7 +81,7 @@ function searchIcon() {
       for (i = 0; i < li.length; i++) {
         a = li[i].getElementsByTagName("p")[0];
         txtValue = a.textContent || a.innerText;
-
+            
         // Matching based on fuzzy search
         if (jaroWinklerSimilarity(filter.toLowerCase(), txtValue.toLowerCase()) >= THRESHOLD || filter == "") {
           li[i].style.display = "";
@@ -96,7 +96,21 @@ function searchIcon() {
       else {
         document.querySelector(".notFound").classList.remove("display");
       }
-    }
+}
+
+function searchIcon() {
+
+  const debounce = (fn, delay) => {
+    let timerId = null;
+    return (...args) => {
+        clearTimeout(timerId);
+        timerId = setTimeout(() => fn(...args), delay);
+    };
+};
+const onInput =debounce(searchAlgo, 500);
+const input = document.getElementById("searchInput");
+onInput(input.value.toUpperCase())
+ }
 
 //  Function for enabling dark mode 
   

@@ -112,26 +112,3 @@ function searchIcon() {
     });
 
 
- // Function for Enabling Light Mode 
-
-    const btn = document.querySelector(".btn-toggle");
-    const footer = document.getElementById("custom-footer")
-
-    btn.addEventListener("click", function () {
-      // Swap out the URL for the different stylesheets
-      if (theme.getAttribute("href") == "style.css") {
-        theme.href = "style-dark.css";
-        btn.textContent = "Light Mode";
-
-
-      } else {
-        theme.href = "style.css";
-        btn.textContent = "Dark Mode";
-      }
-
-      footer.classList.toggle("dark-color")
-      footer.classList.toggle("light-color")
-
-
-    });
-

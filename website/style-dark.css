@@ -556,7 +556,7 @@ input:checked + label svg.moon{
 #progress {
     background-color: #69757c;
     position: fixed;
-    bottom: 20px;
+    bottom: 290px;
     right: 10px;
     height: 70px;
     width: 70px;

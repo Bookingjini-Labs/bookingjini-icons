@@ -42,7 +42,8 @@ document.addEventListener('DOMContentLoaded', () => {
       tooltipText[index].textContent = 'Copied!';
       tooltipText[index].style.visibility = 'visible';
 
-      iconContainer.querySelector('img').src = 'https://i.ibb.co/Sck3gBN/check-mark-3-32.png';
+      iconContainer.querySelector('img').src = 'https://svgshare.com/i/v7H.svg';
+      iconContainer.style.height = '40px';
 
       setTimeout(() => {
         tooltipText[index].textContent = 'Click to Copy';
@@ -67,16 +68,16 @@ function iconCopy(icon) {
     }
  
 //  Importing search helper function to implement it here! -->
-
-function searchAlgo(filter){
+function searchIcon() {
 
       // THRESHOLD while checking for values, 1 means exact match, 0 means all
       // Try experimenting with it before use THRESHOLD between range of 0.7 to 0.9 is recommended
       const THRESHOLD = 0.8;
 
-      var  p, ul, li, a, i, txtValue;
+      var input, filter, p, ul, li, a, i, txtValue;
 
-     
+      input = document.getElementById("searchInput");
+      filter = input.value.toUpperCase();
 
       ul = document.getElementById("myUL");
       li = ul.getElementsByClassName("shadow-soft");
@@ -86,7 +87,7 @@ function searchAlgo(filter){
       for (i = 0; i < li.length; i++) {
         a = li[i].getElementsByTagName("p")[0];
         txtValue = a.textContent || a.innerText;
-            
+
         // Matching based on fuzzy search
         if (jaroWinklerSimilarity(filter.toLowerCase(), txtValue.toLowerCase()) >= THRESHOLD || filter == "") {
           li[i].style.display = "";
@@ -101,21 +102,7 @@ function searchAlgo(filter){
       else {
         document.querySelector(".notFound").classList.remove("display");
       }
-}
-
-function searchIcon() {
-
-  const debounce = (fn, delay) => {
-    let timerId = null;
-    return (...args) => {
-        clearTimeout(timerId);
-        timerId = setTimeout(() => fn(...args), delay);
-    };
-};
-const onInput =debounce(searchAlgo, 500);
-const input = document.getElementById("searchInput");
-onInput(input.value.toUpperCase())
- }
+    }
 
 //  Function for enabling dark mode 
   
@@ -130,4 +117,27 @@ onInput(input.value.toUpperCase())
       }
     });
 
+
+ // Function for Enabling Light Mode 
+
+    const btn = document.querySelector(".btn-toggle");
+    const footer = document.getElementById("custom-footer")
+
+    btn.addEventListener("click", function () {
+      // Swap out the URL for the different stylesheets
+      if (theme.getAttribute("href") == "style.css") {
+        theme.href = "style-dark.css";
+        btn.textContent = "Light Mode";
+
+
+      } else {
+        theme.href = "style.css";
+        btn.textContent = "Dark Mode";
+      }
+
+      footer.classList.toggle("dark-color")
+      footer.classList.toggle("light-color")
+
+
+    });
 

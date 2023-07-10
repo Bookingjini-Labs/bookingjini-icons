@@ -60,6 +60,12 @@
     transform: translate(-25%, -50%);
   }
 }
+@media (max-width: 450px) {
+  .imglogo {
+    width: 40%;
+    margin-right: auto;
+  }
+}
 @media only screen and (max-width: 375px) {
   .bigContainer {
     width: 148vw !important;

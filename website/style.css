@@ -109,6 +109,7 @@ code {
   overflow-x: auto;
   width: fit-content;
   white-space: nowrap;
+  color: #1c47b4;
 }
 
 .copy-icon {
@@ -180,6 +181,13 @@ label {
     inset 0px -0.5px 1.5px rgba(255, 255, 0.4);
   cursor: pointer;
   transition: 0.3s;
+}
+
+.btn-outline-primary {
+  --bs-btn-hover-bg : #1c47b4;
+  --bs-btn-hover-border-color: #1c47b4;
+  --bs-btn-active-bg: #1c47b4;
+  --bs-btn-active-border-color: #1c47b4;
 }
 label:after {
   content: "";
@@ -303,6 +311,8 @@ input:checked + label svg.moon {
 .btbtn-outline-primaryn {
   font-family: "DM Sans", sans-serif !important;
 }
+
+
 
 /* width */
 ::-webkit-scrollbar {

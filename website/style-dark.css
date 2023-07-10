@@ -220,6 +220,10 @@ input:checked + label svg.moon {
 .btn-outline-primary {
   color: #fff;
   border-color: #fff;
+  --bs-btn-hover-bg :#1c42a4;
+  --bs-btn-hover-border-color:#1c42a4;
+  --bs-btn-active-bg:#1c42a4;
+  --bs-btn-active-border-color: #1c42a4;
 }
 
 /* width */
@@ -550,6 +554,7 @@ code {
   overflow-x: auto;
   width: fit-content;
   white-space: nowrap;
+  color: #2154d8 !important;
 }
 
 .copy-icon {

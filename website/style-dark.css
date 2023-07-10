@@ -49,7 +49,7 @@ a.navbar-brand:hover {
   margin: 10px;
 }
 .imglogo {
-  width: 20%;
+  width: 40px;
   border-radius: 100%;
   margin: 10px;
 }
@@ -156,7 +156,7 @@ input:checked + label svg.moon {
     left: 0px;
   }
   .imglogo {
-    width: 8%;
+    width: 40px;
   }
   .btn-outline-primary {
     margin: 5px;

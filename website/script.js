@@ -22,30 +22,36 @@ fetch("./iconsSet.json")
 
 // Function For Document Content Loaded 
 document.addEventListener('DOMContentLoaded', () => {
-  const iconContainer = document.querySelector('.img-icon');
-  const tooltipText = document.querySelector('.tooltip-text');
-  const code = document.querySelector('code');
+  const iconContainers = document.querySelectorAll('.icon');
+  const tooltipText = document.querySelectorAll('.tooltip-text');
+  const codeElements = document.querySelectorAll('code');
 
-  iconContainer.addEventListener('click', () => {
-    const text = code.textContent;
-    document.execCommand('copy');
-    navigator.clipboard.writeText(text);
+  iconContainers.forEach((iconContainer, index) => {
+    iconContainer.addEventListener('click', () => {
+      const text = codeElements[index].textContent;
+      document.execCommand('copy');
+      navigator.clipboard.writeText(text);
 
-    const range = document.createRange();
-    range.selectNodeContents(code);
+      const range = document.createRange();
+      range.selectNodeContents(codeElements[index]);
 
-    const selection = window.getSelection();
-    selection.removeAllRanges();
-    selection.addRange(range);
+      const selection = window.getSelection();
+      selection.removeAllRanges();
+      selection.addRange(range);
 
-    tooltipText.textContent = 'Copied!';
-    tooltipText.style.visibility = 'visible';
+      tooltipText[index].textContent = 'Copied!';
+      tooltipText[index].style.visibility = 'visible';
 
-    setTimeout(() => {
-      tooltipText.textContent = 'Click to Copy';
-      tooltipText.style.visibility = 'hidden';
-      selection.removeRange(range);
-    }, 500);
+      iconContainer.querySelector('img').src = 'https://svgshare.com/i/v7H.svg';
+      iconContainer.style.height = '40px';
+
+      setTimeout(() => {
+        tooltipText[index].textContent = 'Click to Copy';
+        tooltipText[index].style.visibility = 'hidden';
+        iconContainer.querySelector('img').src = 'https://i.ibb.co/Jzrg63c/image-removebg-preview-1.png';
+        selection.removeRange(range);
+      }, 500);
+    });
   });
 });
 
@@ -62,16 +68,16 @@ function iconCopy(icon) {
     }
  
 //  Importing search helper function to implement it here! -->
-
-function searchAlgo(filter){
+function searchIcon() {
 
       // THRESHOLD while checking for values, 1 means exact match, 0 means all
       // Try experimenting with it before use THRESHOLD between range of 0.7 to 0.9 is recommended
       const THRESHOLD = 0.8;
 
-      var  p, ul, li, a, i, txtValue;
+      var input, filter, p, ul, li, a, i, txtValue;
 
-     
+      input = document.getElementById("searchInput");
+      filter = input.value.toUpperCase();
 
       ul = document.getElementById("myUL");
       li = ul.getElementsByClassName("shadow-soft");
@@ -81,7 +87,7 @@ function searchAlgo(filter){
       for (i = 0; i < li.length; i++) {
         a = li[i].getElementsByTagName("p")[0];
         txtValue = a.textContent || a.innerText;
-            
+
         // Matching based on fuzzy search
         if (jaroWinklerSimilarity(filter.toLowerCase(), txtValue.toLowerCase()) >= THRESHOLD || filter == "") {
           li[i].style.display = "";
@@ -96,21 +102,7 @@ function searchAlgo(filter){
       else {
         document.querySelector(".notFound").classList.remove("display");
       }
-}
-
-function searchIcon() {
-
-  const debounce = (fn, delay) => {
-    let timerId = null;
-    return (...args) => {
-        clearTimeout(timerId);
-        timerId = setTimeout(() => fn(...args), delay);
-    };
-};
-const onInput =debounce(searchAlgo, 500);
-const input = document.getElementById("searchInput");
-onInput(input.value.toUpperCase())
- }
+    }
 
 //  Function for enabling dark mode 
   
@@ -125,4 +117,27 @@ onInput(input.value.toUpperCase())
       }
     });
 
+
+ // Function for Enabling Light Mode 
+
+    const btn = document.querySelector(".btn-toggle");
+    const footer = document.getElementById("custom-footer")
+
+    btn.addEventListener("click", function () {
+      // Swap out the URL for the different stylesheets
+      if (theme.getAttribute("href") == "style.css") {
+        theme.href = "style-dark.css";
+        btn.textContent = "Light Mode";
+
+
+      } else {
+        theme.href = "style.css";
+        btn.textContent = "Dark Mode";
+      }
+
+      footer.classList.toggle("dark-color")
+      footer.classList.toggle("light-color")
+
+
+    });
 

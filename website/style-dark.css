@@ -131,7 +131,7 @@ label svg.sun {
   transition: 0.3s;
 }
 label svg.moon {
-  fill: #7e7e7e;
+ fill: #7e7e7e00;
   transition: 0.3s;
 }
 input:checked + label svg.sun {

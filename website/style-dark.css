@@ -219,6 +219,7 @@ input:checked + label svg.moon {
 
 .btn-outline-primary {
   color: #fff;
+  margin: auto 5px;
   border-color: #fff;
   --bs-btn-hover-bg :#1c42a4;
   --bs-btn-hover-border-color:#1c42a4;

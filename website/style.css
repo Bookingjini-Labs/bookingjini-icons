@@ -184,6 +184,7 @@ label {
 }
 
 .btn-outline-primary {
+  margin: auto 5px;
   --bs-btn-hover-bg : #1c47b4;
   --bs-btn-hover-border-color: #1c47b4;
   --bs-btn-active-bg: #1c47b4;

@@ -16,7 +16,7 @@ Thumbs.db
 *.jar
 *.war
 *.ear
-*.zip
+#*.zip
 *.tar.gz
 
 # Ignore IDE-specific files and directories

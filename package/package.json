@@ -1,0 +1,37 @@
+{
+  "name": "bookingjini-react-icons",
+  "version": "1.0.0",
+  "description": "React Based Hospitality Icon Components",
+  "module": "dist/index.esm.js",
+  "files": ["dist", "index.js"],
+  "type": "module",
+  "scripts": {
+    "prebuild": "rimraf src && rimraf dist",
+    "build": "npm run svgr && rollup -c",
+    "svgr": "svgr --icon --title-prop --replace-attr-values #1D1D1D=currentColor --filename-case camel -d src -- assets/icons"
+  },
+  "keywords": [
+    "React",
+    "Icons",
+    "Hospitality"
+  ],
+  "author": "Bookingjini-Labs",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Bookingjini-Labs/bookingjini-icons/package"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "@babel/preset-react": "^7.22.5",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@svgr/cli": "^8.0.1",
+    "rimraf": "^5.0.1",
+    "rollup": "^3.25.1",
+    "rollup-plugin-filesize": "^10.0.0"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.22.5"
+  }
+}

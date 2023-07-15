@@ -79,7 +79,7 @@ function jaroWinklerSimilarity(s1, s2) {
     const s = s1.split(" ");
     const t = s2.split(" ");
     let cummax = 0;
-
+    let matched=true;
     for (let i = 0; i < s.length; i++) {
         let maxscore = 0;
 
@@ -89,6 +89,10 @@ function jaroWinklerSimilarity(s1, s2) {
 
         cummax += maxscore;
     }
+    
+    for(let i=0;i<s1.length && s2.length ;i++)if(s1[i]!==s2[i])matched=false
 
-    return cummax / s.length;
+    if(matched)return 1
+    else 
+    return cummax / s.length ;
 }

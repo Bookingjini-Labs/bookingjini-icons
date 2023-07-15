@@ -19,7 +19,7 @@
   font-family: "DM Sans", sans-serif;
 }
 body {
-  background-color: #ffffff;
+  background-color:#ddb1c7eb;
 }
 #github {
   color: #007bff;
@@ -62,7 +62,7 @@ header a {
   align-items: center;
   width: 100%;
   padding: 0.3rem;
-  border: 1px solid #ccc;
+  border: 1px solid #1c1a1a;
   border-radius: 5px;
   justify-content: space-between;
 }
@@ -109,9 +109,13 @@ code {
   overflow-x: auto;
   width: fit-content;
   white-space: nowrap;
-  color: #1c47b4;
+  color: #380a35;
 }
-
+ code:hover{
+  cursor: pointer;
+  text-decoration: underline;
+  color: rgb(141, 6, 69);
+}
 .copy-icon {
   color: green;
   visibility: visible;
@@ -622,7 +626,7 @@ footer {
   flex-flow: row wrap;
   padding: 24px 50px;
   color: #323030;
-  background-color: rgb(186, 225, 240, 0.25);
+  background-color: rgb(34 47 52 / 95%);
 }
 
 .footer-content {

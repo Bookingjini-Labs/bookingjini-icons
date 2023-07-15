@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+ @import url('https://fonts.googleapis.com/css2?family=Domine&family=Ysabeau+SC:wght@200&display=swap');
 
 .navbar {
   align-items: center;
@@ -14,8 +15,8 @@
 }
 
 body {
-    background-color: #272929;
-    font-family: 'DM Sans',sans-serif;
+    background-color:#181818;
+    font-family:'Ysabeau', sans-serif;
 }
 
 .navbar-brand {
@@ -554,7 +555,12 @@ code {
   overflow-x: auto;
   width: fit-content;
   white-space: nowrap;
-  color: #2154d8 !important;
+  color: #4881eb;
+}
+code:hover{
+  color: antiquewhite;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .copy-icon {

@@ -1,25 +1,15 @@
-// Setting up Gihub Api
-import { Octokit, App } from "https://esm.sh/octokit";
-const octokit = new Octokit({
-  auth: "Your Github access token key",
-});
-
-const contributors = await octokit.request(
-  "GET /repos/{owner}/{repo}/contributors",
-  {
-    owner: "Bookingjini-Labs",
-    repo: "bookingjini-icons",
-    headers: {
-      "X-GitHub-Api-Version": "2022-11-28",
-    },
-  }
+const res = await fetch(
+  `https://api.github.com/repos/Bookingjini-Labs/bookingjini-icons/contributors`
 );
+
+const contributors = await res.json();
+console.log(contributors);
 
 // User Cards and Content
 const container = document.getElementById("contributors");
 
 let html = "";
-contributors.data.forEach((contributor) => {
+contributors.forEach((contributor) => {
   html += `
        <div class="user user-dark-mode">
             <img alt="user-avatar" class="user-image" src = "${contributor.avatar_url}"/>

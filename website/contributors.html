@@ -4,26 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Primary Meta Tags -->
-  <title>BookingJini Icons</title>
-  <meta name="title" content="BookingJini Icons">
-  <meta name="description" content="BookingJini Icons is an official open source SVG icon library that caters to the hospitality industry. With over 50+ icons carefully curated by the talented creators from BookingJini, this collection provides a comprehensive range of visually appealing and relevant imagery for your websites and applications.">
-
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://icons.bookingjini.tech/">
-  <meta property="og:title" content="BookingJini Icons">
-  <meta property="og:description" content="BookingJini Icons is an official open source SVG icon library that caters to the hospitality industry. With over 50+ icons carefully curated by the talented creators from BookingJini, this collection provides a comprehensive range of visually appealing and relevant imagery for your websites and applications.">
-  <meta property="og:image" content="https://icons.bookingjini.tech/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
-
-  <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:url" content="https://icons.bookingjini.tech/">
-  <meta property="twitter:title" content="BookingJini Icons">
-  <meta property="twitter:description" content="BookingJini Icons is an official open source SVG icon library that caters to the hospitality industry. With over 50+ icons carefully curated by the talented creators from BookingJini, this collection provides a comprehensive range of visually appealing and relevant imagery for your websites and applications.">
-  <meta property="twitter:image" content="https://icons.bookingjini.tech/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
-
-  <link rel="icon" type="image/x-icon" href="../assets/favicon.png">
+  <title>Bookingjini Icons</title>
 
   <!-- SEO ESSENTIALS -->
   <meta 
@@ -94,8 +75,66 @@
       name="theme-color" 
       content="#0000" 
   />
+	
+	<!-- Open Graph Essentials -->
+  <meta 
+      property="og:type" 
+      content="website" 
+  />
+  <meta 
+      name="og:author" 
+      content="Bookingjini Labs"
+  />
+  <meta 
+      property="og:url" 
+      content="https://icons.bookingjini.tech/" 
+  />
+  <meta 
+       property="og:site_name" 
+       content="BookingJini Icons"
+  />
+  <meta 
+      name="og:title"
+      content="BookingJini Icons | Open source SVG icon library offering 50+ carefully curated, visually appealing and industry-specific icons for your websites and application."
+  />
+  <meta 
+      name="og:description"
+      content="BookingJini Icons is an official open source SVG icon library that caters to the hospitality industry. With over 50+ icons carefully curated by the talented creators from BookingJini, this collection provides a comprehensive range of visually appealing and relevant imagery for your websites and application."
+  />
+  <meta 
+      property="og:image" 
+      content="https://user-images.githubusercontent.com/46455250/218734668-40489240-d721-4823-9828-c2e0ac4ac864.png" 
+  />
+
+  	<!-- Twitter Essentials -->
+  <meta 
+      name="twitter:card" 
+      content="https://user-images.githubusercontent.com/77221742/219046349-134d94ee-6931-43b8-8792-c0b894bac19e.png"
+  />
+  <meta 
+      name="twitter:site" 
+      content="@bookingjini"
+  />
+  <meta 
+      name="twitter:image" 
+      content="https://user-images.githubusercontent.com/46455250/218734668-40489240-d721-4823-9828-c2e0ac4ac864.png"
+  />
+  <meta 
+      property="twitter:url" 
+      content="https://icons.bookingjini.tech" 
+  />
+  <meta 
+      property="twitter:title" 
+      content="Bookingjini Labs" 
+  />
+  <meta
+      property="twitter:description"
+      content="BookingJini Icons | Open source SVG icon library offering 50+ carefully curated, visually appealing and industry-specific icons for your websites and application."
+  />
 
   <!-- META END -->
+  <script src="contributor.js" type="module"></script>
+  <link rel="icon" type="image/x-icon" href="favicon1.ico">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
   <link href="style-dark.css" rel="stylesheet" id="theme-link">
@@ -122,36 +161,10 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,500&family=Arvo:ital,wght@0,700;1,400&display=swap"
     rel="stylesheet">
-
+  <link rel="stylesheet" href="contributors.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <script src="https://kit.fontawesome.com/279191565c.js" crossorigin="anonymous"></script>
-
   <script>
-    // fetch method used to read the iconsSet.json data
-    let jsonData = null;
-    fetch("./iconsSet.json")
-      .then(response => response.json())
-      .then(data => {
-        jsonData = data;
-        // get the parent div for rendering the icons
-        let iconWrapper = document.getElementById("icon-wrapper");
-        let div = "";
-        // loop used to read all the data from iconsSet.json
-        for (let j = 0; j < data.length; j++) {
-          div = `
-          <div class="icon icon-tile" id="${j}">
-            <div class="shadow-soft py-3 me-3 mb-4">
-              <i class=${data[j].icon}></i>
-              <p>${data[j].name}</p>
-              <div class="icon-div" id="iconTextToCopy${j}"><i class=${data[j].icon}></i></div>
-            </div>
-          </div>
-          `
-
-          document.getElementById("icon-wrapper").innerHTML += div;
-        }
-      });
-
       function disableScroll() {
           // Get the current page scroll position
           scrollTop = window.pageYOffset || document.documentElement.scrollTop;
@@ -166,71 +179,6 @@
       function enableScroll() {
           window.onscroll = function() {};
       }
-  </script>
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      const iconTiles = document.querySelectorAll('.icon-tile');
-      for (let iconTile of iconTiles){
-        const index = Number(iconTile.id);
-        const iconModal = document.querySelector('.icon-modal');
-        iconTile.addEventListener('click', () => {
-          document.body.querySelector('main').style.opacity = "0.5"
-
-          iconModal.innerHTML = `
-          <i class="jini-x" style="cursor:pointer;"></i>
-          <i class="icon-preview ${jsonData[index].icon}"></i>
-          <div>For HTML</div>
-          <code onclick="iconCopy('<i class=&quot;${jsonData[index].icon}&quot;></i>')">
-            &lt;i 
-              class=&quot;${jsonData[index].icon}&quot;&gt;
-              &lt;/i&gt;
-          </code>
-          <br>
-          <div>For React</div>
-          <code onclick="iconCopy('<${jsonData[index].react_icon} />')">&lt;${jsonData[index].react_icon} /&gt;</code>`;
-
-          iconModal.style.display = "flex";
-          disableScroll();
-          
-          iconModal.getElementsByTagName('i')[0].addEventListener('click', () => {
-            document.body.querySelector('main').style.opacity = "1";
-            enableScroll();
-            iconModal.innerHTML = "";
-            iconModal.style.display = "none";
-          });
-        });
-      }
-
-
-      const copyCodeContainers = document.querySelectorAll('.copy-code-container');
-      for (let copyCodeContainer of copyCodeContainers){
-        const iconContainer = copyCodeContainer.querySelector('.img-icon');
-        const tooltipText = copyCodeContainer.querySelector('.tooltip-text');
-        const code = copyCodeContainer.querySelector('code');
-  
-        iconContainer.addEventListener('click', () => {
-          const text = code.textContent;
-          document.execCommand('copy');
-          navigator.clipboard.writeText(text);
-  
-          const range = document.createRange();
-          range.selectNodeContents(code);
-  
-          const selection = window.getSelection();
-          selection.removeAllRanges();
-          selection.addRange(range);
-  
-          tooltipText.textContent = 'Copied!';
-          tooltipText.style.visibility = 'visible';
-  
-          setTimeout(() => {
-            tooltipText.textContent = 'Click to Copy';
-            tooltipText.style.visibility = 'hidden';
-            selection.removeRange(range);
-          }, 500);
-        });
-      }
-    });
   </script>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -253,7 +201,7 @@
             <a class="btn btn-outline-primary" href="https://drive.bookingjini.tech/icons/v2/fonts.zip">Download</a>
             <a class="btn btn-outline-primary star" href="https://github.com/Bookingjini-Labs/bookingjini-icons"
               target="_blank">Star Repo <i class="jini-star" id="github"></i></a>
-              <a class="btn btn-outline-primary" href="./contributors.html">Our Contributors</a>
+              <a class="btn btn-outline-primary" href="./index.html">Icons</a>
           </div>
           <div class="navright">
             <div class="nightmode">
@@ -374,68 +322,29 @@
       </div>
     </nav>
 
-    <section class="MainTxtpt-5 text-left container head-text">
-      <div class="row pt-lg-5">
-        <div class="col-lg-12 col-md-12">
-          <h1 class="title"><span class="animated">Bookingjini Icons</span></h1>
-          <h3 class="">Find hospitality related icons, curated by creators from Bookingjini</h3>
-          <p class="text1"> In the html file, paste the following line inside the head tag:</p>
-          <div class="copy-code-container">
-            <div class="copy-code-input">
-              <p>
-                <code>&lt;link href="https://cdn.jsdelivr.net/gh/bookingjini-labs/bookingjini-icons@1.0.0/font-css.css" rel="stylesheet"&gt;</code>
-              </p>
-            </div>
-            <div class="icon">
-              <div class="hover-text">
-                <img src="https://i.ibb.co/Jzrg63c/image-removebg-preview-1.png" alt="" class="img-icon">
-                <span class="tooltip-text" id="bottom">Click to Copy</span>
-              </div>
-            </div>
-          </div>
-          <br>
-          <p class="text1"> For using Icons in React, paste and run the following command: </p>
-          <div class="copy-code-container">
-            <div class="copy-code-input">
-              <p>
-                <code>npm install bookingjini-react-icons</code>
-              </p>
-            </div>
-            <div class="icon">
-              <div class="hover-text">
-                <img src="https://i.ibb.co/Jzrg63c/image-removebg-preview-1.png" alt="" class="img-icon">
-                <span class="tooltip-text" id="bottom">Click to Copy</span>
-              </div>
-            </div>
-          </div>
-          <br>
-          <p class="text1 text2"> To use the icons, click on your preferred icons, and paste inside your body tag.</p>
-          <div class="search input-group mb-3 mt-3 input-group-lg search-box">
-            <input type="text" id="searchInput" onkeyup="searchIcon()" class="search-box-2" placeholder="Search Icon"
-              aria-label="Recipient's username" aria-describedby="button-addon2">
-            <i class="jini-search search-icon"></i>
-          </div>
+    
+    <!--====================== Contributors Section =====================-->
+    <section id="contributors-container">
+        <div id="about" class="text1">
+           <h1>Bookingjini Icons</h1>
+           <h6>Unlock the Power of Icons: Transform Your Designs</h6>
+           <p>
+            BookingJini Icons is an official open source SVG icon library that caters to the hospitality industry. With over 50+ icons carefully curated by the talented creators from BookingJini, this collection provides a comprehensive range of visually appealing and relevant imagery for your websites and applications.
+           </p>
+
+           <a class="btn btn-outline-primary" href="https://github.com/Bookingjini-Labs/bookingjini-icons" target="_blank">
+             <span class="fa fa-github"></span>
+             <strong>Join Us Here</strong> 
+           </a>
+          
         </div>
-      </div>
+        <div id="developers">
+            <h2 class="text1">Our Contributors</h2>
+           <div id="contributors">
+           </div>
+        </div>
     </section>
 
-    <div class="notFound display">
-
-      <img src="./no-search-img-min.png" alt="no-result-img" srcset="">
-      <div class="no-search-text">
-        <h1>
-          No matching icons found
-        </h1>
-        <h3> Try updating your search term for better results.</h3>
-      </div>
-    </div>
-
-    <section class="bigContainer pt-0 text-center container icon-box">
-      <div class="row py-lg-5 " id="myUL">
-        <div id="icon-wrapper" class="icon__parent__box">
-        </div>
-      </div>
-    </section>
 
 
     <!--====================== START OF SCROLL-TO-TOP BUTTON =====================-->

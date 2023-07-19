@@ -76,6 +76,7 @@ a.navbar-brand:hover {
   justify-content: center;
   margin-right: 1rem;
 }
+/*
 label {
   width: 70px;
   height: 30px;
@@ -88,7 +89,7 @@ label {
   cursor: pointer;
   transition: 0.3s;
 }
-label:after {
+ label:after {
   content: "";
   width: 28px;
   height: 28px;
@@ -99,7 +100,7 @@ label:after {
   border-radius: 20px;
   box-shadow: 0px 0.5px 1.5px rgba(102, 116, 243, 0.2);
   transition: 0.3s;
-}
+/* } */
 .navright input {
   width: 0;
   height: 0;
@@ -112,7 +113,9 @@ input:checked + label:after {
   left: 10px;
   transform: translate(100%);
   background: linear-gradient(180deg, #777, #3a3a3a);
-}
+ }
+ 
+/*
 label :active:after {
   width: 28px;
 }
@@ -133,12 +136,123 @@ label svg.moon {
   left: 40px;
   fill: #7e7e7e;
   transition: 0.3s;
-}
+}*/ 
 input:checked + label svg.sun {
   fill: #cfc8c8;
 }
 input:checked + label svg.moon {
   fill: #d1cece;
+} 
+.switch {
+  font-size: 17px;
+  position: relative;
+  display: inline-block;
+  width: 64px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(3, 186, 186);
+  transition: .4s;
+  border-radius: 30px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 30px;
+  width: 30px;
+  border-radius: 20px;
+  left: 2px;
+  bottom: 2px;
+  z-index: 2;
+  background-color: #e8e8e8;
+  transition: .4s;
+}
+
+
+.moon svg {
+  fill: #73C0FC;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  z-index: 1;
+  width: 24px;
+  height: 24px;
+}
+
+.sun svg {
+  position: absolute;
+  top: 6px;
+  left: 36px;
+  z-index: 1;
+  width: 24px;
+  height: 24px;
+}
+/* Remove the animation styles for .sun and .moon */
+
+
+
+
+/* .switch:hover */.moon svg {
+  animation: tilt 5s linear infinite;
+}
+
+@keyframes tilt {
+ 
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(-10deg);
+  }
+
+  75% {
+    transform: rotate(10deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+/* .switch:hover */.sun svg {
+  animation: rotate 15s linear infinite;
+}
+
+@keyframes rotate {
+ 
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.input:checked + .slider {
+  background-color: #183153;
+}
+
+.input:focus + .slider {
+  box-shadow: 0 0 1px #183153;
+}
+
+.input:checked + .slider:before {
+  transform: translateX(30px);
 }
 
 /* ====================== ******************************************** ===================== */

@@ -49,7 +49,7 @@ a.navbar-brand:hover {
   margin: 10px;
 }
 .imglogo {
-  width: 20%;
+  width: 40px;
   border-radius: 100%;
   margin: 10px;
 }
@@ -156,7 +156,7 @@ input:checked + label svg.moon {
     left: 0px;
   }
   .imglogo {
-    width: 8%;
+    width: 40px;
   }
   .btn-outline-primary {
     margin: 5px;
@@ -219,7 +219,12 @@ input:checked + label svg.moon {
 
 .btn-outline-primary {
   color: #fff;
+  margin: auto 5px;
   border-color: #fff;
+  --bs-btn-hover-bg :#1c42a4;
+  --bs-btn-hover-border-color:#1c42a4;
+  --bs-btn-active-bg:#1c42a4;
+  --bs-btn-active-border-color: #1c42a4;
 }
 
 /* width */
@@ -550,6 +555,7 @@ code {
   overflow-x: auto;
   width: fit-content;
   white-space: nowrap;
+  color: #2154d8 !important;
 }
 
 .copy-icon {

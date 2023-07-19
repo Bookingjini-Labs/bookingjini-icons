@@ -6,11 +6,8 @@
   .nightmode {
     margin-right: 0;
   }
-  .navbar .container-fluid {
-    justify-content: flex-end;
-  }
   .imglogo {
-    width: 20%;
+    width: 40px;
     margin-right: auto;
   }
 }
@@ -41,6 +38,9 @@
 }
 
 @media (max-width: 500px) {
+  .imglogo {
+    width: 30px;
+  }
   .logotxt {
     font-size: 1.5rem;
   }
@@ -58,6 +58,11 @@
   }
   .icon-modal {
     transform: translate(-25%, -50%);
+  }
+}
+@media (max-width: 450px) {
+  .imglogo {
+    width: 25px;
   }
 }
 @media only screen and (max-width: 375px) {

@@ -1,5 +1,5 @@
 <a href="https://icons.bookingjini.tech/">
-  <img align="right" style="border-radius:50%" width="100" height="100" alt="Official Javascript Component" src="https://icons.bookingjini.tech/logo.png">
+  <img align="right" style="border-radius:50%" width="100" height="100" alt="Official Javascript Component" src="./assets/logo.png">
 </a>
 
 <h1>bookingjini-react-icons</h1>

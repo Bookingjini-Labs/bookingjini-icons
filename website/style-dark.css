@@ -106,9 +106,9 @@ label {
   height: 0;
   visibility: hidden;
 }
-input:checked + label {
+/* input:checked + label {
   background: #023542;
-}
+} */ 
 input:checked + label:after {
   left: 10px;
   transform: translate(100%);

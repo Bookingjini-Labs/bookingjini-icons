@@ -106,7 +106,7 @@ function searchIcon() {
 
 //  Function for enabling dark mode 
   
-    const darkModeToggle = document.querySelector("#darkmode-toggle");
+    const darkModeToggle = document.querySelector(".switch");
     const theme = document.querySelector("#theme-link");
 
     darkModeToggle.addEventListener("change", function () {

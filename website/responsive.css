@@ -83,3 +83,12 @@
     padding: 20px;
   }
 }
+
+
+@media (max-width: 510px) {
+  .hi
+  {
+    margin-top: 10px !important;
+    margin-left: 4px !important;
+  }
+}

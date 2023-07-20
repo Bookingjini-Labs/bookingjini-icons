@@ -696,3 +696,10 @@ footer {
 .copyright {
   color: rgb(101, 143, 194);
 }
+
+@media (max-width: 350px) {
+  .hi
+  {
+    margin-top: 2px !important;
+  }
+}

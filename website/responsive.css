@@ -1,8 +1,20 @@
 @media (max-width: 980px) {
   .navright {
-    margin-right: 0;
-    padding: 25px 15px;
+    /* margin-right: 0;
+    padding: 25px 15px; */
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
   }
+
+  .container-fluid {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+  }
+
   .nightmode {
     margin-right: 0;
   }
@@ -63,6 +75,10 @@
 @media (max-width: 450px) {
   .imglogo {
     width: 25px;
+  }
+
+  .title {
+    margin-top: 1rem;
   }
 }
 @media only screen and (max-width: 375px) {

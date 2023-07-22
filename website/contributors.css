@@ -1,94 +1,95 @@
-#contributors-container{
-    color: whitesmoke;
-    padding: 4rem;
+#contributors-container {
+  color: whitesmoke;
+  padding: 4rem;
 }
 
-#about{
-    text-align: center;
-    padding-bottom: 2rem;
-    margin-left: 0;
-    font-size: none;
+#about {
+  text-align: center;
+  padding-bottom: 2rem;
+  margin-left: 0;
+  font-size: none;
 }
 
-#about p{
-    padding: 1.5rem 5rem;
-    max-width: 1400px;
-    margin: auto;
+#about p {
+  padding: 1.5rem 5rem;
+  max-width: 1400px;
+  margin: auto;
 }
 
-#contributors{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    grid-gap: 20px
+#contributors {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  grid-gap: 20px;
 }
 
-.user{
-    box-shadow: rgba(91, 90, 90, 0.2) 0px 2px 8px 0px;
-    padding: 15px;
-    border-radius: 10px;
-    background-color: #1e1b22; 
-    color: whitesmoke;
+.user {
+  box-shadow: rgba(91, 90, 90, 0.2) 0px 2px 8px 0px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #1e1b22;
+  color: whitesmoke;
 }
 
-.user-image{
+.user-image {
   border-radius: 100%;
   width: 150px;
   height: 150px;
   margin-bottom: 20px;
 }
 
-#developers h2{
-    padding: 2rem;
-    text-align: center;
-    font-size: 2rem;
-    margin-left: 0;
+.contributions a {
+  color: whitesmoke;
 }
 
-#developers{
-    max-width: 1280px;
-    margin: auto;
+#developers h2 {
+  padding: 2rem;
+  text-align: center;
+  font-size: 2rem;
+  margin-left: 0;
+}
+
+#developers {
+  max-width: 1280px;
+  margin: auto;
 }
 
 /* Medai queries */
 
 @media (max-width: 1150px) {
-    #contributors{
-        grid-template-columns: repeat(4, 1fr);
-    }
+  #contributors {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 @media (max-width: 950px) {
-    #contributors{
-        grid-template-columns: repeat(3, 1fr);
-    }
+  #contributors {
+    grid-template-columns: repeat(3, 1fr);
+  }
 
-    #contributors-container{
-        padding: 2rem;
-    }
+  #contributors-container {
+    padding: 2rem;
+  }
 }
 
 @media (max-width: 700px) {
-   
-    #contributors{
-        grid-template-columns: repeat(2, 1fr);
-    }
+  #contributors {
+    grid-template-columns: repeat(2, 1fr);
+  }
 
-    
-    #about p{
-        padding: 1.5rem 1rem
-    }
+  #about p {
+    padding: 1.5rem 1rem;
+  }
 }
 
 @media (max-width: 460px) {
-   
-    #contributors{
-        grid-template-columns:1fr;
-    }
+  #contributors {
+    grid-template-columns: 1fr;
+  }
 
-    .user{
-        padding: 30px 7px;
-    }
+  .user {
+    padding: 30px 7px;
+  }
 }

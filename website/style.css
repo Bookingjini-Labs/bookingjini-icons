@@ -470,6 +470,7 @@ input:checked + label svg.moon {
   width: 5.5rem;
   border-radius: 4%;
   height: fit-content;
+  transition: 0.3s ease;
 }
 
 .shadow-soft textarea {

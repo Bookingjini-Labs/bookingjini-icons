@@ -41,7 +41,12 @@
 }
 
 .contributions a {
+  text-decoration: none;
   color: whitesmoke;
+}
+
+.contributions a:hover {
+  text-decoration: underline;
 }
 
 #developers h2 {

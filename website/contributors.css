@@ -46,7 +46,8 @@
 }
 
 .contributions a:hover {
-  text-decoration: underline;
+  border-bottom: 1px solid whitesmoke;
+  padding-bottom: 0.2px;
 }
 
 #developers h2 {

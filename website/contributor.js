@@ -14,7 +14,7 @@ contributors.forEach((contributor) => {
        <div class="user user-dark-mode">
             <img alt="user-avatar" class="user-image" src = "${contributor.avatar_url}"/>
             <h5>${contributor.login}</h5>
-            <p class="contributions"><strong>Contributions:</strong> ${contributor.contributions} ✨</p>
+            <p class="contributions"><a href="https://github.com/Bookingjini-Labs/bookingjini-icons/commits?author=${contributor.login}" target="_blank" ><strong>Contributions:</strong> ${contributor.contributions}</a> ✨</p>
             <a href="${contributor.html_url}" target="_blank"><button type="button"  class="btn btn-outline-primary"><strong>View Profile</strong></button></a>
        </div>
      `;

@@ -696,3 +696,7 @@ footer {
 .copyright {
   color: rgb(101, 143, 194);
 }
+
+strong{
+  color: black;
+}

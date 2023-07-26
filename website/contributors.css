@@ -31,6 +31,13 @@
   border-radius: 10px;
   background-color: #1e1b22;
   color: whitesmoke;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.user:hover {
+  transform: scale(1.1);
+  box-shadow: rgba(91, 90, 90, 0.5) 0px 8px 20px 0px;
+  z-index: 1;
 }
 
 .user-image {
@@ -38,6 +45,11 @@
   width: 150px;
   height: 150px;
   margin-bottom: 20px;
+  transition: transform 0.5s ease;
+}
+
+.user-image:hover {
+  transform: scale(1.2);
 }
 
 .contributions a {

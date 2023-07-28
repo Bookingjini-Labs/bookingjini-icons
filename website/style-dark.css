@@ -9,8 +9,10 @@
 }
 
 .navbar-nav-in {
-  padding-top: 20px;
-  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 body {
@@ -219,7 +221,7 @@ input:checked + label svg.moon {
 
 .btn-outline-primary {
   color: #fff;
-  margin: auto 5px;
+  margin: 5px;
   border-color: #fff;
   --bs-btn-hover-bg :#1c42a4;
   --bs-btn-hover-border-color:#1c42a4;
@@ -269,6 +271,7 @@ input:checked + label svg.moon {
 }
 .container-flex {
   display: flex;
+  margin: 10px;
 }
 
 .head-text h3 {

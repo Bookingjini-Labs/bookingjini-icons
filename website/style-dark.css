@@ -355,7 +355,6 @@ input:checked + label svg.moon {
   background-color: #515151;
   border-radius: 16px;
   transform: scale(1.2);
-  transition-duration: 250ms;
   cursor: pointer;
   color: #fff;
 }
@@ -393,6 +392,8 @@ input:checked + label svg.moon {
   width: 5.5rem;
   border-radius: 4%;
   height: fit-content;
+  transition-duration: 250ms;
+  transition: .3s ease;
 }
 
 .shadow-soft textarea {

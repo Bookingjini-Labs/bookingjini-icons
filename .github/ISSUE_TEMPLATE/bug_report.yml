@@ -1,43 +1,61 @@
-name: 🐛 Bug report
-description: Create a report to help us improve
+name: "🐛 Bug report"
+description: "Report an issue to help us improve the project"
+title: "[BUG] <write a small description here>"
 labels: ["bug, invalid"]
 
 body:
   - type: textarea
-    id: description
+    id: bug_description
     attributes:
-      label: Describe the bug
-      description: A clear and concise description of what the bug is
+      label: "Description"
+      description: "A clear and concise description of what the bug is"
     validations:
       required: true
-
   - type: textarea
-    id: expected
+    id: bug_expected
     attributes:
-      label: Expected behaviour
-      description: A clear and concise description of what you expected to happen.
+      label: "Expected behaviour"
+      description: "A clear and concise description of what you expected to happen"
     validations:
       required: true
-
   - type: textarea
-    id: screenshots
+    id: bug_screenshots
     attributes:
-      label: Screenshots
-      description: Please add screenshots if applicable
+      label: "Screenshots/Video"
+      description: "Please add screenshots or a video to know more about the bug issue"
     validations:
       required: false
-
   - type: textarea
     attributes:
-      label: Additional context
-      description: Add any other context about the problem here.
+      label: "Additional context"
+      description: "Add any other context about the problem here"
     validations:
       required: false
-  - type: checkboxes
-    id: terms
+  - type: dropdown
+    id: browsers
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our Code of Conduct
+      label: "What browser are you seeing the problem on?"
+      multiple: true
       options:
-        - label: I agree to follow this project's Code of Conduct
+        - Firefox
+        - Chrome
+        - Safari
+        - Microsoft Edge
+        - Opera
+        - Brave
+  - type: checkboxes
+    id: checklist_bug_issues
+    attributes:
+      label: "Checklist"
+      options:
+        - label: "I have checked the existing [issues](https://github.com/Bookingjini-Labs/bookingjini-icons/issues)"
           required: true
+
+        - label: "I have read the [Contributing Guidelines](https://github.com/Bookingjini-Labs/bookingjini-icons/blob/dev/CONTRIBUTING.md)"
+          required: true
+
+        - label: "I will work on this issue (optional)"
+          required: false
+
+        - label: "I am a GSSoC'23 contributor"
+          required: false

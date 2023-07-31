@@ -1,34 +1,43 @@
-name: 📄 Documentation issue
-description: Found an issue in the documentation? You can use this one!
+name: "📄 Documentation issue"
+description: "Found an issue in the documentation? Use this!"
 title: "[DOCS] <description>"
 labels: ["documentation"]
+
 body:
   - type: textarea
-    id: description
+    id: docs_description
     attributes:
-      label: Description
-      description: A brief description of the question or issue, also include what you tried and what didn't work
+      label: "Description"
+      description: "Please provide a brief summary of the documentation issue you are experiencing or would like to address."
     validations:
       required: true
   - type: textarea
-    id: screenshots
+    id: screenshots_examples_docs
     attributes:
-      label: Screenshots
-      description: Please add screenshots if applicable
+      label: "Screenshots"
+      description: "Please include relevant screenshots or examples to help illustrate the problem."
     validations:
       required: false
   - type: textarea
-    id: extrainfo
+    id: additional_info_docs
     attributes:
-      label: Additional information
-      description: Is there anything else we should know about this issue?
+      label: "Additional information"
+      description: "If there is any additional context or information that would be helpful for addressing the documentation issue, please provide it here"
     validations:
       required: false
-   - type: checkboxes
-    id: terms
+  - type: checkboxes
+    id: checklist_docs_issues
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our Code of Conduct
+      label: "Checklist"
       options:
-        - label: I agree to follow this project's Code of Conduct
+        - label: "I have checked the existing [issues](https://github.com/Bookingjini-Labs/bookingjini-icons/issues)"
           required: true
+
+        - label: "I have read the [Contributing Guidelines](https://github.com/Bookingjini-Labs/bookingjini-icons/blob/dev/CONTRIBUTING.md)"
+          required: true
+
+        - label: "I will work on this issue (optional)"
+          required: false
+
+        - label: "I am a GSSoC'23 contributor"
+          required: false

@@ -7,8 +7,10 @@
   flex-direction: row;
 }
 .navbar-nav-in {
-  padding-top: 20px;
-  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .navbar-brand {
@@ -21,10 +23,6 @@
 body {
   background-color: #ffffff;
 }
-#github {
-  color: #007bff;
-}
-
 .star:hover #github {
   color: white;
 }
@@ -184,7 +182,7 @@ label {
 }
 
 .btn-outline-primary {
-  margin: auto 5px;
+  margin: 5px;
   --bs-btn-hover-bg : #1c47b4;
   --bs-btn-hover-border-color: #1c47b4;
   --bs-btn-active-bg: #1c47b4;
@@ -470,6 +468,7 @@ input:checked + label svg.moon {
   width: 5.5rem;
   border-radius: 4%;
   height: fit-content;
+  transition: 0.3s ease;
 }
 
 .shadow-soft textarea {

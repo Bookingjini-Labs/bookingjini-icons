@@ -2,6 +2,30 @@
 <html lang="en">
 
 <head>
+
+  <style>
+    @media (max-width: 510px) {
+      .hh
+      {
+        display: flex;
+        flex-direction: column;
+      }
+      .dr .hi {
+        margin-top: 10px !important;
+        /* margin-left: 20px !important; */
+        margin-left: -30px !important;
+      }
+
+      .hii {
+        margin-top: 8px !important;
+        margin-left: -55px !important;
+      }
+      .dn
+      {
+        margin-left: -70px !important;
+      }
+    }
+  </style>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
@@ -82,7 +106,9 @@
     rel="stylesheet">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-  <script src="https://kit.fontawesome.com/279191565c.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./style-dark.css>
+  <script src=" https://kit.fontawesome.com/279191565c.js" crossorigin="anonymous">
+  </script>
 
   <script>
     // fetch method used to read the iconsSet.json data
@@ -207,8 +233,8 @@
           <a class="navbar-brand logotxt" href="#">Bookingjini Icons (v2.0)</a>
         </div>
         <div class="navbar-nav navbar-expand-lg">
-          <div class="navbar-nav-in">
-            <a class="btn btn-outline-primary" href="https://drive.bookingjini.tech/icons/v2/fonts.zip">Download</a>
+          <div class="navbar-nav-in dr hh">
+            <a class="btn btn-outline-primary dn" href="https://drive.bookingjini.tech/icons/v2/fonts.zip">Download</a>
             <a class="btn btn-outline-primary star hii" href="https://github.com/Bookingjini-Labs/bookingjini-icons"
               target="_blank">Star Repo <i class="jini-star" id="github"></i></a>
             <a class="btn btn-outline-primary hi" href="./contributors.html">Our Contributors</a>

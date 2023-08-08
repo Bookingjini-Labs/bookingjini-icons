@@ -123,32 +123,60 @@ function searchIcon() {
 
 //  Function for enabling dark mode
 
-const darkModeToggle = document.querySelector("#darkmode-toggle");
-const theme = document.querySelector("#theme-link");
+// const darkModeToggle = document.querySelector("#darkmode-toggle");
+// const theme = document.querySelector("#theme-link");
 
+// darkModeToggle.addEventListener("change", function () {
+//   if (darkModeToggle.checked) {
+//     theme.href = "style-dark.css";
+//   } else {
+//     theme.href = "style.css";
+//   }
+// });
+
+// // Function for Enabling Light Mode
+
+// const btn = document.querySelector(".btn-toggle");
+// const footer = document.getElementById("custom-footer");
+
+// btn.addEventListener("click", function () {
+//   // Swap out the URL for the different stylesheets
+//   if (theme.getAttribute("href") == "style.css") {
+//     theme.href = "style-dark.css";
+//     btn.textContent = "Light Mode";
+//   } else {
+//     theme.href = "style.css";
+//     btn.textContent = "Dark Mode";
+//   }
+
+//   footer.classList.toggle("dark-color");
+//   footer.classList.toggle("light-color");
+// });
+//Writing entire function for the js and enable a local storage that will save users data for switching between modes.
+const darkModeToggle = document.querySelector("#darkmode-toggle");
+const theme = document.querySelector("#theme-link"); // Assuming you have a link element for styles
+
+// Retrieve the selected mode from local storage when the page loads
+const savedMode = localStorage.getItem("darkMode");
+
+// Set the initial mode based on the saved value
+if (savedMode === "light") {
+  theme.href = "style.css"; // Use light mode stylesheet
+  darkModeToggle.checked = false;
+} else {
+  theme.href = "style-dark.css"; // Use dark mode stylesheet
+  darkModeToggle.checked = true;
+}
+
+// Listen for changes to the dark mode toggle
 darkModeToggle.addEventListener("change", function () {
   if (darkModeToggle.checked) {
     theme.href = "style-dark.css";
+    localStorage.setItem("darkMode", "dark"); // Save the selected mode to local storage
   } else {
     theme.href = "style.css";
+    localStorage.setItem("darkMode", "light"); // Save the selected mode to local storage
   }
 });
 
-// Function for Enabling Light Mode
 
-const btn = document.querySelector(".btn-toggle");
-const footer = document.getElementById("custom-footer");
-
-btn.addEventListener("click", function () {
-  // Swap out the URL for the different stylesheets
-  if (theme.getAttribute("href") == "style.css") {
-    theme.href = "style-dark.css";
-    btn.textContent = "Light Mode";
-  } else {
-    theme.href = "style.css";
-    btn.textContent = "Dark Mode";
-  }
-
-  footer.classList.toggle("dark-color");
-  footer.classList.toggle("light-color");
-});

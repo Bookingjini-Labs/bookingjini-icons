@@ -2,138 +2,81 @@
 <html lang="en">
 
 <head>
+
+  <style>
+    @media (max-width: 510px) {
+      .hh
+      {
+        display: flex;
+        flex-direction: column;
+      }
+      .dr .hi {
+        margin-top: 10px !important;
+        /* margin-left: 20px !important; */
+        margin-left: -30px !important;
+      }
+
+      .hii {
+        margin-top: 8px !important;
+        margin-left: -55px !important;
+      }
+      .dn
+      {
+        margin-left: -70px !important;
+      }
+    }
+  </style>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
   <title>Bookingjini Icons</title>
 
   <!-- SEO ESSENTIALS -->
-  <meta 
-      name="robots" 
-      content="index, follow"
-  />
-  <meta 
-      name="language" 
-      content="en"
-  />
-  <meta 
-      name="revisit-after" 
-      content="7 days"
-  />
-  <meta 
-      name="distribution" 
-      content="global"
-  />
-  <meta 
-      name="geo.region" 
-      content="india"
-  />
-  <meta 
-      name="googlebot" 
-      content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
-  />
-  <meta 
-      http-equiv="content-language" 
-      content="en"
-  />
-  <meta 
-      name="description"
-      content="BookingJini Icons is an official open source SVG icon library offering 50+ carefully curated, visually appealing and industry-specific icons for your websites and applications"
-  />
-  <meta 
-      name="keywords"
-      content="icons, open source, SVG, icons library, curated icons, talented creators, comprehensive range, visually appealing, relevant imagery, websites, applications, free icons, customizable, scalable, vector format, download, design, user interface, UX, hotel, resort, restaurant, travel, tourism, booking, accommodation, services"
-  />
-  <link 
-      rel="canonical" 
-      href="https://icons.bookingjini.tech/"
-  />
-  <meta 
-      http-equiv="X-UA-Compatible" 
-      content="IE=edge" 
-  />
-  <meta 
-      name="theme-color" 
-      content="#0000" 
-  />
-  <meta 
-      name="msapplication-navbutton-color" 
-      content="#0000" 
-  />
-  <meta 
-      name="msapplication-TileColor" 
-      content="#ffffff" 
-  />
-  <meta 
-      name="apple-mobile-web-app-capable" 
-      content="yes" 
-  />
-  <meta 
-      name="apple-mobile-web-app-status-bar-style" 
-      content="#0000" 
-  />
-  <meta 
-      name="theme-color" 
-      content="#0000" 
-  />
-	
-	<!-- Open Graph Essentials -->
-  <meta 
-      property="og:type" 
-      content="website" 
-  />
-  <meta 
-      name="og:author" 
-      content="Bookingjini Labs"
-  />
-  <meta 
-      property="og:url" 
-      content="https://icons.bookingjini.tech/" 
-  />
-  <meta 
-       property="og:site_name" 
-       content="BookingJini Icons"
-  />
-  <meta 
-      name="og:title"
-      content="BookingJini Icons | Open source SVG icon library offering 50+ carefully curated, visually appealing and industry-specific icons for your websites and application."
-  />
-  <meta 
-      name="og:description"
-      content="BookingJini Icons is an official open source SVG icon library that caters to the hospitality industry. With over 50+ icons carefully curated by the talented creators from BookingJini, this collection provides a comprehensive range of visually appealing and relevant imagery for your websites and application."
-  />
-  <meta 
-      property="og:image" 
-      content="https://user-images.githubusercontent.com/46455250/218734668-40489240-d721-4823-9828-c2e0ac4ac864.png" 
-  />
+  <meta name="robots" content="index, follow" />
+  <meta name="language" content="en" />
+  <meta name="revisit-after" content="7 days" />
+  <meta name="distribution" content="global" />
+  <meta name="geo.region" content="india" />
+  <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <meta http-equiv="content-language" content="en" />
+  <meta name="description"
+    content="BookingJini Icons is an official open source SVG icon library offering 50+ carefully curated, visually appealing and industry-specific icons for your websites and applications" />
+  <meta name="keywords"
+    content="icons, open source, SVG, icons library, curated icons, talented creators, comprehensive range, visually appealing, relevant imagery, websites, applications, free icons, customizable, scalable, vector format, download, design, user interface, UX, hotel, resort, restaurant, travel, tourism, booking, accommodation, services" />
+  <link rel="canonical" href="https://icons.bookingjini.tech/" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="theme-color" content="#0000" />
+  <meta name="msapplication-navbutton-color" content="#0000" />
+  <meta name="msapplication-TileColor" content="#ffffff" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="#0000" />
+  <meta name="theme-color" content="#0000" />
 
-  	<!-- Twitter Essentials -->
-  <meta 
-      name="twitter:card" 
-      content="https://user-images.githubusercontent.com/77221742/219046349-134d94ee-6931-43b8-8792-c0b894bac19e.png"
-  />
-  <meta 
-      name="twitter:site" 
-      content="@bookingjini"
-  />
-  <meta 
-      name="twitter:image" 
-      content="https://user-images.githubusercontent.com/46455250/218734668-40489240-d721-4823-9828-c2e0ac4ac864.png"
-  />
-  <meta 
-      property="twitter:url" 
-      content="https://icons.bookingjini.tech" 
-  />
-  <meta 
-      property="twitter:title" 
-      content="Bookingjini Labs" 
-  />
-  <meta
-      property="twitter:description"
-      content="BookingJini Icons | Open source SVG icon library offering 50+ carefully curated, visually appealing and industry-specific icons for your websites and application."
-  />
+  <!-- Open Graph Essentials -->
+  <meta property="og:type" content="website" />
+  <meta name="og:author" content="Bookingjini Labs" />
+  <meta property="og:url" content="https://icons.bookingjini.tech/" />
+  <meta property="og:site_name" content="BookingJini Icons" />
+  <meta name="og:title"
+    content="BookingJini Icons | Open source SVG icon library offering 50+ carefully curated, visually appealing and industry-specific icons for your websites and application." />
+  <meta name="og:description"
+    content="BookingJini Icons is an official open source SVG icon library that caters to the hospitality industry. With over 50+ icons carefully curated by the talented creators from BookingJini, this collection provides a comprehensive range of visually appealing and relevant imagery for your websites and application." />
+  <meta property="og:image"
+    content="https://user-images.githubusercontent.com/46455250/218734668-40489240-d721-4823-9828-c2e0ac4ac864.png" />
+
+  <!-- Twitter Essentials -->
+  <meta name="twitter:card"
+    content="https://user-images.githubusercontent.com/77221742/219046349-134d94ee-6931-43b8-8792-c0b894bac19e.png" />
+  <meta name="twitter:site" content="@bookingjini" />
+  <meta name="twitter:image"
+    content="https://user-images.githubusercontent.com/46455250/218734668-40489240-d721-4823-9828-c2e0ac4ac864.png" />
+  <meta property="twitter:url" content="https://icons.bookingjini.tech" />
+  <meta property="twitter:title" content="Bookingjini Labs" />
+  <meta property="twitter:description"
+    content="BookingJini Icons | Open source SVG icon library offering 50+ carefully curated, visually appealing and industry-specific icons for your websites and application." />
 
   <!-- META END -->
-  
+
   <link rel="icon" type="image/x-icon" href="favicon1.ico">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
@@ -163,7 +106,9 @@
     rel="stylesheet">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-  <script src="https://kit.fontawesome.com/279191565c.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./style-dark.css>
+  <script src=" https://kit.fontawesome.com/279191565c.js" crossorigin="anonymous">
+  </script>
 
   <script>
     // fetch method used to read the iconsSet.json data
@@ -191,25 +136,25 @@
         }
       });
 
-      function disableScroll() {
-          // Get the current page scroll position
-          scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-          scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
+    function disableScroll() {
+      // Get the current page scroll position
+      scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
 
-              // if any scroll is attempted, set this to the previous value
-              window.onscroll = function() {
-                  window.scrollTo(scrollLeft, scrollTop);
-              };
-      }
+        // if any scroll is attempted, set this to the previous value
+        window.onscroll = function () {
+          window.scrollTo(scrollLeft, scrollTop);
+        };
+    }
 
-      function enableScroll() {
-          window.onscroll = function() {};
-      }
+    function enableScroll() {
+      window.onscroll = function () { };
+    }
   </script>
   <script>
     document.addEventListener('DOMContentLoaded', () => {
       const iconTiles = document.querySelectorAll('.icon-tile');
-      for (let iconTile of iconTiles){
+      for (let iconTile of iconTiles) {
         const index = Number(iconTile.id);
         const iconModal = document.querySelector('.icon-modal');
         iconTile.addEventListener('click', () => {
@@ -230,7 +175,7 @@
 
           iconModal.style.display = "flex";
           disableScroll();
-          
+
           iconModal.getElementsByTagName('i')[0].addEventListener('click', () => {
             document.body.querySelector('main').style.opacity = "1";
             enableScroll();
@@ -242,26 +187,26 @@
 
 
       const copyCodeContainers = document.querySelectorAll('.copy-code-container');
-      for (let copyCodeContainer of copyCodeContainers){
+      for (let copyCodeContainer of copyCodeContainers) {
         const iconContainer = copyCodeContainer.querySelector('.img-icon');
         const tooltipText = copyCodeContainer.querySelector('.tooltip-text');
         const code = copyCodeContainer.querySelector('code');
-  
+
         iconContainer.addEventListener('click', () => {
           const text = code.textContent;
           document.execCommand('copy');
           navigator.clipboard.writeText(text);
-  
+
           const range = document.createRange();
           range.selectNodeContents(code);
-  
+
           const selection = window.getSelection();
           selection.removeAllRanges();
           selection.addRange(range);
-  
+
           tooltipText.textContent = 'Copied!';
           tooltipText.style.visibility = 'visible';
-  
+
           setTimeout(() => {
             tooltipText.textContent = 'Click to Copy';
             tooltipText.style.visibility = 'hidden';
@@ -282,17 +227,17 @@
   </div>
   <main>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid"> 
+      <div class="container-fluid">
         <div class="container-flex align-items-center gap-2">
-       <a href="https://bookingjini.com" ><img class="imglogo" src="logo.png"></a>
-        <a class="navbar-brand logotxt" href="#">Bookingjini Icons (v2.0)</a>
+          <a href="https://bookingjini.com"><img class="imglogo" src="logo.png"></a>
+          <a class="navbar-brand logotxt" href="#">Bookingjini Icons (v2.0)</a>
         </div>
         <div class="navbar-nav navbar-expand-lg">
-          <div class="navbar-nav-in">
-            <a class="btn btn-outline-primary align-items-center" href="https://drive.bookingjini.tech/icons/v2/fonts.zip"><span class=" align-items-center pe-1 justify-content-center"><i class="jini-Arrow-down" id="github"></i></span> Download</a>
-            <a class="btn btn-outline-primary star align-items-center" href="https://github.com/Bookingjini-Labs/bookingjini-icons"
-              target="_blank"><span class=" align-items-center pe-1 justify-content-center"><i class="jini-star" id="github"></i></span> Repo <span id="star-count"></span></a>
-              <a class="btn btn-outline-primary align-items-center" href="./contributors.html"><span class="ms-1 align-items-center pe-2 justify-content-center"><i class="jini-group" id="git"></i></span>Our Contributors</a>
+          <div class="navbar-nav-in dr hh">
+            <a class="btn btn-outline-primary dn" href="https://drive.bookingjini.tech/icons/v2/fonts.zip">Download</a>
+            <a class="btn btn-outline-primary star hii" href="https://github.com/Bookingjini-Labs/bookingjini-icons"
+              target="_blank">Star Repo <i class="jini-star" id="github"></i></a>
+            <a class="btn btn-outline-primary hi" href="./contributors.html">Our Contributors</a>
           </div>
           <div class="navright">
             <div class="nightmode">
@@ -415,8 +360,8 @@
 
     <section class="MainTxtpt-5 text-left container head-text">
       <div class="row pt-lg-5">
-        <div class="col-lg-12 col-md-12">
-          <h1 class="title"><span class="animated">Bookingjini Icons</span></h1>
+        <div class="col-lg-12 col-md-12 mt-4">
+          <h1 class="title"><span class="animated hi2">Bookingjini Icons</span></h1>
           <h3 class="">Find hospitality related icons, curated by creators from Bookingjini</h3>
           <p class="text1"> In the html file, paste the following line inside the head tag:</p>
           <div class="copy-code-container">
@@ -490,35 +435,20 @@
 
   <footer id="footer" class="footer-section">
     <div class="footer-content">
-             <a href="https://bookingjini.com" ><img class="imglogo" src="logo.png"></a>
+      <a href="https://bookingjini.com"><img class="imglogo" src="logo.png"></a>
       <div class="footer-logo">
         <h1>bookingjini Icons</h1>
         <span>Find hospitality related icons, curated by creators from Bookingjini</span>
       </div>
       <div class="socials">
-        <a 
-          aria-label="Visit us on Facebook"
-          title="Facebook (External Link)"
-          rel="noopener noreferrer"
-          href="http://facebook.com/bookingjini" 
-          class="fa fa-facebook"
-        >
+        <a aria-label="Visit us on Facebook" title="Facebook (External Link)" rel="noopener noreferrer"
+          href="http://facebook.com/bookingjini" class="fa fa-facebook">
         </a>
-        <a 
-          aria-label="Visit us on Instagram"
-          title="Instagram (External Link)"
-          rel="noopener noreferrer"
-          href="https://instagram.com/bookingjini" 
-          class="fa fa-instagram"
-        > 
+        <a aria-label="Visit us on Instagram" title="Instagram (External Link)" rel="noopener noreferrer"
+          href="https://instagram.com/bookingjini" class="fa fa-instagram">
         </a>
-        <a 
-          aria-label="Visit us on Linkedin"
-          title="Linkedin (External Link)"
-          rel="noopener noreferrer"
-          href="http://linkedin.com/company/bookingjini" 
-          class="fa fa-linkedin"
-        >
+        <a aria-label="Visit us on Linkedin" title="Linkedin (External Link)" rel="noopener noreferrer"
+          href="http://linkedin.com/company/bookingjini" class="fa fa-linkedin">
         </a>
       </div>
       <div class="copyright">&copy; Copyright 2023 by Bookingjini Labs. All rights reserved.</div>
